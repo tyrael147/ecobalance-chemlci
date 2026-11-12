@@ -17,7 +17,7 @@ transition: fade
 drawings:
   persist: false
 mdc: true
-duration: 11min
+duration: 10min
 layout: cover
 ---
 
@@ -37,6 +37,7 @@ layout: cover
 
 ---
 clicks: 2
+hide: True
 ---
 
 <div class="grid grid-cols-[0.7fr_1.6fr] gap-10 h-full items-center">
@@ -80,50 +81,41 @@ clicks: 2
 # The Safe and <span class="hl"> Sustainable </span> by Design framework
 
 
-<div class="mt-15 flex justify-center">
-<SvgFigure src="fig-lca-ssbd" width="690px" />
+<div class="mt-3 flex justify-center">
+<img src="./figures/ssbd-framework-2025.png" style="width:718px" alt="Revised SSbD framework: an iterative cycle of scoping analysis, selection of the SSbD scenario, safety and sustainability assessment, evaluation and documentation, repeated as the innovation matures towards the market">
 </div>
 
-
-<div class="source">Figure: Larrea-Gallegos et al. (2025), Integrate &amp; balance aspects for safe and sustainable innovation. SSbD framework: Caldeira et al. (2022), JRC</div>
+<div class="source">Figure: Garmendia Aguirre et al. (2025), Safe and Sustainable by Design Chemicals and Materials. Revised framework (2025), JRC143022</div>
 
 ---
-clicks: 2
+clicks: 1
 ---
 
 # In silico assessment: *Fail <span class="hl">Early</span>, Fail <span class="hl">Cheap</span>*
 
 ## the earlier the stage, the simpler the LCA, and the more candidates to compare
 
-<div class="grid grid-cols-[0.9fr_1.1fr] gap-7 items-start">
+<div class="grid grid-cols-[1.05fr_0.95fr] gap-8 items-center mt-2">
 
 <div class="figcard">
 <SvgFigure src="fig-lca-completeness"
   :dim="{ 'bar-plant': 1, 'bar-simulation': 1, 'bar-calculations': 1 }" />
 </div>
 
-<div class="text-[0.88rem]">
-<Step :from="0">
-
-- LCA completeness grows with **technology maturity**: from omitting and proxy data to process simulation and plant data
-
+<div class="text-[0.95rem]">
+<Step :from="0" class="callout">
+A core idea of SSbD: innovators should not find out that a chemical is <b>toxic</b> or <b>unsustainable</b> late in the process, or after its <b>market launch</b>.
 </Step>
-<Step :from="1">
+<Step :from="1" class="mt-5">
 
-- At the **design-idea** stage we only have the molecule: **molecular structure models, stoichiometry, proxies**
-- That is where SSbD has most leverage: **many candidates**, cheap changes, so the LCA must be **fast and explorative**
+- At the **design-idea** stage we only have the **molecule**
+- Many candidates, cheap changes: the LCA must be **fast, explorative and in silico**
 
-</Step>
-<Step :from="2" class="mt-3">
-<div class="block" style="padding:0.55rem 0.7rem 0.4rem">
-<div class="flex items-baseline gap-2"><b class="accent">PINK</b><span class="tiny muted">Horizon Europe project: in-silico SSbD of advanced materials and chemicals</span></div>
-<PinkLoop :active="$clicks >= 2" />
-</div>
 </Step>
 </div>
 </div>
 
-<div class="source">Figure: Larrea-Gallegos et al. (2025), adapted from Parvatker and Eckelman (2018). PINK: pink-project.eu, grant agreement No. 101137809</div>
+<div class="source">Figure: Larrea-Gallegos et al. (2025), adapted from Parvatker and Eckelman (2018)</div>
 
 ---
 clicks: 3
@@ -185,6 +177,13 @@ clicks: 4
 .shot .cap b { color: var(--ie-orange); }
 .shot.otf { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: var(--ie-bg-dark); color: var(--ie-cream); font-size: 0.66rem; padding: 0.5rem; }
 .rim-src { max-width: 42.5rem; }
+.duo { display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch; gap: 0.4rem; }
+.duo-card { background: #fff; box-shadow: var(--shadow); padding: 0.5rem 0.65rem 0.5rem; border-top: 4px solid var(--ie-orange); }
+.duo-card.dark { background: var(--ie-bg-dark); color: var(--ie-cream); }
+.duo-k { font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ie-orange); }
+.duo-name { font-family: monospace; font-weight: 700; font-size: 1.05rem; line-height: 1.25; }
+.duo-sub { font-size: 0.66rem; line-height: 1.3; font-style: italic; opacity: 0.85; margin-top: 0.1rem; }
+.duo-plus { align-self: center; font-weight: 900; font-size: 1.7rem; color: var(--ie-orange); }
 </style>
 
 <div class="grid grid-cols-[1.15fr_1fr] gap-6 mt-2">
@@ -212,11 +211,9 @@ clicks: 4
 
 </Step>
 <Step :from="1" class="callout small mt-3">
-By analogy with <b>Rapid Application Development</b> in software, we coin <b>Rapid Inventory Modelling (RIM)</b> tools: their potential lies in <b>fast prototyping</b> rather than precise prediction.
+By analogy with <b>Rapid Application Development</b> in software, we are seeing a proliferation of <b>Rapid Inventory Modelling (RIM)</b> tools. 
 </Step>
 <Step :from="2" class="mt-3">
-
-- Our focus is less the tool than the **interface that both humans and computers understand**: shared data models, ontologies and provenance
 
 </Step>
 <Step :from="3" class="mt-2">
@@ -225,9 +222,20 @@ We need the <b>software that computes</b> and the <b>technology that makes it tr
 </div>
 </Step>
 
-<Step :from="4" class="mt-2">
-    <b>ChemLCI</b> is the software <br>
-    <b>lca_models</b> makes it traceable and interoperable
+<Step :from="4" class="mt-3">
+<div class="duo">
+<div class="duo-card dark">
+<div class="duo-k">computes</div>
+<div class="duo-name">ChemLCI</div>
+<div class="duo-sub">agents and ML tools draft the inventory</div>
+</div>
+<div class="duo-plus">+</div>
+<div class="duo-card">
+<div class="duo-k">traces</div>
+<div class="duo-name">lca_models</div>
+<div class="duo-sub">data models, ontologies and provenance</div>
+</div>
+</div>
 </Step>
 
 </div>
@@ -237,6 +245,7 @@ We need the <b>software that computes</b> and the <b>technology that makes it tr
 
 ---
 clicks: 1
+hide: True
 ---
 
 <style>
@@ -267,7 +276,7 @@ h1 { font-size: 1.55rem !important; }
 
 <div class="stack -mt-1 mb-1">
 <Step :from="0" :to="1"><h2 style="margin:0">ontology view: a route is a chain of reaction steps acting on EMMO molecules, bridged to LCI flows</h2></Step>
-<Step :from="1"><h2 style="margin:0">data model view: AiZynthFinder and ASKCOS both return a <i>RetrosynthesisRoute</i></h2></Step>
+<!--<Step :from="1"><h2 style="margin:0">data model view: AiZynthFinder and ASKCOS both return a <i>RetrosynthesisRoute</i></h2></Step>-->
 </div>
 
 <div class="flex justify-start">
@@ -276,7 +285,7 @@ h1 { font-size: 1.55rem !important; }
 
 
 ---
-clicks: 4
+clicks: 3
 ---
 
 # Provenance <span class="hl">by design</span>: the run is a graph
@@ -286,7 +295,7 @@ clicks: 4
 <div class="flex justify-center -mt-1">
 <SvgFigure src="fig-prov-layers" width="935px"
   :show="{ 'level-step': 1, 'level-call': 2, 'level-data': 3 }"
-  :focus="{ 4: ['bands', 'level-call', 'level-data'] }" />
+    />
 </div>
 
 <!--# Provenance <span class="hl">by design</span>: the ontology behind the graph
@@ -315,7 +324,7 @@ clicks: 5
 
 # Outputs are <span class="hl">data objects</span>, not text
 
-## explore the artefacts of the Octocrylene run
+## artefacts of the Octocrylene run
 
 <script setup>
 import bw from './data/octocrylene/bw_inventory.json'
@@ -352,7 +361,7 @@ const tabs = [
 
 # Tracing back <span class="hl">how the agents computed</span>
 
-## workflow &gt; step &gt; agents and tools: click a step
+## workflow &gt; step &gt; agents and tools
 
 <ProvTimeline :initial="6" />
 
@@ -535,6 +544,7 @@ import lcia from './data/octocrylene/lcia_results.json'
 
 <p>Caldeira, C., Farcal, L., Garmendia Aguirre, I., et al. (2022). <i>Safe and sustainable by design chemicals and materials: Framework for the definition of criteria and evaluation procedure for chemicals and materials</i>. EUR 31100 EN, Publications Office of the European Union, Luxembourg.</p>
 <p>Donaldson, A., Balaji, B., Oriekezie, C., Kumar, M., and Patouillard, L. (2025). An expert-grounded benchmark of general purpose LLMs in LCA. <i>arXiv:2510.19886</i>.</p>
+<p>Garmendia Aguirre, I., Abbate, E., Bracalente, G., Mancini, L., Cappucci, G. M., et al. (2025). <i>Safe and Sustainable by Design Chemicals and Materials. Revised framework (2025)</i>. Bracalente, G., Abbate, E., and Garmendia Aguirre, I. (editors). Publications Office of the European Union, Luxembourg. https://data.europa.eu/doi/10.2760/5103785, JRC143022.</p>
 <p>Genheden, S., Thakkar, A., Chadimová, V., Reymond, J.-L., Engkvist, O., and Bjerrum, E. (2020). AiZynthFinder: a fast, robust and flexible open-source software for retrosynthetic planning. <i>Journal of Cheminformatics</i>, 12, 70.</p>
 <p>Kleinekorte, J., et al. (2023). <i>[complete reference as cited in the LCM 2025 deck]</i></p>
 <p>Langhorst, T., et al. (2025). <i>[complete reference as cited in the LCM 2025 deck]</i></p>
