@@ -1,0 +1,81 @@
+{
+    "iri": "lcont:RetrosynthesisRoute_0f4af290ab265dfb6185592c4132c639",
+    "source": "AIZynth",
+    "uncertainty_type": 2,
+    "target_SMILES": "CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1",
+    "target_name": "Octocrylene",
+    "root_node_id": "53be07c21fb1",
+    "nodes": [
+        {
+            "iri": "lcont:RetrosynthesisStep_142560124c4eea6df7faf779c472fee6",
+            "source": "AIZynth",
+            "uncertainty_type": 2,
+            "node_id": "53be07c21fb1",
+            "reaction_SMILES": "CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1.CCCCC(CC)CO>>CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1",
+            "product_SMILES": "CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1",
+            "precursors_SMILES": [
+                "CCCCC(CC)CO",
+                "CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1"
+            ],
+            "precursor_node_ids": [
+                "97e247e84cf3",
+                "3751c6b108a9"
+            ]
+        },
+        {
+            "iri": "lcont:RetrosynthesisStep_8ad2bceb0e6243f4e39acd499556495b",
+            "source": "AIZynth",
+            "uncertainty_type": 2,
+            "node_id": "97e247e84cf3",
+            "reaction_SMILES": "CCCCC(CC)C(=O)N1C(=O)OC[C@@H]1Cc1ccccc1>>CCCCC(CC)CO",
+            "product_SMILES": "CCCCC(CC)CO",
+            "precursors_SMILES": [
+                "CCCCC(CC)C(=O)N1C(=O)OC[C@@H]1Cc1ccccc1"
+            ],
+            "precursor_node_ids": [
+                "0045baf795d9"
+            ]
+        },
+        {
+            "iri": "lcont:RetrosynthesisStep_0d301c497e071fb411d9fb932572a86d",
+            "source": "AIZynth",
+            "uncertainty_type": 2,
+            "node_id": "0045baf795d9",
+            "reaction_SMILES": "CCCCC(CC)C(=O)Cl.O=C1N[C@@H](Cc2ccccc2)CO1>>CCCCC(CC)C(=O)N1C(=O)OC[C@@H]1Cc1ccccc1",
+            "product_SMILES": "CCCCC(CC)C(=O)N1C(=O)OC[C@@H]1Cc1ccccc1",
+            "precursors_SMILES": [
+                "CCCCC(CC)C(=O)Cl",
+                "O=C1N[C@@H](Cc2ccccc2)CO1"
+            ],
+            "precursor_node_ids": [
+                "a75b5fa2e2bf"
+            ]
+        },
+        {
+            "iri": "lcont:RetrosynthesisStep_7a67b16e2c8655f58ab6e966c6c614de",
+            "source": "AIZynth",
+            "uncertainty_type": 2,
+            "node_id": "a75b5fa2e2bf",
+            "reaction_SMILES": "CCCCC(CC)C(=O)O.O=S(Cl)Cl>>CCCCC(CC)C(=O)Cl",
+            "product_SMILES": "CCCCC(CC)C(=O)Cl",
+            "precursors_SMILES": [
+                "O=S(Cl)Cl",
+                "CCCCC(CC)C(=O)O"
+            ],
+            "precursor_node_ids": []
+        },
+        {
+            "iri": "lcont:RetrosynthesisStep_3a27780c73d8105742bd55ea0c5fd8b1",
+            "source": "AIZynth",
+            "uncertainty_type": 2,
+            "node_id": "3751c6b108a9",
+            "reaction_SMILES": "CCOC(=O)CC#N.O=C(c1ccccc1)c1ccccc1>>CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1",
+            "product_SMILES": "CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1",
+            "precursors_SMILES": [
+                "CCOC(=O)CC#N",
+                "O=C(c1ccccc1)c1ccccc1"
+            ],
+            "precursor_node_ids": []
+        }
+    ]
+}

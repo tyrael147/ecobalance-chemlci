@@ -1,0 +1,1365 @@
+{
+    "name": "Octocrylene production, GLO",
+    "comment": "Complete 7-step synthesis route for Octocrylene (2-ethylhexyl 2-cyano-3,3-diphenylprop-2-enoate), a UV filter for cosmetics. Step 1: Knoevenagel condensation (ethyl cyanoacetate + benzophenone \u2192 Etocrylene). Step 2: Acetoacetic ester alkylation (ethyl acetoacetate + butyl bromide \u2192 ethyl 2-acetylhexanoate). Step 3: Selective ketone reduction (ethyl 2-acetylhexanoate + H2 \u2192 ethyl 2-(1-hydroxyethyl)hexanoate). Step 4: Ester hydrolysis (ethyl 2-(1-hydroxyethyl)hexanoate + H2O \u2192 2-(1-hydroxyethyl)hexanoic acid). Step 5: Diol formation (2-(1-hydroxyethyl)hexanoic acid + CH4 \u2192 2-butylbutane-1,3-diol). Step 6: Decarbonylation (2-butylbutane-1,3-diol + CO \u2192 2-ethylhexanol + CO2). Step 7: Transesterification (Etocrylene + 2-ethylhexanol \u2192 Octocrylene + ethanol). Normalized to 1 kg Octocrylene reference product.",
+    "source": "InventoryDrafter_agent",
+    "nodes": [
+        {
+            "id": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+            "name": "Octocrylene production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "2-Ethylhexyl 2-cyano-3,3-diphenylprop-2-enoate. UV filter for cosmetics and sunscreens.",
+            "comment": "Transesterification of Etocrylene with 2-ethylhexanol. Acid-catalyzed at 60-120\u00b0C under atmospheric to slightly elevated pressure. Catalyst: TiCl4, SnCl2, or p-toluenesulfonic acid (0.1-1 wt%). Solvent: Toluene/Xylene. Reaction time: 2-8 hours. Ethanol removal via distillation under reduced pressure.",
+            "reference_flow": {
+                "id": "ac53d8f2-2014-4784-b1f9-5359511ed6b3",
+                "name": "Octocrylene",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Octocrylene"
+                },
+                "from_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "7cfad0ac-7c60-4b5b-91a7-f94301324de9",
+                    "name": "Etocrylene",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.767,
+                    "comment": "Molar ratio 1:1 normalized to 1 kg Octocrylene (C24H27NO2, MW 361.5). Etocrylene MW 277.3: 277.3/361.5 = 0.767 kg",
+                    "flow_object": {
+                        "name": "Etocrylene"
+                    },
+                    "from_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "d3a31e88-a09a-4ae8-a5d6-e49c403bd6bf",
+                    "name": "2-Ethylhexanol",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.36,
+                    "comment": "Molar ratio 1:1 normalized. 2-Ethylhexanol MW 130.23: 130.23/361.5 = 0.360 kg",
+                    "flow_object": {
+                        "name": "2-Ethylhexanol"
+                    },
+                    "from_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "752d7392-0427-44fe-a381-61e286d96d26",
+                    "name": "Ethanol",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": -0.127,
+                    "comment": "By-product credit from transesterification. System expansion: 1 mol ethanol (MW 46.04) per 1 mol Octocrylene = -0.127 kg. Negative amount represents avoided production.",
+                    "flow_object": {
+                        "name": "Ethanol"
+                    },
+                    "from_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "89b610e0-5536-4498-948a-e146833cb3cf",
+                    "name": "Titanium tetrachloride",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.005,
+                    "comment": "Acid catalyst at 0.5 wt% of product mass",
+                    "flow_object": {
+                        "name": "Titanium tetrachloride"
+                    },
+                    "from_activity": "be27b902-54e2-4ed7-a76c-1b71256c5b50",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "f7f6d6cd-0a27-42df-8981-b0b983eb8ff6",
+                    "name": "Toluene",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.3,
+                    "comment": "Solvent carrier, assumed 30% of product mass. Recovered via distillation.",
+                    "flow_object": {
+                        "name": "Toluene"
+                    },
+                    "from_activity": "492a10e6-42c2-4dd1-8928-e4334b3cb87f",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "cb687756-6a63-4a36-b73a-ef9df52597f6",
+                    "name": "Electricity, medium voltage",
+                    "unit": "kWh",
+                    "type": "technosphere",
+                    "amount": 0.8,
+                    "comment": "Stirring, heating, distillation columns. Estimated 0.8 kWh per kg product for batch process.",
+                    "flow_object": {
+                        "name": "Electricity, medium voltage"
+                    },
+                    "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "e3a17e89-753e-4c4c-931e-30f0d3d6bfaa",
+                    "name": "Heat, process",
+                    "unit": "MJ",
+                    "type": "technosphere",
+                    "amount": 2.5,
+                    "comment": "Heating to 60-120\u00b0C and distillation. Estimated 2.5 MJ per kg (exothermic transesterification partially offsets heating demand).",
+                    "flow_object": {
+                        "name": "Heat, process"
+                    },
+                    "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "266e7854-0de1-44f7-ae6a-256a32772085",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.15,
+                    "comment": "CO2 from combustion for heating and solvent evaporation losses (~15% of product mass).",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": "c22b8235-6cdc-43fb-b8a6-800a6728fe9b",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "3c58ba07-f313-4e72-b524-add905c52144",
+                    "name": "Waste water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.1,
+                    "comment": "From workup, neutralization, and washing steps. Contains residual catalyst and salts.",
+                    "flow_object": {
+                        "name": "Waste water"
+                    },
+                    "from_activity": "bb3ea6e0-87fc-4394-8f78-d78f39349d14",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "InventoryDrafter_agent"
+                }
+            ]
+        },
+        {
+            "id": "16c2e6be-38ea-41b2-a989-003785e541ed",
+            "name": "Etocrylene production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "Ethyl 2-cyano-3,3-diphenylprop-2-enoate. UV-absorbing intermediate and cosmetic ingredient.",
+            "comment": "Knoevenagel condensation: ethyl cyanoacetate + benzophenone \u2192 Etocrylene + water. Base-catalyzed at 25-80\u00b0C. Catalyst: piperidine or DBU (~5 mol%). Solvent: DMF or DMSO. Reaction time: 2-24 hours.",
+            "reference_flow": {
+                "id": "7f547577-8c55-4ff5-aab7-465d425f0efe",
+                "name": "Etocrylene",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Etocrylene"
+                },
+                "from_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "945a140d-303c-4823-8b16-72d42095c883",
+                    "name": "Ethyl cyanoacetate",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.408,
+                    "comment": "Molar ratio 1:1 normalized. Ethyl cyanoacetate (C5H7NO2, MW 113.11) to Etocrylene (C18H15NO2, MW 277.3): 113.11/277.3 = 0.408 kg",
+                    "flow_object": {
+                        "name": "Ethyl cyanoacetate"
+                    },
+                    "from_activity": "eb497cbd-f92f-4926-b6e6-68d7510e40bb",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "d4ed4e88-f039-4478-adab-6f6963f8fef7",
+                    "name": "Benzophenone",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.657,
+                    "comment": "Molar ratio 1:1 normalized. Benzophenone (C13H10O, MW 182.22): 182.22/277.3 = 0.657 kg",
+                    "flow_object": {
+                        "name": "Benzophenone"
+                    },
+                    "from_activity": "86d715e1-ea40-4a34-aaae-50ab659114c1",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "540d5e1b-1b64-4a33-b390-7ee3b13e5a02",
+                    "name": "Water",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": -0.065,
+                    "comment": "By-product credit. System expansion: 1 mol H2O (MW 18.015) per 1 mol Etocrylene = -0.065 kg (avoided water production, negligible impact but structurally correct).",
+                    "flow_object": {
+                        "name": "Water"
+                    },
+                    "from_activity": "4a93921f-753b-48f8-818f-c4ee175b8dfd",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "698e12f2-7b67-4ca1-afe9-88e46b75fd53",
+                    "name": "Piperidine",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.01,
+                    "comment": "Base catalyst at ~5 mol% (~1 wt% recovery assumed)",
+                    "flow_object": {
+                        "name": "Piperidine"
+                    },
+                    "from_activity": "97473956-04d2-4547-b740-ea7bc1808926",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "54c37470-7568-4d09-8ba2-5910552c4bba",
+                    "name": "Dimethylformamide",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.5,
+                    "comment": "Polar aprotic solvent, assumed 50% of product mass. Recovered via distillation.",
+                    "flow_object": {
+                        "name": "Dimethylformamide"
+                    },
+                    "from_activity": "4f8808d4-349d-4059-8aa6-858591ffc996",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "6121c8bb-c169-40e8-b231-26a50f1cfd0c",
+                    "name": "Electricity, medium voltage",
+                    "unit": "kWh",
+                    "type": "technosphere",
+                    "amount": 0.6,
+                    "comment": "Stirring, temperature control. Estimated 0.6 kWh per kg.",
+                    "flow_object": {
+                        "name": "Electricity, medium voltage"
+                    },
+                    "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "71696022-4503-4938-adf2-d3f3f37a1c0b",
+                    "name": "Heat, process",
+                    "unit": "MJ",
+                    "type": "technosphere",
+                    "amount": 1.2,
+                    "comment": "Heating to 25-80\u00b0C. Estimated 1.2 MJ per kg.",
+                    "flow_object": {
+                        "name": "Heat, process"
+                    },
+                    "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "d7c5592d-fbf5-49d7-9a3d-cb98f0fc0e5c",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.08,
+                    "comment": "CO2 from solvent evaporation and combustion for heating (~8% of product mass).",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": "c22b8235-6cdc-43fb-b8a6-800a6728fe9b",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "bcc5b8ed-1786-4cb7-adb2-876dfa743545",
+                    "name": "Waste water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.05,
+                    "comment": "From washing and workup steps.",
+                    "flow_object": {
+                        "name": "Waste water"
+                    },
+                    "from_activity": "bb3ea6e0-87fc-4394-8f78-d78f39349d14",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "InventoryDrafter_agent"
+                }
+            ]
+        },
+        {
+            "id": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+            "name": "2-Ethylhexanol production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "2-Ethylhexan-1-ol. Used as solvent and in synthesis of plasticizers, detergents, and cosmetics.",
+            "comment": "Two-step synthesis: (1) Decarbonylation of 2-butylbutane-1,3-diol to 2-ethylhexanol via CO reduction (100-150\u00b0C, 1-5 atm CO, Rh catalyst). (2) CO is oxidized to CO2 byproduct. Alternatively sourced from reduction of 2-butylbutane-1,3-diol.",
+            "reference_flow": {
+                "id": "d886189b-fa12-48ed-962b-bae1868bb50b",
+                "name": "2-Ethylhexanol",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "2-Ethylhexanol"
+                },
+                "from_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "8a0c32fc-e1e1-4604-93a6-519ba46ba694",
+                    "name": "2-Butylbutane-1,3-diol",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 1.123,
+                    "comment": "Molar ratio 1:1 (decarbonylation). 2-Butylbutane-1,3-diol (C8H18O2, MW 146.23) to 2-Ethylhexanol (C8H18O, MW 130.23): 146.23/130.23 = 1.123 kg",
+                    "flow_object": {
+                        "name": "2-Butylbutane-1,3-diol"
+                    },
+                    "from_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                    "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "42b3c044-3edf-440e-9f5a-ae84cebf70b1",
+                    "name": "Carbon monoxide",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.215,
+                    "comment": "Reducing agent for decarbonylation. Molar ratio 1:1: CO (MW 28.01) to 2-Ethylhexanol: 28.01/130.23 = 0.215 kg",
+                    "flow_object": {
+                        "name": "Carbon monoxide"
+                    },
+                    "from_activity": "392393cf-6861-4afd-9b9d-27119411df53",
+                    "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "40b157e3-1b61-44e3-ba2f-acebc7905942",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": -0.338,
+                    "comment": "By-product credit from CO oxidation in decarbonylation. 1 mol CO \u2192 1 mol CO2 (MW 44.009): -44.009/130.23 = -0.338 kg. Negative amount represents avoided CO2 production (system expansion credit).",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": "4d0e966f-8b81-44a3-912a-f9f43f59fc59",
+                    "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "6da3919c-2682-4155-a700-d07ffbca4f59",
+                    "name": "Rhodium",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.001,
+                    "comment": "Transition metal catalyst at ~0.1 wt% loading (catalytic, not consumed)",
+                    "flow_object": {
+                        "name": "Rhodium"
+                    },
+                    "from_activity": "54eb320f-5646-43a7-aff5-38f494e669c8",
+                    "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "28961003-7e81-40be-ac5e-59f4c1df8b63",
+                    "name": "Toluene",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.4,
+                    "comment": "Aromatic solvent carrier, assumed 40% of product mass. Recovered.",
+                    "flow_object": {
+                        "name": "Toluene"
+                    },
+                    "from_activity": "492a10e6-42c2-4dd1-8928-e4334b3cb87f",
+                    "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "de389e20-d869-46f8-999c-e25591e356d8",
+                    "name": "Electricity, medium voltage",
+                    "unit": "kWh",
+                    "type": "technosphere",
+                    "amount": 0.5,
+                    "comment": "CO gas circulation, heating, stirring. Estimated 0.5 kWh per kg.",
+                    "flow_object": {
+                        "name": "Electricity, medium voltage"
+                    },
+                    "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                    "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "5be25a04-3816-415f-aece-7c9db75e86b3",
+                    "name": "Heat, process",
+                    "unit": "MJ",
+                    "type": "technosphere",
+                    "amount": 1.8,
+                    "comment": "Heating to 100-150\u00b0C under CO atmosphere. Estimated 1.8 MJ per kg.",
+                    "flow_object": {
+                        "name": "Heat, process"
+                    },
+                    "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                    "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "fdfdb58e-d625-40af-b25e-e470106b3b6d",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.12,
+                    "comment": "CO2 from combustion for heating and decarbonylation side reactions (~12% of product mass).",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": "c22b8235-6cdc-43fb-b8a6-800a6728fe9b",
+                    "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "f750d0af-1f35-42dd-b5d7-bbb7bd80505f",
+                    "name": "Waste water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.08,
+                    "comment": "From workup and extraction steps.",
+                    "flow_object": {
+                        "name": "Waste water"
+                    },
+                    "from_activity": "bb3ea6e0-87fc-4394-8f78-d78f39349d14",
+                    "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "source": "InventoryDrafter_agent"
+                }
+            ]
+        },
+        {
+            "id": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+            "name": "2-Butylbutane-1,3-diol production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "2-Butylbutane-1,3-diol. Used as intermediate in synthesis of 2-ethylhexanol and specialty alcohols.",
+            "comment": "Formed via decarboxylative reduction of 2-(1-hydroxyethyl)hexanoic acid. Reaction: C8H16O3 + CH4 \u2192 C8H18O2 + CH2O. Temperature and pressure conditions not well-defined in source (ambiguous reaction mechanism).",
+            "reference_flow": {
+                "id": "200dc695-0e65-4fc5-a419-b069cb968b7c",
+                "name": "2-Butylbutane-1,3-diol",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "2-Butylbutane-1,3-diol"
+                },
+                "from_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                "to_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "185f9e51-e369-4f92-a984-db418e9e2746",
+                    "name": "2-(1-Hydroxyethyl)hexanoic acid",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 1.091,
+                    "comment": "Molar ratio 1:1 normalized. Hydroxy acid (C8H16O3, MW 160.21) to diol (C8H18O2, MW 146.23): 160.21/146.23 = 1.091 kg",
+                    "flow_object": {
+                        "name": "2-(1-Hydroxyethyl)hexanoic acid"
+                    },
+                    "from_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                    "to_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "a565ebec-3135-4428-9859-61661bcca7a6",
+                    "name": "Methane",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.109,
+                    "comment": "Reducing agent, molar ratio 1:1. Methane (CH4, MW 16.043) to diol: 16.043/146.23 = 0.109 kg",
+                    "flow_object": {
+                        "name": "Methane"
+                    },
+                    "from_activity": "8442115b-a9e8-4264-81a2-977ba6989d9f",
+                    "to_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "93f8a62e-5e37-4f1f-a002-911e9d2f5d7d",
+                    "name": "Formaldehyde",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": -0.205,
+                    "comment": "By-product credit. 1 mol formaldehyde (MW 30.026) per 1 mol diol = -30.026/146.23 = -0.205 kg (avoided formaldehyde production).",
+                    "flow_object": {
+                        "name": "Formaldehyde"
+                    },
+                    "from_activity": "2364ed32-49a6-440d-baa7-efd405f9eaef",
+                    "to_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "e090ff62-c3c6-4717-910b-ca201317f9bc",
+                    "name": "Electricity, medium voltage",
+                    "unit": "kWh",
+                    "type": "technosphere",
+                    "amount": 0.3,
+                    "comment": "Stirring and temperature control. Estimated 0.3 kWh per kg.",
+                    "flow_object": {
+                        "name": "Electricity, medium voltage"
+                    },
+                    "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                    "to_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "656b15ad-4549-42c9-8ea9-bc78c1fdea88",
+                    "name": "Heat, process",
+                    "unit": "MJ",
+                    "type": "technosphere",
+                    "amount": 0.8,
+                    "comment": "Process heating (conditions not fully specified). Estimated 0.8 MJ per kg.",
+                    "flow_object": {
+                        "name": "Heat, process"
+                    },
+                    "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                    "to_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "e945d4f9-f9d7-4d42-a476-292b1f6eb627",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.06,
+                    "comment": "CO2 from combustion for heating (~6% of product mass). Reaction mechanism ambiguity limits precision.",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": "c22b8235-6cdc-43fb-b8a6-800a6728fe9b",
+                    "to_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "8e1db266-171b-405b-a147-94c9726ee6e9",
+                    "name": "Waste water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.03,
+                    "comment": "Minimal water emission from this step (dry reaction).",
+                    "flow_object": {
+                        "name": "Waste water"
+                    },
+                    "from_activity": "bb3ea6e0-87fc-4394-8f78-d78f39349d14",
+                    "to_activity": "f9eae35d-c91f-4e59-bf46-43632cbd6b35",
+                    "source": "InventoryDrafter_agent"
+                }
+            ]
+        },
+        {
+            "id": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+            "name": "2-(1-Hydroxyethyl)hexanoic acid production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "2-(1-Hydroxyethyl)hexanoic acid. Intermediate in 2-ethylhexanol synthesis pathway.",
+            "comment": "Ester hydrolysis of ethyl 2-(1-hydroxyethyl)hexanoate. Acid-catalyzed (H2SO4 or HCl, 0.5-2 wt%) at 70-85\u00b0C in aqueous ethanol. Reaction time 2-6 hours.",
+            "reference_flow": {
+                "id": "021dcd23-ca07-44d8-abe0-83bf171d7f93",
+                "name": "2-(1-Hydroxyethyl)hexanoic acid",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "2-(1-Hydroxyethyl)hexanoic acid"
+                },
+                "from_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                "to_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "9e1f58e3-474e-4f88-bc05-2a34859bb309",
+                    "name": "Ethyl 2-(1-hydroxyethyl)hexanoate",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 1.173,
+                    "comment": "Ester hydrolysis, molar ratio 1:1. Ester (C10H20O3, MW 188.26) to acid (C8H16O3, MW 160.21): 188.26/160.21 = 1.173 kg",
+                    "flow_object": {
+                        "name": "Ethyl 2-(1-hydroxyethyl)hexanoate"
+                    },
+                    "from_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                    "to_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "f31dc072-eafa-4fff-b390-91a1d6ef9c3d",
+                    "name": "Water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.106,
+                    "comment": "Process water input for hydrolysis. Molar ratio 1:1 to ester: 18.015/188.26 = 0.096 kg (conservatively estimated 0.106 kg including washing).",
+                    "flow_object": {
+                        "name": "Water"
+                    },
+                    "from_activity": "815d6b52-845a-4770-acb9-be1bb497b2d9",
+                    "to_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "77a09731-4a42-4cfa-8cf6-b4632d680781",
+                    "name": "Ethanol",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": -0.244,
+                    "comment": "By-product credit from ester hydrolysis. 1 mol ethanol (MW 46.04) per 1 mol ester = -46.04/188.26 = -0.244 kg (system expansion credit).",
+                    "flow_object": {
+                        "name": "Ethanol"
+                    },
+                    "from_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                    "to_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "14210de0-5089-43b0-b55e-4a9ef1a9f302",
+                    "name": "Sulfuric acid",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.01,
+                    "comment": "Acid catalyst at 1 wt% (partially neutralized and recovered/recycled).",
+                    "flow_object": {
+                        "name": "Sulfuric acid"
+                    },
+                    "from_activity": "4cd0edc0-a2b1-401f-b17a-b219f0d325d8",
+                    "to_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "01147e95-cca0-4906-b514-74935c25f625",
+                    "name": "Electricity, medium voltage",
+                    "unit": "kWh",
+                    "type": "technosphere",
+                    "amount": 0.2,
+                    "comment": "Stirring and heating. Estimated 0.2 kWh per kg.",
+                    "flow_object": {
+                        "name": "Electricity, medium voltage"
+                    },
+                    "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                    "to_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "f5a67457-5ab0-4420-b8d6-f9fdcba6a872",
+                    "name": "Heat, process",
+                    "unit": "MJ",
+                    "type": "technosphere",
+                    "amount": 1.0,
+                    "comment": "Heating to 70-85\u00b0C for hydrolysis. Estimated 1.0 MJ per kg.",
+                    "flow_object": {
+                        "name": "Heat, process"
+                    },
+                    "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                    "to_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "37ca6f3c-cb3a-4c9c-9e34-3b5b37a849cc",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.05,
+                    "comment": "CO2 from combustion for heating (~5% of product mass).",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": "c22b8235-6cdc-43fb-b8a6-800a6728fe9b",
+                    "to_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "175d92ec-0c2c-4a37-b6fd-2fe1597a4230",
+                    "name": "Waste water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.15,
+                    "comment": "Aqueous waste stream containing dilute H2SO4, residual ethanol, salts. Requires neutralization.",
+                    "flow_object": {
+                        "name": "Waste water"
+                    },
+                    "from_activity": "bb3ea6e0-87fc-4394-8f78-d78f39349d14",
+                    "to_activity": "e124f9f6-6c6a-4957-a50f-62caf5598d12",
+                    "source": "InventoryDrafter_agent"
+                }
+            ]
+        },
+        {
+            "id": "d5a48ac5-0044-4471-9794-34a2e8619723",
+            "name": "Ethyl 2-(1-hydroxyethyl)hexanoate production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "Ethyl 2-(1-hydroxyethyl)hexanoate. Intermediate in 2-ethylhexanol synthesis.",
+            "comment": "Selective catalytic hydrogenation of ethyl 2-acetylhexanoate. Reduces ketone to secondary alcohol while preserving ester. Temperature 50-150\u00b0C, H2 pressure 1-50 bar. Catalyst: Ni/C, Pd/C, or Pt/C at 5-10 wt%.",
+            "reference_flow": {
+                "id": "c6376cda-a50c-40f8-bd95-01375f9dafa6",
+                "name": "Ethyl 2-(1-hydroxyethyl)hexanoate",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Ethyl 2-(1-hydroxyethyl)hexanoate"
+                },
+                "from_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                "to_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "e949c1f3-933d-465d-8f49-de13c136cfe9",
+                    "name": "Ethyl 2-acetylhexanoate",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.99,
+                    "comment": "Ketone-ester substrate, molar ratio 1:1. Ketone ester (C10H18O3, MW 186.25) to hydroxy ester (C10H20O3, MW 188.26): 186.25/188.26 = 0.990 kg",
+                    "flow_object": {
+                        "name": "Ethyl 2-acetylhexanoate"
+                    },
+                    "from_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "to_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "0b2e3e7b-8fe1-4ff7-840f-fbd87718bba3",
+                    "name": "Hydrogen",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.011,
+                    "comment": "Hydrogenation gas, molar ratio ~1:1 for ketone reduction. H2 (MW 2.016) to ester: ~2.016/188.26 = 0.011 kg",
+                    "flow_object": {
+                        "name": "Hydrogen"
+                    },
+                    "from_activity": "ad2bd6b5-4c53-4c34-847a-93534c843d2f",
+                    "to_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "fa8c3224-da2a-498a-b5b6-84c28f6d8e31",
+                    "name": "Nickel",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.015,
+                    "comment": "Heterogeneous catalyst (Ni/C) at 5-10 wt% loading (catalytic, partially recovered).",
+                    "flow_object": {
+                        "name": "Nickel"
+                    },
+                    "from_activity": "485add67-3c45-4f45-885b-748fb31e7522",
+                    "to_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "bb94aab8-e5c9-461f-a569-07bbabdd3fe5",
+                    "name": "Ethanol",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.3,
+                    "comment": "Protic solvent for hydrogenation, assumed 30% of product mass. Recovered.",
+                    "flow_object": {
+                        "name": "Ethanol"
+                    },
+                    "from_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                    "to_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "96e3fedc-8ae6-4787-870a-d949545bce6b",
+                    "name": "Electricity, medium voltage",
+                    "unit": "kWh",
+                    "type": "technosphere",
+                    "amount": 0.7,
+                    "comment": "Autoclave operation, gas circulation, stirring. Estimated 0.7 kWh per kg.",
+                    "flow_object": {
+                        "name": "Electricity, medium voltage"
+                    },
+                    "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                    "to_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "1fa965a0-0dee-4bd2-a74a-ac007115993f",
+                    "name": "Heat, process",
+                    "unit": "MJ",
+                    "type": "technosphere",
+                    "amount": 1.5,
+                    "comment": "Heating to 50-150\u00b0C under H2 pressure. Estimated 1.5 MJ per kg (exothermic hydrogenation partially compensates).",
+                    "flow_object": {
+                        "name": "Heat, process"
+                    },
+                    "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                    "to_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "98261a1a-94a4-479f-8ec0-13a73b1ea944",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.07,
+                    "comment": "CO2 from combustion for heating and autoclave operation (~7% of product mass).",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": "c22b8235-6cdc-43fb-b8a6-800a6728fe9b",
+                    "to_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "377d5a6a-30d2-4b99-b0b0-b32cf3da04aa",
+                    "name": "Waste water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.04,
+                    "comment": "Minimal water in hydrogenation (non-aqueous process), mainly from workup washing.",
+                    "flow_object": {
+                        "name": "Waste water"
+                    },
+                    "from_activity": "bb3ea6e0-87fc-4394-8f78-d78f39349d14",
+                    "to_activity": "d5a48ac5-0044-4471-9794-34a2e8619723",
+                    "source": "InventoryDrafter_agent"
+                }
+            ]
+        },
+        {
+            "id": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+            "name": "Ethyl 2-acetylhexanoate production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "Ethyl 2-acetylhexanoate. \u03b2-Ketoester intermediate used in acetoacetic ester synthesis.",
+            "comment": "Acetoacetic ester synthesis: SN2 alkylation of ethyl acetoacetate with butyl bromide. Base-catalyzed (NaEt or K2CO3). Temperature 20-80\u00b0C, reaction time 2-24 hours. Solvent: ethanol or DMSO.",
+            "reference_flow": {
+                "id": "a7eaeee4-1808-468f-b555-db441851980b",
+                "name": "Ethyl 2-acetylhexanoate",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Ethyl 2-acetylhexanoate"
+                },
+                "from_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "9749d2bc-f6c4-47f7-ad79-e89e32e02572",
+                    "name": "Ethyl acetoacetate",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.698,
+                    "comment": "\u03b2-Ketoester starting material, molar ratio 1:1. Ethyl acetoacetate (C6H10O3, MW 130.14) to product (C10H18O3, MW 186.25): 130.14/186.25 = 0.698 kg",
+                    "flow_object": {
+                        "name": "Ethyl acetoacetate"
+                    },
+                    "from_activity": "f7207f25-ce08-476b-8dac-a15ae23a63ce",
+                    "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "2b949c17-2f21-4cbf-b2a9-f1b920bea7f2",
+                    "name": "1-Bromobutane",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.736,
+                    "comment": "Alkyl halide nucleophile, molar ratio 1:1. Butyl bromide (C4H9Br, MW 137.02) to product: 137.02/186.25 = 0.736 kg",
+                    "flow_object": {
+                        "name": "1-Bromobutane"
+                    },
+                    "from_activity": "5ce5a9b9-2dc9-49fa-987f-6c0241258bd3",
+                    "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "e8739a86-3154-4690-9b79-c90e014dbba4",
+                    "name": "Hydrogen bromide",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": -0.429,
+                    "comment": "By-product credit from SN2 displacement. 1 mol HBr (MW 80.91) per 1 mol product = -80.91/186.25 = -0.429 kg (system expansion, avoided HBr production).",
+                    "flow_object": {
+                        "name": "Hydrogen bromide"
+                    },
+                    "from_activity": "38feac5a-1945-4f62-81ad-5f16c674d6bc",
+                    "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "1992895a-9fa5-4624-bf6b-d67d2fa2f3df",
+                    "name": "Sodium ethoxide",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.025,
+                    "comment": "Base catalyst (1-2 equiv, assuming 1.5% use on alkylation). Molar excess consumed.",
+                    "flow_object": {
+                        "name": "Sodium ethoxide"
+                    },
+                    "from_activity": "67099f15-7a9b-4180-83b3-cfde4b160610",
+                    "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "43e0b4e1-6d4d-4338-bebb-d20c6ae8b661",
+                    "name": "Ethanol",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.4,
+                    "comment": "Solvent for alkylation, assumed 40% of product mass. Recovered.",
+                    "flow_object": {
+                        "name": "Ethanol"
+                    },
+                    "from_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                    "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "0d2c9374-f305-41c3-b80f-a7c45406d754",
+                    "name": "Electricity, medium voltage",
+                    "unit": "kWh",
+                    "type": "technosphere",
+                    "amount": 0.4,
+                    "comment": "Stirring and temperature control. Estimated 0.4 kWh per kg.",
+                    "flow_object": {
+                        "name": "Electricity, medium voltage"
+                    },
+                    "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                    "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "66fb01b1-0b5d-4b96-bf92-1853b56f75a4",
+                    "name": "Heat, process",
+                    "unit": "MJ",
+                    "type": "technosphere",
+                    "amount": 0.9,
+                    "comment": "Moderate heating 20-80\u00b0C (exothermic SN2 reaction). Estimated 0.9 MJ per kg.",
+                    "flow_object": {
+                        "name": "Heat, process"
+                    },
+                    "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                    "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "60f6345d-551b-4ace-bc57-6e5bd5b7a0a7",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.09,
+                    "comment": "CO2 from combustion for heating and solvent evaporation (~9% of product mass).",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": "c22b8235-6cdc-43fb-b8a6-800a6728fe9b",
+                    "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "source": "InventoryDrafter_agent"
+                },
+                {
+                    "id": "e43f5a14-4e9b-4239-bbb7-8f03d3d31a25",
+                    "name": "Waste water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.12,
+                    "comment": "Aqueous waste from base neutralization, salt precipitation, and washing.",
+                    "flow_object": {
+                        "name": "Waste water"
+                    },
+                    "from_activity": "bb3ea6e0-87fc-4394-8f78-d78f39349d14",
+                    "to_activity": "0c5b635f-e467-4612-acf0-a865c09dd4b5",
+                    "source": "InventoryDrafter_agent"
+                }
+            ]
+        },
+        {
+            "id": "eb497cbd-f92f-4926-b6e6-68d7510e40bb",
+            "name": "Ethyl cyanoacetate production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "Ethyl cyanoacetate. Reactive methylene compound used in Knoevenagel condensations.",
+            "comment": "Commercial chemical typically synthesized via cyanoacetic acid esterification or cyanoform reaction with ethyl halides. For LCI purposes, treated as commodity chemical from ecoinvent database.",
+            "reference_flow": {
+                "id": "b7e9a817-772a-48b7-bf7f-b3f687b650e5",
+                "name": "Ethyl cyanoacetate",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Ethyl cyanoacetate"
+                },
+                "from_activity": "eb497cbd-f92f-4926-b6e6-68d7510e40bb",
+                "to_activity": "eb497cbd-f92f-4926-b6e6-68d7510e40bb",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "0300904a-2c7c-4cec-b1d1-e0109c28f232",
+                    "name": "Ethyl cyanoacetate",
+                    "unit": "kg",
+                    "type": "production",
+                    "amount": 1.0,
+                    "flow_object": {
+                        "name": "Ethyl cyanoacetate"
+                    },
+                    "from_activity": "eb497cbd-f92f-4926-b6e6-68d7510e40bb",
+                    "to_activity": "eb497cbd-f92f-4926-b6e6-68d7510e40bb",
+                    "source": "InventoryDrafter_agent",
+                    "comment": "Reference product (duplicate for utility node, will be replaced by ecoinvent background node in task 6)"
+                }
+            ]
+        },
+        {
+            "id": "86d715e1-ea40-4a34-aaae-50ab659114c1",
+            "name": "Benzophenone production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "Diphenylmethanone. UV absorber, used in cosmetics and synthesis of Etocrylene.",
+            "comment": "Commercial chemical typically synthesized via Friedel-Crafts acylation of benzene with benzoyl chloride (or benzophenone is condensation product). Treated as commodity chemical.",
+            "reference_flow": {
+                "id": "0dd14cce-8631-4492-89d8-5b0aadb9395c",
+                "name": "Benzophenone",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Benzophenone"
+                },
+                "from_activity": "86d715e1-ea40-4a34-aaae-50ab659114c1",
+                "to_activity": "86d715e1-ea40-4a34-aaae-50ab659114c1",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "956ca7e5-8ba9-4551-9e82-3bb55f620561",
+                    "name": "Benzophenone",
+                    "unit": "kg",
+                    "type": "production",
+                    "amount": 1.0,
+                    "flow_object": {
+                        "name": "Benzophenone"
+                    },
+                    "from_activity": "86d715e1-ea40-4a34-aaae-50ab659114c1",
+                    "to_activity": "86d715e1-ea40-4a34-aaae-50ab659114c1",
+                    "source": "InventoryDrafter_agent",
+                    "comment": "Reference product (utility node, will be replaced by ecoinvent background node in task 6)"
+                }
+            ]
+        },
+        {
+            "id": "f7207f25-ce08-476b-8dac-a15ae23a63ce",
+            "name": "Ethyl acetoacetate production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "Ethyl 3-oxobutanoate. \u03b2-Ketoester used in acetoacetic ester synthesis.",
+            "comment": "Commercial chemical typically synthesized via Claisen condensation of ethyl acetate. Treated as commodity chemical.",
+            "reference_flow": {
+                "id": "b67a7e04-d430-4414-97e3-a676bd1042fe",
+                "name": "Ethyl acetoacetate",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Ethyl acetoacetate"
+                },
+                "from_activity": "f7207f25-ce08-476b-8dac-a15ae23a63ce",
+                "to_activity": "f7207f25-ce08-476b-8dac-a15ae23a63ce",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "bc5e88a7-1910-41b5-ae65-65f46cbf321f",
+                    "name": "Ethyl acetoacetate",
+                    "unit": "kg",
+                    "type": "production",
+                    "amount": 1.0,
+                    "flow_object": {
+                        "name": "Ethyl acetoacetate"
+                    },
+                    "from_activity": "f7207f25-ce08-476b-8dac-a15ae23a63ce",
+                    "to_activity": "f7207f25-ce08-476b-8dac-a15ae23a63ce",
+                    "source": "InventoryDrafter_agent",
+                    "comment": "Reference product (utility node, will be replaced by ecoinvent background node in task 6)"
+                }
+            ]
+        },
+        {
+            "id": "5ce5a9b9-2dc9-49fa-987f-6c0241258bd3",
+            "name": "1-Bromobutane production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "1-Bromobutane. Alkyl halide nucleophile for SN2 alkylation reactions.",
+            "comment": "Commodity chemical synthesized via hydrobromic acid addition to 1-butene or alkyl halide substitution. Treated as background commodity.",
+            "reference_flow": {
+                "id": "586fac52-7d54-4852-a7a2-1d3974c24329",
+                "name": "1-Bromobutane",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "1-Bromobutane"
+                },
+                "from_activity": "5ce5a9b9-2dc9-49fa-987f-6c0241258bd3",
+                "to_activity": "5ce5a9b9-2dc9-49fa-987f-6c0241258bd3",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "8529b51a-dfd5-4faa-8bef-31316bb4b0c5",
+                    "name": "1-Bromobutane",
+                    "unit": "kg",
+                    "type": "production",
+                    "amount": 1.0,
+                    "flow_object": {
+                        "name": "1-Bromobutane"
+                    },
+                    "from_activity": "5ce5a9b9-2dc9-49fa-987f-6c0241258bd3",
+                    "to_activity": "5ce5a9b9-2dc9-49fa-987f-6c0241258bd3",
+                    "source": "InventoryDrafter_agent",
+                    "comment": "Reference product (utility node, will be replaced by ecoinvent background node in task 6)"
+                }
+            ]
+        },
+        {
+            "id": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+            "name": "Ethanol production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "Ethanol. By-product of transesterification and ester hydrolysis; also used as solvent.",
+            "comment": "Multi-sourced: by-product credits from Steps 1 and 4; fresh supply for solvents. Treated as background commodity.",
+            "reference_flow": {
+                "id": "9c298308-48ce-455f-aa13-dc45b566ba9b",
+                "name": "Ethanol",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Ethanol"
+                },
+                "from_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                "to_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "82734017-64ee-4ac2-a868-25efa7c2b035",
+                    "name": "Ethanol",
+                    "unit": "kg",
+                    "type": "production",
+                    "amount": 1.0,
+                    "flow_object": {
+                        "name": "Ethanol"
+                    },
+                    "from_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                    "to_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                    "source": "InventoryDrafter_agent",
+                    "comment": "Reference product (utility node, will be replaced by ecoinvent background node in task 6)"
+                }
+            ]
+        },
+        {
+            "id": "392393cf-6861-4afd-9b9d-27119411df53",
+            "name": "Carbon monoxide production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "Carbon monoxide. Reducing gas used in decarbonylation reaction (Step 6).",
+            "comment": "Industrial production via water-gas shift or partial oxidation of hydrocarbons. Treated as commodity chemical with specific safety/handling protocols.",
+            "reference_flow": {
+                "id": "c27f1cf5-2830-4b57-a2a6-63bedc3c5b2a",
+                "name": "Carbon monoxide",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Carbon monoxide"
+                },
+                "from_activity": "392393cf-6861-4afd-9b9d-27119411df53",
+                "to_activity": "392393cf-6861-4afd-9b9d-27119411df53",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "ba58bdd6-6afb-457b-9e1c-e2b4eecdbd54",
+                    "name": "Carbon monoxide",
+                    "unit": "kg",
+                    "type": "production",
+                    "amount": 1.0,
+                    "flow_object": {
+                        "name": "Carbon monoxide"
+                    },
+                    "from_activity": "392393cf-6861-4afd-9b9d-27119411df53",
+                    "to_activity": "392393cf-6861-4afd-9b9d-27119411df53",
+                    "source": "InventoryDrafter_agent",
+                    "comment": "Reference product (utility node, will be replaced by ecoinvent background node in task 6)"
+                }
+            ]
+        },
+        {
+            "id": "4d0e966f-8b81-44a3-912a-f9f43f59fc59",
+            "name": "Carbon dioxide production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "GLO"
+            },
+            "code": "default_code",
+            "database": "default_database",
+            "source": "InventoryDrafter_agent",
+            "product_information": "Carbon dioxide. By-product from decarbonylation step; avoided production credit in system expansion.",
+            "comment": "Captured from Step 6 decarbonylation; modeled as avoided production (negative technosphere exchange on main node). Background commodity from ecoinvent.",
+            "reference_flow": {
+                "id": "43aa3e20-ce35-4307-8445-c301b87f4c8d",
+                "name": "Carbon dioxide",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Carbon dioxide"
+                },
+                "from_activity": "4d0e966f-8b81-44a3-912a-f9f43f59fc59",
+                "to_activity": "4d0e966f-8b81-44a3-912a-f9f43f59fc59",
+                "source": "InventoryDrafter_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "52f9c2bf-162e-4c5f-abd2-9af114d7408f",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "production",
+                    "amount": 1.0,
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": "4d0e966f-8b81-44a3-912a-f9f43f59fc59",
+                    "to_activity": "4d0e966f-8b81-44a3-912a-f9f43f59fc59",
+                    "source": "InventoryDrafter_agent",
+                    "comment": "Reference product (utility node, will be replaced by ecoinvent background node in task 6)"
+                }
+            ]
+        }
+    ]
+}

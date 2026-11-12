@@ -1,0 +1,1537 @@
+{
+    "nodes": [
+        {
+            "reaction_SMILES": "CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1.CCCCC(CC)CO>>CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1.CCO",
+            "target_molecule": {
+                "smiles": {
+                    "value": "CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1",
+                    "method": "RDKit",
+                    "source": "EquationBalancer_agent",
+                    "uncertainty_type": 4
+                },
+                "name": "Octocrylene",
+                "chemical_formula": {
+                    "value": "C24H27NO2",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "molecular_weight": {
+                    "value": 361.5,
+                    "unit": "g/mol",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "inchi": {
+                    "value": "InChI=1S/C24H27NO2/c1-3-5-12-19(4-2)18-27-24(26)22(17-25)23(20-13-8-6-9-14-20)21-15-10-7-11-16-21/h6-11,13-16,19H,3-5,12,18H2,1-2H3",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "iupac_name": {
+                    "value": "2-ethylhexyl 2-cyano-3,3-diphenylprop-2-enoate",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "source": "EquationBalancer_agent",
+                "uncertainty_type": 4
+            },
+            "byproducts": [
+                {
+                    "smiles": {
+                        "value": "CCO",
+                        "method": "RDKit",
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    },
+                    "name": "ethanol",
+                    "chemical_formula": {
+                        "value": "C2H6O",
+                        "method": "PubChem lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "molecular_weight": {
+                        "value": 46.041864812,
+                        "unit": "g/mol",
+                        "method": "PubChem lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "inchi": {
+                        "value": "InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3",
+                        "method": "PubChem lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "iupac_name": {
+                        "value": "ethanol",
+                        "method": "PubChem lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "source": "SynthesisCompleter_agent",
+                    "uncertainty_type": 4
+                }
+            ],
+            "detailed_equation": {
+                "reaction_smiles": "CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1.CCCCC(CC)CO>>CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1.CCO",
+                "reactants": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1"
+                            },
+                            "name": "Etocrylene",
+                            "chemical_formula": {
+                                "value": "C18H15NO2"
+                            },
+                            "molecular_weight": {
+                                "value": 277.3,
+                                "unit": "g/mol"
+                            }
+                        },
+                        "stoichiometry": 1
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(CC)CO"
+                            },
+                            "name": "2-Ethylhexanol",
+                            "chemical_formula": {
+                                "value": "C8H18O"
+                            },
+                            "molecular_weight": {
+                                "value": 130.23,
+                                "unit": "g/mol"
+                            }
+                        },
+                        "stoichiometry": 1
+                    }
+                ],
+                "products": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1"
+                            },
+                            "name": "Octocrylene",
+                            "chemical_formula": {
+                                "value": "C24H27NO2"
+                            },
+                            "molecular_weight": {
+                                "value": 361.5,
+                                "unit": "g/mol"
+                            }
+                        },
+                        "stoichiometry": 1
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCO"
+                            },
+                            "name": "ethanol",
+                            "chemical_formula": {
+                                "value": "C2H6O"
+                            },
+                            "molecular_weight": {
+                                "value": 46.041864812,
+                                "unit": "g/mol"
+                            }
+                        },
+                        "stoichiometry": 1
+                    }
+                ],
+                "source": "EquationBalancer_agent",
+                "uncertainty_type": 4
+            },
+            "source": "SynthesisCompleter_agent",
+            "uncertainty_type": 4
+        },
+        {
+            "reaction_SMILES": "CCCCC(CO)C(C)O.[C-]#[O+]>>CCCCC(CC)CO.O=C=O",
+            "source": "SynthesisCompleter_agent",
+            "uncertainty_type": 4,
+            "target_molecule": {
+                "smiles": {
+                    "value": "CCCCC(CC)CO",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "name": "2-ethylhexanol",
+                "chemical_formula": {
+                    "value": "C8H18O",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "molecular_weight": {
+                    "value": 130.23,
+                    "unit": "g/mol",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "inchi": {
+                    "value": "InChI=1S/C8H18O/c1-3-5-6-8(4-2)7-9/h8-9H,3-7H2,1-2H3",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "iupac_name": {
+                    "value": "2-ethylhexan-1-ol",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "physical_properties": [],
+                "source": "pubchem",
+                "uncertainty_type": 2
+            },
+            "byproducts": [
+                {
+                    "smiles": {
+                        "value": "O=C=O",
+                        "source": "pubchem",
+                        "uncertainty_type": 2,
+                        "method": "PubChem lookup"
+                    },
+                    "name": "carbon dioxide",
+                    "chemical_formula": {
+                        "value": "CO2",
+                        "source": "pubchem",
+                        "uncertainty_type": 2,
+                        "method": "PubChem lookup"
+                    },
+                    "molecular_weight": {
+                        "value": 44.009,
+                        "unit": "g/mol",
+                        "source": "pubchem",
+                        "uncertainty_type": 2,
+                        "method": "PubChem lookup"
+                    },
+                    "inchi": {
+                        "value": "InChI=1S/CO2/c2-1-3",
+                        "source": "pubchem",
+                        "uncertainty_type": 2,
+                        "method": "PubChem lookup"
+                    },
+                    "iupac_name": {
+                        "value": "carbon dioxide",
+                        "source": "pubchem",
+                        "uncertainty_type": 2,
+                        "method": "PubChem lookup"
+                    },
+                    "physical_properties": [],
+                    "source": "SynthesisCompleter_agent",
+                    "uncertainty_type": 4
+                }
+            ],
+            "detailed_equation": {
+                "reaction_smiles": "CCCCC(CO)C(C)O.[C-]#[O+]>>CCCCC(CC)CO.O=C=O",
+                "source": "EquationBalancer_agent",
+                "uncertainty_type": 4,
+                "reactants": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(CO)C(C)O",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4,
+                                "method": "RDKit"
+                            },
+                            "name": "2-butylbutane-1,3-diol",
+                            "chemical_formula": {
+                                "value": "C8H18O2",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "molecular_weight": {
+                                "value": 146.23,
+                                "unit": "g/mol",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C8H18O2/c1-3-4-5-8(6-9)7(2)10/h7-10H,3-6H2,1-2H3",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "iupac_name": {
+                                "value": "2-butylbutane-1,3-diol",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "[C-]#[O+]",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4,
+                                "method": "RDKit"
+                            },
+                            "name": "carbon monoxide",
+                            "chemical_formula": {
+                                "value": "CO",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "molecular_weight": {
+                                "value": 28.01,
+                                "unit": "g/mol",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/CO/c1-2",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "iupac_name": {
+                                "value": "carbon monoxide",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    }
+                ],
+                "products": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(CC)CO",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4,
+                                "method": "RDKit"
+                            },
+                            "name": "2-ethylhexan-1-ol",
+                            "chemical_formula": {
+                                "value": "C8H18O",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "molecular_weight": {
+                                "value": 130.23,
+                                "unit": "g/mol",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C8H18O/c1-3-5-6-8(4-2)7-9/h8-9H,3-7H2,1-2H3",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "iupac_name": {
+                                "value": "2-ethylhexan-1-ol",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "O=C=O",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4,
+                                "method": "RDKit"
+                            },
+                            "name": "carbon dioxide",
+                            "chemical_formula": {
+                                "value": "CO2",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "molecular_weight": {
+                                "value": 44.009,
+                                "unit": "g/mol",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/CO2/c2-1-3",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "iupac_name": {
+                                "value": "carbon dioxide",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    }
+                ]
+            }
+        },
+        {
+            "reaction_SMILES": "CCCCC(C(=O)O)C(C)O.C>>CCCCC(CO)C(C)O.C=O",
+            "target_molecule": {
+                "smiles": {
+                    "value": "CCCCC(CO)C(C)O",
+                    "method": "RDKit",
+                    "source": "EquationBalancer_agent",
+                    "uncertainty_type": 4
+                },
+                "name": "2-Butyl-1,3-butanediol",
+                "chemical_formula": {
+                    "value": "C8H18O2",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "molecular_weight": {
+                    "value": 146.23,
+                    "unit": "g/mol",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "inchi": {
+                    "value": "InChI=1S/C8H18O2/c1-3-4-5-8(6-9)7(2)10/h7-10H,3-6H2,1-2H3",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "iupac_name": {
+                    "value": "2-butylbutane-1,3-diol",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "physical_properties": [],
+                "source": "EquationBalancer_agent",
+                "uncertainty_type": 4
+            },
+            "byproducts": [
+                {
+                    "smiles": {
+                        "value": "C=O",
+                        "method": "RDKit",
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    },
+                    "name": "formaldehyde",
+                    "chemical_formula": {
+                        "value": "CH2O",
+                        "method": "PubChem lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "molecular_weight": {
+                        "value": 30.026,
+                        "unit": "g/mol",
+                        "method": "PubChem lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "inchi": {
+                        "value": "InChI=1S/CH2O/c1-2/h1H2",
+                        "method": "PubChem lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "iupac_name": {
+                        "value": "formaldehyde",
+                        "method": "PubChem lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "physical_properties": [],
+                    "source": "SynthesisCompleter_agent",
+                    "uncertainty_type": 4
+                }
+            ],
+            "detailed_equation": {
+                "reaction_smiles": "CCCCC(C(=O)O)C(C)O.C>>CCCCC(CO)C(C)O.C=O",
+                "reactants": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(C(=O)O)C(C)O",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "2-(1-Hydroxyethyl)hexanoic acid",
+                            "chemical_formula": {
+                                "value": "C8H16O3",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 160.21,
+                                "unit": "g/mol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C8H16O3/c1-3-4-5-7(6(2)9)8(10)11/h6-7,9H,3-5H2,1-2H3,(H,10,11)",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "2-(1-hydroxyethyl)hexanoic acid",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "C",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "methane",
+                            "chemical_formula": {
+                                "value": "CH4",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 16.043,
+                                "unit": "g/mol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/CH4/h1H4",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "methane",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    }
+                ],
+                "products": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(CO)C(C)O",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "2-Butyl-1,3-butanediol",
+                            "chemical_formula": {
+                                "value": "C8H18O2",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 146.23,
+                                "unit": "g/mol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C8H18O2/c1-3-4-5-8(6-9)7(2)10/h7-10H,3-6H2,1-2H3",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "2-butylbutane-1,3-diol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "C=O",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "formaldehyde",
+                            "chemical_formula": {
+                                "value": "CH2O",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 30.026,
+                                "unit": "g/mol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/CH2O/c1-2/h1H2",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "formaldehyde",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    }
+                ],
+                "source": "EquationBalancer_agent",
+                "uncertainty_type": 4
+            },
+            "source": "SynthesisCompleter_agent",
+            "uncertainty_type": 4
+        },
+        {
+            "reaction_SMILES": "CCCCC(C(=O)OCC)C(C)O.O>>CCCCC(C(=O)O)C(C)O.CCO",
+            "target_molecule": {
+                "smiles": {
+                    "value": "CCCCC(C(=O)O)C(C)O",
+                    "method": "RDKit",
+                    "source": "pubchem",
+                    "uncertainty_type": 4
+                },
+                "name": "2-(1-Hydroxyethyl)hexanoic acid",
+                "chemical_formula": {
+                    "value": "C8H16O3",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "molecular_weight": {
+                    "value": 160.21,
+                    "unit": "g/mol",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "inchi": {
+                    "value": "InChI=1S/C8H16O3/c1-3-4-5-7(6(2)9)8(10)11/h6-7,9H,3-5H2,1-2H3,(H,10,11)",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "iupac_name": {
+                    "value": "2-(1-hydroxyethyl)hexanoic acid",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "physical_properties": [],
+                "source": "pubchem",
+                "uncertainty_type": 2
+            },
+            "byproducts": [
+                {
+                    "smiles": {
+                        "value": "CCO",
+                        "method": "RDKit",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 4
+                    },
+                    "name": "ethanol",
+                    "chemical_formula": {
+                        "value": "C2H6O",
+                        "method": "RDKit",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 4
+                    },
+                    "molecular_weight": {
+                        "value": 46.04,
+                        "unit": "g/mol",
+                        "method": "RDKit",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 4
+                    },
+                    "inchi": {
+                        "value": "InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3",
+                        "method": "RDKit",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 4
+                    },
+                    "iupac_name": {
+                        "value": "ethanol",
+                        "method": "RDKit",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 4
+                    },
+                    "physical_properties": [],
+                    "source": "SynthesisCompleter_agent",
+                    "uncertainty_type": 4
+                }
+            ],
+            "detailed_equation": {
+                "reaction_smiles": "CCCCC(C(=O)OCC)C(C)O.O>>CCCCC(C(=O)O)C(C)O.CCO",
+                "reactants": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(C(=O)OCC)C(C)O",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "Ethyl 2-(1-hydroxyethyl)hexanoate",
+                            "chemical_formula": {
+                                "value": "C10H20O3",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 188.26,
+                                "unit": "g/mol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C10H20O3/c1-4-6-7-9(8(3)11)10(12)13-5-2/h8-9,11H,4-7H2,1-3H3",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "ethyl 2-(1-hydroxyethyl)hexanoate",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1,
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "O",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "water",
+                            "chemical_formula": {
+                                "value": "H2O",
+                                "method": "CIR lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 18.01,
+                                "unit": "g/mol",
+                                "method": "CIR lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/H2O/h1H2",
+                                "method": "CIR lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "oxidane",
+                                "method": "CIR lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1,
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    }
+                ],
+                "products": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(C(=O)O)C(C)O",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "2-(1-Hydroxyethyl)hexanoic acid",
+                            "chemical_formula": {
+                                "value": "C8H16O3",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 160.21,
+                                "unit": "g/mol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C8H16O3/c1-3-4-5-7(6(2)9)8(10)11/h6-7,9H,3-5H2,1-2H3,(H,10,11)",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "2-(1-hydroxyethyl)hexanoic acid",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1,
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCO",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "ethanol",
+                            "chemical_formula": {
+                                "value": "C2H6O",
+                                "method": "CIR lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 46.04,
+                                "unit": "g/mol",
+                                "method": "CIR lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3",
+                                "method": "CIR lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "ethanol",
+                                "method": "CIR lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1,
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    }
+                ],
+                "source": "EquationBalancer_agent",
+                "uncertainty_type": 4
+            },
+            "source": "SynthesisCompleter_agent",
+            "uncertainty_type": 4
+        },
+        {
+            "reaction_SMILES": "CCCCC(C(C)=O)C(=O)OCC.[H][H]>>CCCCC(C(=O)OCC)C(C)O",
+            "target_molecule": {
+                "smiles": {
+                    "value": "CCCCC(C(=O)OCC)C(C)O",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "name": "Ethyl 2-(1-hydroxyethyl)hexanoate",
+                "chemical_formula": {
+                    "value": "C10H20O3",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "molecular_weight": {
+                    "value": 188.26,
+                    "unit": "g/mol",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "inchi": {
+                    "value": "InChI=1S/C10H20O3/c1-4-6-7-9(8(3)11)10(12)13-5-2/h8-9,11H,4-7H2,1-3H3",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "iupac_name": {
+                    "value": "ethyl 2-(1-hydroxyethyl)hexanoate",
+                    "source": "pubchem",
+                    "uncertainty_type": 2,
+                    "method": "PubChem lookup"
+                },
+                "physical_properties": [],
+                "source": "pubchem",
+                "uncertainty_type": 2
+            },
+            "byproducts": [],
+            "detailed_equation": {
+                "reaction_smiles": "CCCCC(C(C)=O)C(=O)OCC.[H][H]>>CCCCC(C(=O)OCC)C(C)O",
+                "reactants": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(C(C)=O)C(=O)OCC",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4,
+                                "method": "RDKit"
+                            },
+                            "name": "Ethyl 2-acetylhexanoate",
+                            "chemical_formula": {
+                                "value": "C10H18O3",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "molecular_weight": {
+                                "value": 186.25,
+                                "unit": "g/mol",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C10H18O3/c1-4-6-7-9(8(3)11)10(12)13-5-2/h9H,4-7H2,1-3H3",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "iupac_name": {
+                                "value": "ethyl 2-acetylhexanoate",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "[H][H]",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4,
+                                "method": "RDKit"
+                            },
+                            "name": "Hydrogen",
+                            "chemical_formula": {
+                                "value": "H2",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "molecular_weight": {
+                                "value": 2.016,
+                                "unit": "g/mol",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/H2/h1H",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "iupac_name": {
+                                "value": "molecular hydrogen",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    }
+                ],
+                "products": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(C(=O)OCC)C(C)O",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4,
+                                "method": "RDKit"
+                            },
+                            "name": "Ethyl 2-(1-hydroxyethyl)hexanoate",
+                            "chemical_formula": {
+                                "value": "C10H20O3",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "molecular_weight": {
+                                "value": 188.26,
+                                "unit": "g/mol",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C10H20O3/c1-4-6-7-9(8(3)11)10(12)13-5-2/h8-9,11H,4-7H2,1-3H3",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "iupac_name": {
+                                "value": "ethyl 2-(1-hydroxyethyl)hexanoate",
+                                "source": "pubchem",
+                                "uncertainty_type": 2,
+                                "method": "PubChem lookup"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    }
+                ],
+                "source": "EquationBalancer_agent",
+                "uncertainty_type": 4
+            },
+            "source": "SynthesisCompleter_agent",
+            "uncertainty_type": 4
+        },
+        {
+            "reaction_SMILES": "CCOC(=O)CC(C)=O.CCCCBr>>CCCCC(C(C)=O)C(=O)OCC.Br",
+            "target_molecule": {
+                "smiles": {
+                    "value": "CCCCC(C(C)=O)C(=O)OCC",
+                    "method": "PubChem",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "name": "Ethyl 2-acetylhexanoate",
+                "chemical_formula": {
+                    "value": "C10H18O3",
+                    "method": "PubChem",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "molecular_weight": {
+                    "value": 186.25,
+                    "unit": "g/mol",
+                    "method": "PubChem",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "inchi": {
+                    "value": "InChI=1S/C10H18O3/c1-4-6-7-9(8(3)11)10(12)13-5-2/h9H,4-7H2,1-3H3",
+                    "method": "PubChem",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "iupac_name": {
+                    "value": "ethyl 2-acetylhexanoate",
+                    "method": "PubChem",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "physical_properties": [],
+                "source": "pubchem",
+                "uncertainty_type": 2
+            },
+            "byproducts": [
+                {
+                    "smiles": {
+                        "value": "Br",
+                        "method": "RDKit",
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    },
+                    "name": "bromide",
+                    "chemical_formula": {
+                        "value": "HBr",
+                        "method": "CIR lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "molecular_weight": {
+                        "value": 79.926162132,
+                        "unit": "g/mol",
+                        "method": "CIR lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "inchi": {
+                        "value": "InChI=1S/BrH/h1H",
+                        "method": "CIR lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "iupac_name": {
+                        "value": "bromide",
+                        "method": "CIR lookup",
+                        "source": "pubchem",
+                        "uncertainty_type": 2
+                    },
+                    "physical_properties": [],
+                    "source": "SynthesisCompleter_agent",
+                    "uncertainty_type": 3
+                }
+            ],
+            "detailed_equation": {
+                "reaction_smiles": "CCOC(=O)CC(C)=O.CCCCBr>>CCCCC(C(C)=O)C(=O)OCC.Br",
+                "reactants": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCOC(=O)CC(C)=O"
+                            },
+                            "name": "Ethyl Acetoacetate",
+                            "chemical_formula": {
+                                "value": "C6H10O3"
+                            },
+                            "molecular_weight": {
+                                "value": 130.14,
+                                "unit": "g/mol"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C6H10O3/c1-3-9-6(8)4-5(2)7/h3-4H2,1-2H3"
+                            },
+                            "iupac_name": {
+                                "value": "ethyl 3-oxobutanoate"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCBr"
+                            },
+                            "name": "Butyl bromide",
+                            "chemical_formula": {
+                                "value": "C4H9Br"
+                            },
+                            "molecular_weight": {
+                                "value": 137.02,
+                                "unit": "g/mol"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C4H9Br/c1-2-3-4-5/h2-4H2,1H3"
+                            },
+                            "iupac_name": {
+                                "value": "1-bromobutane"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    }
+                ],
+                "products": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCCCC(C(C)=O)C(=O)OCC"
+                            },
+                            "name": "Ethyl 2-acetylhexanoate",
+                            "chemical_formula": {
+                                "value": "C10H18O3"
+                            },
+                            "molecular_weight": {
+                                "value": 186.25,
+                                "unit": "g/mol"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C10H18O3/c1-4-6-7-9(8(3)11)10(12)13-5-2/h9H,4-7H2,1-3H3"
+                            },
+                            "iupac_name": {
+                                "value": "ethyl 2-acetylhexanoate"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "Br"
+                            },
+                            "name": "bromide",
+                            "chemical_formula": {
+                                "value": "HBr"
+                            },
+                            "molecular_weight": {
+                                "value": 79.926162132,
+                                "unit": "g/mol"
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/BrH/h1H"
+                            },
+                            "iupac_name": {
+                                "value": "bromide"
+                            },
+                            "physical_properties": [],
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4
+                        },
+                        "stoichiometry": 1
+                    }
+                ],
+                "source": "EquationBalancer_agent",
+                "uncertainty_type": 4
+            },
+            "source": "SynthesisCompleter_agent",
+            "uncertainty_type": 4
+        },
+        {
+            "reaction_SMILES": "CCOC(=O)CC#N.O=C(c1ccccc1)c1ccccc1>>CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1.O",
+            "source": "SynthesisCompleter_agent",
+            "uncertainty_type": 4,
+            "target_molecule": {
+                "smiles": {
+                    "value": "CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1",
+                    "method": "RDKit",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "name": "Etocrylene",
+                "chemical_formula": {
+                    "value": "C18H15NO2",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "molecular_weight": {
+                    "value": 277.3,
+                    "unit": "g/mol",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "inchi": {
+                    "value": "InChI=1S/C18H15NO2/c1-2-21-18(20)16(13-19)17(14-9-5-3-6-10-14)15-11-7-4-8-12-15/h3-12H,2H2,1H3",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "iupac_name": {
+                    "value": "ethyl 2-cyano-3,3-diphenylprop-2-enoate",
+                    "method": "PubChem lookup",
+                    "source": "pubchem",
+                    "uncertainty_type": 2
+                },
+                "source": "pubchem",
+                "uncertainty_type": 2,
+                "physical_properties": []
+            },
+            "byproducts": [
+                {
+                    "smiles": {
+                        "value": "O",
+                        "method": "RDKit",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 4
+                    },
+                    "name": "water",
+                    "chemical_formula": {
+                        "value": "H2O",
+                        "method": "byproduct suggestion",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 3
+                    },
+                    "molecular_weight": {
+                        "value": 18.015,
+                        "unit": "g/mol",
+                        "method": "standard molecular weight",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 2
+                    },
+                    "inchi": {
+                        "value": "InChI=1S/H2O/h1H2",
+                        "method": "standard InChI",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 2
+                    },
+                    "iupac_name": {
+                        "value": "oxidane",
+                        "method": "standard IUPAC name",
+                        "source": "SynthesisCompleter_agent",
+                        "uncertainty_type": 2
+                    },
+                    "source": "SynthesisCompleter_agent",
+                    "uncertainty_type": 3,
+                    "physical_properties": []
+                }
+            ],
+            "detailed_equation": {
+                "reaction_smiles": "CCOC(=O)CC#N.O=C(c1ccccc1)c1ccccc1>>CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1.O",
+                "source": "EquationBalancer_agent",
+                "uncertainty_type": 4,
+                "reactants": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCOC(=O)CC#N",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "Ethyl cyanoacetate",
+                            "chemical_formula": {
+                                "value": "C5H7NO2",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 113.11,
+                                "unit": "g/mol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C5H7NO2/c1-2-8-5(7)3-4-6/h2-3H2,1H3",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "ethyl 2-cyanoacetate",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4,
+                            "physical_properties": []
+                        },
+                        "stoichiometry": 1,
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "O=C(c1ccccc1)c1ccccc1",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "Benzophenone",
+                            "chemical_formula": {
+                                "value": "C13H10O",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 182.22,
+                                "unit": "g/mol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C13H10O/c14-13(11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10H",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "diphenylmethanone",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4,
+                            "physical_properties": []
+                        },
+                        "stoichiometry": 1,
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    }
+                ],
+                "products": [
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "CCOC(=O)C(C#N)=C(c1ccccc1)c1ccccc1",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "Etocrylene",
+                            "chemical_formula": {
+                                "value": "C18H15NO2",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "molecular_weight": {
+                                "value": 277.3,
+                                "unit": "g/mol",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/C18H15NO2/c1-2-21-18(20)16(13-19)17(14-9-5-3-6-10-14)15-11-7-4-8-12-15/h3-12H,2H2,1H3",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "iupac_name": {
+                                "value": "ethyl 2-cyano-3,3-diphenylprop-2-enoate",
+                                "method": "PubChem lookup",
+                                "source": "pubchem",
+                                "uncertainty_type": 2
+                            },
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4,
+                            "physical_properties": []
+                        },
+                        "stoichiometry": 1,
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    },
+                    {
+                        "molecule": {
+                            "smiles": {
+                                "value": "O",
+                                "method": "RDKit",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 4
+                            },
+                            "name": "water",
+                            "chemical_formula": {
+                                "value": "H2O",
+                                "method": "LLM estimate",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 5
+                            },
+                            "molecular_weight": {
+                                "value": 18.015,
+                                "unit": "g/mol",
+                                "method": "LLM estimate",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 5
+                            },
+                            "inchi": {
+                                "value": "InChI=1S/H2O/h1H2",
+                                "method": "LLM estimate",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 5
+                            },
+                            "iupac_name": {
+                                "value": "water",
+                                "method": "LLM estimate",
+                                "source": "EquationBalancer_agent",
+                                "uncertainty_type": 5
+                            },
+                            "source": "EquationBalancer_agent",
+                            "uncertainty_type": 4,
+                            "physical_properties": []
+                        },
+                        "stoichiometry": 1,
+                        "source": "EquationBalancer_agent",
+                        "uncertainty_type": 4
+                    }
+                ]
+            }
+        }
+    ],
+    "root_node_id": "",
+    "source": "SynthesisCompleter_agent",
+    "uncertainty_type": 4
+}

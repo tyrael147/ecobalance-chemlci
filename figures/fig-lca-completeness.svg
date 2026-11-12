@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1663 1229" width="1663" height="1229" style="font-variant-numeric:lining-nums;font-feature-settings:'lnum'">
+<title>LCA completeness vs technology maturity: data sources per tier</title>
+
+<g id="titles" font-family="Raleway, Arial, sans-serif" fill="#111111" text-anchor="middle" font-weight="bold">
+<text x="820" y="42" font-size="50">LCA completeness</text>
+<text x="850" y="1210" font-size="52">Technology maturity</text>
+</g>
+
+<g id="side-arrows">
+<path d="M57 172 H156 V883 H208 L107 993 L5 883 H57 Z" fill="#c4c4c4"/>
+<path d="M1506 993 H1605 V283 H1657 L1556 173 L1455 283 H1506 Z" fill="#c4c4c4"/>
+<text transform="translate(118 580) rotate(-90)" font-family="Raleway, Arial, sans-serif" font-size="44" font-weight="bold" fill="#222222" text-anchor="middle">Time requirements</text>
+<text transform="translate(1568 615) rotate(-90)" font-family="Raleway, Arial, sans-serif" font-size="44" font-weight="bold" fill="#222222" text-anchor="middle">Cost and accuracy</text>
+</g>
+
+<g id="tier-dividers">
+<line x1="606" y1="164" x2="606" y2="1004" stroke="#333333" stroke-width="1.6" stroke-dasharray="11 7"/>
+<line x1="1069" y1="164" x2="1069" y2="1004" stroke="#333333" stroke-width="1.6" stroke-dasharray="11 7"/>
+</g>
+
+<g id="axis-completeness">
+<line x1="259" y1="161" x2="1410" y2="161" stroke="#000000" stroke-width="5"/>
+<path d="M1440 161 L1406 143 L1406 179 Z" fill="#000000"/>
+<g font-family="Raleway, Arial, sans-serif" font-size="38" font-style="italic" fill="#111111" text-anchor="middle" font-weight="500">
+<text x="390" y="127">Simplified LCA</text>
+<text x="815" y="127">Streamlined LCA</text>
+<text x="1263" y="127">Full LCA</text>
+</g>
+</g>
+
+<g id="axis-maturity">
+<line x1="259" y1="1007" x2="1410" y2="1007" stroke="#000000" stroke-width="5"/>
+<path d="M1440 1007 L1406 989 L1406 1025 Z" fill="#000000"/>
+<g font-family="Raleway, Arial, sans-serif" font-size="38" fill="#111111" text-anchor="middle" font-weight="500">
+<text x="399" y="1060" font-weight="bold">Design idea</text>
+<text x="399" y="1105" font-style="italic">Tier 1</text>
+<text x="806" y="1060" font-weight="bold">Intermediate</text>
+<text x="808" y="1105" font-style="italic">Tier 2</text>
+<text x="1262" y="1060" font-weight="bold">Close to market</text>
+<text x="1263" y="1105" font-style="italic">Tier 3</text>
+</g>
+</g>
+
+<g id="bars" font-family="Raleway, Arial, sans-serif" font-size="34" font-weight="bold" font-style="italic" fill="#ffffff" text-anchor="middle">
+<g id="bar-plant">
+<rect x="1095" y="204" width="296" height="82" fill="#98b259"/>
+<text x="1245.5" y="259" fill="#000000" fill-opacity="0.4">Plant data</text>
+<text x="1243" y="256">Plant data</text>
+</g>
+<g id="bar-simulation">
+<rect x="775" y="315" width="472" height="83" fill="#0057a7"/>
+<text x="1013.5" y="371" fill="#000000" fill-opacity="0.4">Process simulation</text>
+<text x="1011" y="368">Process simulation</text>
+</g>
+<g id="bar-calculations">
+<rect x="775" y="427" width="472" height="83" fill="#008bd8"/>
+<text x="1013.5" y="483" fill="#000000" fill-opacity="0.4">Process calculations</text>
+<text x="1011" y="480">Process calculations</text>
+</g>
+<g id="bar-stoichiometry">
+<rect x="433" y="539" width="512" height="83" fill="#158988"/>
+<text x="691.5" y="595" fill="#000000" fill-opacity="0.4">Stoichiometry</text>
+<text x="689" y="592">Stoichiometry</text>
+</g>
+<g id="bar-molecular">
+<rect x="270" y="650" width="677" height="82" fill="#fae25a"/>
+<text x="610.5" y="705" fill="#000000" fill-opacity="0.4">Molecular structure models</text>
+<text x="608" y="702">Molecular structure models</text>
+</g>
+<g id="bar-proxy">
+<rect x="270" y="761" width="297" height="83" fill="#febf00"/>
+<text x="420.5" y="817" fill="#000000" fill-opacity="0.4">Proxy data</text>
+<text x="418" y="814">Proxy data</text>
+</g>
+<g id="bar-omitting">
+<rect x="270" y="872" width="297" height="83" fill="#da6264"/>
+<text x="420.5" y="928" fill="#000000" fill-opacity="0.4">Omitting</text>
+<text x="418" y="925">Omitting</text>
+</g>
+</g>
+</svg>

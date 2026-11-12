@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 420" width="1060" height="420" style="font-variant-numeric:lining-nums;font-feature-settings:'lnum'">
+<title>Levels of the ChemLCI provenance graph</title>
+<g id="bands">
+<rect x="0" y="8" width="1060" height="84" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" opacity="0.35"/>
+<rect x="0" y="100" width="1060" height="84" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" opacity="0.0"/>
+<rect x="0" y="192" width="1060" height="108" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" opacity="0.35"/>
+<rect x="0" y="308" width="1060" height="104" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" opacity="0.0"/>
+<text x="10" y="54" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#6b6b6b" text-anchor="start" font-weight="bold">workflow</text>
+<text x="10" y="146" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#6b6b6b" text-anchor="start" font-weight="bold">steps</text>
+<text x="10" y="250" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#6b6b6b" text-anchor="start" font-weight="bold">agents and tools</text>
+<text x="10" y="364" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#6b6b6b" text-anchor="start" font-weight="bold">data</text>
+</g>
+<g id="level-workflow">
+<rect x="130.2" y="34.2" width="72.8" height="24" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="128" y="32" width="72.8" height="24" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="128" y="32" width="4" height="24" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="138" y="48" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="168.7" y="48" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">User</text>
+<rect x="340.2" y="28.2" width="235.5" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="338" y="26" width="235.5" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="338" y="26" width="4" height="34" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="348" y="42" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="378.7" y="42" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">Computation</text>
+<text x="348" y="54" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">“LCA of Octocrylene”, 18.5 min, ⊂ ssbd:Computation</text>
+<rect x="820.2" y="18.2" width="98.7" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="818" y="16" width="98.7" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="818" y="16" width="4" height="34" rx="0" fill="#2f7fb5" stroke="none" stroke-width="1.5"/>
+<text x="828" y="32" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#2f7fb5" text-anchor="start" font-weight="bold">ssbd:</text>
+<text x="858.7" y="32" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">Software</text>
+<text x="828" y="44" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">chemlcibuilder app</text>
+<rect x="820.2" y="58.2" width="101.5" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="818" y="56" width="101.5" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="818" y="56" width="4" height="34" rx="0" fill="#2f7fb5" stroke="none" stroke-width="1.5"/>
+<text x="828" y="72" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#2f7fb5" text-anchor="start" font-weight="bold">ssbd:</text>
+<text x="858.7" y="72" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">Matter</text>
+<text x="828" y="84" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">precursors used (8)</text>
+<path d="M200.8 44 C245.9 44 290.9 44 329.2 44" fill="none" stroke="#9a9a9a" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M336 44 L328 48.2 L328 39.8 Z" fill="#9a9a9a"/>
+<text x="270.8" y="38" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="middle" font-style="italic">prov:wasAssociatedWith</text>
+<path d="M573.5 36 C694.7 36 694.7 28 809.2 28" fill="none" stroke="#9a9a9a" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M816 28 L808 32.2 L808 23.8 Z" fill="#9a9a9a"/>
+<text x="728" y="22" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="middle" font-style="italic">ssbd:hasSoftware</text>
+<path d="M573.5 52 C694.7 52 694.7 68 809.2 68" fill="none" stroke="#9a9a9a" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M816 68 L808 72.2 L808 63.8 Z" fill="#9a9a9a"/>
+<text x="723" y="82" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="middle" font-style="italic">prov:used</text>
+</g>
+<g id="level-step">
+<rect x="130.2" y="122.2" width="90" height="26" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="128" y="120" width="90" height="26" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="128" y="120" width="4" height="26" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="175" y="137" font-family="Raleway, Arial, sans-serif" font-size="10.5" fill="#353535" text-anchor="middle" font-weight="bold">1 SMILES</text>
+<path d="M220 133 C225 133 230 133 230.8 133" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M235 133 L230 136 L230 130 Z" fill="#9a9a9a"/>
+<rect x="238.2" y="122.2" width="90" height="26" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="236" y="120" width="90" height="26" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="236" y="120" width="4" height="26" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="283" y="137" font-family="Raleway, Arial, sans-serif" font-size="10.5" fill="#353535" text-anchor="middle" font-weight="bold">2 retro</text>
+<path d="M328 133 C333 133 338 133 338.8 133" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M343 133 L338 136 L338 130 Z" fill="#9a9a9a"/>
+<rect x="346.2" y="122.2" width="90" height="26" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="344" y="120" width="90" height="26" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="344" y="120" width="4" height="26" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="391" y="137" font-family="Raleway, Arial, sans-serif" font-size="10.5" fill="#353535" text-anchor="middle" font-weight="bold">3 synthesis</text>
+<path d="M436 133 C441 133 446 133 446.8 133" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M451 133 L446 136 L446 130 Z" fill="#9a9a9a"/>
+<rect x="454.2" y="122.2" width="90" height="26" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="452" y="120" width="90" height="26" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="452" y="120" width="4" height="26" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="499" y="137" font-family="Raleway, Arial, sans-serif" font-size="10.5" fill="#353535" text-anchor="middle" font-weight="bold">4 process</text>
+<path d="M544 133 C549 133 554 133 554.8 133" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M559 133 L554 136 L554 130 Z" fill="#9a9a9a"/>
+<rect x="562.2" y="122.2" width="90" height="26" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="560" y="120" width="90" height="26" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="560" y="120" width="4" height="26" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="607" y="137" font-family="Raleway, Arial, sans-serif" font-size="10.5" fill="#353535" text-anchor="middle" font-weight="bold">5 draft</text>
+<path d="M652 133 C657 133 662 133 662.8 133" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M667 133 L662 136 L662 130 Z" fill="#9a9a9a"/>
+<rect x="670.2" y="122.2" width="90" height="26" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="668" y="120" width="90" height="26" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="668" y="120" width="4" height="26" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="715" y="137" font-family="Raleway, Arial, sans-serif" font-size="10.5" fill="#353535" text-anchor="middle" font-weight="bold">6 bw LCI</text>
+<path d="M760 133 C765 133 770 133 770.8 133" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M775 133 L770 136 L770 130 Z" fill="#9a9a9a"/>
+<rect x="778.2" y="122.2" width="90" height="26" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="776" y="120" width="90" height="26" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="776" y="120" width="4" height="26" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="823" y="137" font-family="Raleway, Arial, sans-serif" font-size="10.5" fill="#353535" text-anchor="middle" font-weight="bold">7 LCIA</text>
+<path d="M868 133 C873 133 878 133 878.8 133" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M883 133 L878 136 L878 130 Z" fill="#9a9a9a"/>
+<rect x="886.2" y="122.2" width="90" height="26" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="884" y="120" width="90" height="26" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="884" y="120" width="4" height="26" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="931" y="137" font-family="Raleway, Arial, sans-serif" font-size="10.5" fill="#353535" text-anchor="middle" font-weight="bold">8 final</text>
+<text x="130" y="114" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-style="italic">lcont:WorkflowStep ⊂ ssbd:Process, chained by lcont:isPredecessorOf</text>
+<path d="M283 156 L289.8 156 L293.5 159.8 L293.5 169.5 L283 169.5 Z" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M289.8 156 L289.8 159.8 L293.5 159.8" fill="none" stroke="#6b6b6b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="285.2" y1="162" x2="291.2" y2="162" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="285.2" y1="164.2" x2="291.2" y2="164.2" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="285.2" y1="166.5" x2="291.2" y2="166.5" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/>
+<text x="298" y="168" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="start">retros</text>
+<path d="M391 156 L397.8 156 L401.5 159.8 L401.5 169.5 L391 169.5 Z" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M397.8 156 L397.8 159.8 L401.5 159.8" fill="none" stroke="#6b6b6b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="393.2" y1="162" x2="399.2" y2="162" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="393.2" y1="164.2" x2="399.2" y2="164.2" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="393.2" y1="166.5" x2="399.2" y2="166.5" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/>
+<text x="406" y="168" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="start">completed</text>
+<path d="M499 156 L505.8 156 L509.5 159.8 L509.5 169.5 L499 169.5 Z" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M505.8 156 L505.8 159.8 L509.5 159.8" fill="none" stroke="#6b6b6b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="501.2" y1="162" x2="507.2" y2="162" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="501.2" y1="164.2" x2="507.2" y2="164.2" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="501.2" y1="166.5" x2="507.2" y2="166.5" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/>
+<text x="514" y="168" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="start">process</text>
+<path d="M607 156 L613.8 156 L617.5 159.8 L617.5 169.5 L607 169.5 Z" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M613.8 156 L613.8 159.8 L617.5 159.8" fill="none" stroke="#6b6b6b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="609.2" y1="162" x2="615.2" y2="162" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="609.2" y1="164.2" x2="615.2" y2="164.2" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="609.2" y1="166.5" x2="615.2" y2="166.5" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/>
+<text x="622" y="168" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="start">draft</text>
+<path d="M715 156 L721.8 156 L725.5 159.8 L725.5 169.5 L715 169.5 Z" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M721.8 156 L721.8 159.8 L725.5 159.8" fill="none" stroke="#6b6b6b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="717.2" y1="162" x2="723.2" y2="162" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="717.2" y1="164.2" x2="723.2" y2="164.2" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="717.2" y1="166.5" x2="723.2" y2="166.5" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/>
+<text x="730" y="168" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="start">bw_inventory</text>
+<path d="M823 156 L829.8 156 L833.5 159.8 L833.5 169.5 L823 169.5 Z" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M829.8 156 L829.8 159.8 L833.5 159.8" fill="none" stroke="#6b6b6b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="825.2" y1="162" x2="831.2" y2="162" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="825.2" y1="164.2" x2="831.2" y2="164.2" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/><line x1="825.2" y1="166.5" x2="831.2" y2="166.5" stroke="#6b6b6b" stroke-width="0.9" stroke-linecap="round"/>
+<text x="838" y="168" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="start">lcia</text>
+<text x="1050" y="160" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="end" font-style="italic">ssbd:hasInput, ssbd:hasOutput</text>
+<text x="1050" y="173" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="end" font-style="italic">lcont:HierarchicalData</text>
+<path d="M468 62 C468 90 468 90 468 111.2" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M468 118 L463.8 110 L472.2 110 Z" fill="#9a9a9a"/>
+<text x="474" y="98" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="start" font-style="italic">ssbd:hasSubProcess</text>
+</g>
+<g id="level-call">
+<rect x="130.2" y="212.2" width="146" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="128" y="210" width="146" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="128" y="210" width="4" height="34" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="138" y="226" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="168.7" y="226" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">LLMInference</text>
+<text x="138" y="238" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">262: prompt, response, tokens</text>
+<rect x="130.2" y="256.2" width="120.9" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="128" y="254" width="120.9" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="128" y="254" width="4" height="34" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="138" y="270" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="168.7" y="270" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">ToolCall</text>
+<text x="138" y="282" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">242: args, result, status</text>
+<rect x="420.2" y="212.2" width="151.7" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="418" y="210" width="151.7" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="418" y="210" width="4" height="34" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="428" y="226" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="458.7" y="226" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">LLMAgent</text>
+<text x="428" y="238" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">8 agents (⊂ prov:SoftwareAgent)</text>
+<rect x="675.2" y="206.2" width="122" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="673" y="204" width="122" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="673" y="204" width="4" height="34" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="683" y="220" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="713.7" y="220" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">LLMSoftware</text>
+<text x="683" y="232" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">agent and system prompt</text>
+<rect x="890.2" y="206.2" width="161.9" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="888" y="204" width="161.9" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="888" y="204" width="4" height="34" rx="0" fill="#2f7fb5" stroke="none" stroke-width="1.5"/>
+<text x="898" y="220" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#2f7fb5" text-anchor="start" font-weight="bold">ssbd:</text>
+<text x="928.7" y="220" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">LargeLanguageModel</text>
+<text x="898" y="232" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">claude-haiku-4.5</text>
+<rect x="420.2" y="260.2" width="180.7" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="418" y="258" width="180.7" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="418" y="258" width="4" height="34" rx="0" fill="#2f7fb5" stroke="none" stroke-width="1.5"/>
+<text x="428" y="274" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#2f7fb5" text-anchor="start" font-weight="bold">ssbd:</text>
+<text x="458.7" y="274" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">Software</text>
+<text x="428" y="286" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">@chemlci_tool: model type, uncertainty</text>
+<path d="M468 146 C468 177 188 177 188 201.2" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M188 208 L183.8 200 L192.2 200 Z" fill="#9a9a9a"/>
+<text x="288" y="178" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="middle" font-style="italic">ssbd:hasSubProcess</text>
+<path d="M274 222 C321.3 222 368.7 222 409.2 222" fill="none" stroke="#9a9a9a" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M416 222 L408 226.2 L408 217.8 Z" fill="#9a9a9a"/>
+<text x="336" y="216" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="middle" font-style="italic">lcont:executedBy</text>
+<path d="M569.7 222 C603.4 220.7 637.2 219.3 664.2 218.3" fill="none" stroke="#9a9a9a" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M671 218 L663.2 222.5 L662.8 214.1 Z" fill="#9a9a9a"/>
+<path d="M795 218 C825.4 218 855.7 218 879.2 218" fill="none" stroke="#9a9a9a" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M886 218 L878 222.2 L878 213.8 Z" fill="#9a9a9a"/>
+<text x="884" y="251" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="end" font-style="italic">ssbd:implementsModel</text>
+<path d="M248.9 268 C304.6 269.3 360.3 270.7 409.2 271.8" fill="none" stroke="#9a9a9a" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M416 272 L407.9 276 L408.1 267.6 Z" fill="#9a9a9a"/>
+<text x="318.9" y="285" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="middle" font-style="italic">prov:wasAssociatedWith</text>
+<text x="1050" y="296" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="end" font-style="italic">every call: prov:startedAtTime, prov:endedAtTime, lcont:executionStatus, token counts</text>
+</g>
+<g id="level-data">
+<rect x="130.2" y="328.2" width="154.5" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="128" y="326" width="154.5" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="128" y="326" width="4" height="34" rx="0" fill="#2f7fb5" stroke="none" stroke-width="1.5"/>
+<text x="138" y="342" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#2f7fb5" text-anchor="start" font-weight="bold">ssbd:</text>
+<text x="168.7" y="342" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">Data</text>
+<text x="138" y="354" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">836: prompts, arguments, results</text>
+<rect x="420.2" y="328.2" width="204.1" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="418" y="326" width="204.1" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="418" y="326" width="4" height="34" rx="0" fill="#80350e" stroke="none" stroke-width="1.5"/>
+<text x="428" y="342" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="462" y="342" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">Activity</text>
+<text x="428" y="354" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">in bw_inventory, ⊂ lcont:BackgroundActivity</text>
+<rect x="790.2" y="328.2" width="185.3" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="788" y="326" width="185.3" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="788" y="326" width="4" height="34" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="798" y="342" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="828.7" y="342" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">BackgroundActivity</text>
+<text x="798" y="354" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">ecoinvent 3.12 node (lcont:inDatabase)</text>
+<rect x="790.2" y="374.2" width="163.6" height="34" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="788" y="372" width="163.6" height="34" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="788" y="372" width="4" height="34" rx="0" fill="#f46524" stroke="none" stroke-width="1.5"/>
+<text x="798" y="388" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="828.7" y="388" font-family="Raleway, Arial, sans-serif" font-size="11" fill="#353535" text-anchor="start" font-weight="bold">returnedCandidate</text>
+<text x="798" y="400" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-style="italic">143 candidates seen by the agent</text>
+<path d="M188 288 C188 306 188 306 188 317.2" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M188 324 L183.8 316 L192.2 316 Z" fill="#9a9a9a"/>
+<text x="194" y="312" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#6b6b6b" text-anchor="start" font-style="italic">prov:used, prov:generated</text>
+<path d="M622.1 340 C676.7 340 731.4 340 779.2 340" fill="none" stroke="#f46524" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M786 340 L778 344.2 L778 335.8 Z" fill="#f46524"/>
+<text x="677.1" y="334" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-style="italic">prov:wasDerivedFrom</text>
+<path d="M258 288 C348 300 468 300 492.7 319.8" fill="none" stroke="#f46524" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M498 324 L489.1 322.3 L494.4 315.7 Z" fill="#f46524"/>
+<text x="468" y="306" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="start" font-style="italic">prov:wasInformedBy (selecting tool call)</text>
+<path d="M878 360 C878 365.5 878 365.5 878 364.2" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M878 371 L873.8 363 L882.2 363 Z" fill="#9a9a9a"/>
+</g>
+</svg>

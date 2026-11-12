@@ -1,0 +1,784 @@
+{
+ "activities": [
+  {
+   "name": "Octocrylene production",
+   "location": "EUR",
+   "comment": "Transesterification of Etocrylene with 2-ethylhexanol. Acid-catalyzed at 60-120°C. Catalyst: TiCl4. Solvent: Toluene. Ethanol removal via distillation.",
+   "exchanges": [
+    {
+     "name": "Etocrylene",
+     "amount": 0.767,
+     "unit": "kg",
+     "type": "technosphere",
+     "comment": "Molar ratio normalized to 1 kg Octocrylene.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "foreground"
+    },
+    {
+     "name": "2-Ethylhexanol",
+     "amount": 0.36,
+     "unit": "kg",
+     "type": "technosphere",
+     "comment": "Molar ratio normalized. MW 130.23: 130.23/361.5 = 0.360 kg",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "background",
+     "ecoinvent": {
+      "code": "2e2c4eb4dd68b21a3f24ca67b336e581",
+      "location": "RER",
+      "database": "ecoinvent-3.12-cutoff"
+     },
+     "prov_node": {
+      "iri": "oriont:Activity_df4b6bf984bd324fa6081cc8c0612fe3",
+      "label": "2-Ethylhexanol production",
+      "generated_by": 5
+     },
+     "selection": {
+      "call": "c1b1bd40855e45eea2045e9c4b086770",
+      "query": "2-ethylhexanol",
+      "args": {
+       "query": "2-ethylhexanol",
+       "location": "RER"
+      },
+      "tool": "search_ecoinvent_processes",
+      "agent": "EcoinventSearchAgent",
+      "time": "14:33:10",
+      "selected": "market for 2-ethylhexanol",
+      "code": "2e2c4eb4dd68b21a3f24ca67b336e581",
+      "candidates": [
+       "2-ethyl hexyl acrylate production, 2-ethylhexanol esterification with acrylic acid",
+       "2-ethylhexanal production, 2-ethyl-2-hexenal partial hydrogenation",
+       "2-ethylhexanol production, 2-ethylhexanal hydrogenation",
+       "market for 2-ethylhexanol"
+      ]
+     }
+    },
+    {
+     "name": "Ethanol",
+     "amount": -0.127,
+     "unit": "kg",
+     "type": "technosphere",
+     "comment": "By-product credit. System expansion credit.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "background",
+     "ecoinvent": {
+      "code": "8d982b04a3d0b5c92e9c6ecf78f05eb9",
+      "location": "RER",
+      "database": "ecoinvent-3.12-cutoff"
+     },
+     "prov_node": {
+      "iri": "oriont:Activity_4fb6bafbcec7ca6db5d271386cbfea21",
+      "label": "Ethanol production",
+      "generated_by": 5
+     },
+     "selection": {
+      "call": "080953d051b1487d90797e65c61528c8",
+      "query": "ethanol",
+      "args": {
+       "query": "ethanol",
+       "location": "RER"
+      },
+      "tool": "search_ecoinvent_processes",
+      "agent": "EcoinventSearchAgent",
+      "time": "14:33:01",
+      "selected": "market for ethanol, without water, in 99.7% solution state, from ethylene",
+      "code": "8d982b04a3d0b5c92e9c6ecf78f05eb9",
+      "candidates": [
+       "diethyl carbonate production, from phosgene and ethanol",
+       "ethanol production from rye",
+       "ethanol production, ethylene hydration",
+       "ethyl acrylate production, ethanol esterification with acrylic acid",
+       "market for ethanol, without water, in 99.7% solution state, from ethylene",
+       "petrol production, 15% ETBE additive by volume, with ethanol from biomass",
+       "petrol production, 4% ETBE additive by volume, with ethanol from biomass"
+      ]
+     }
+    },
+    {
+     "name": "Toluene",
+     "amount": 0.3,
+     "unit": "kg",
+     "type": "technosphere",
+     "comment": "Solvent carrier, 30% of product mass. Recovered.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "background",
+     "ecoinvent": {
+      "code": "7070b6839977adca657540b38cb5d158",
+      "location": "RER",
+      "database": "ecoinvent-3.12-cutoff"
+     },
+     "prov_node": {
+      "iri": "oriont:Activity_06f045b437a7796761fe7ddc37840c7a",
+      "label": "Toluene production",
+      "generated_by": 5
+     },
+     "selection": {
+      "call": "391d9e9e446e45f2b6c4f3152b66d86e",
+      "query": "toluene",
+      "args": {
+       "query": "toluene",
+       "location": "RER"
+      },
+      "tool": "search_ecoinvent_processes",
+      "agent": "EcoinventSearchAgent",
+      "time": "14:33:17",
+      "selected": "market for toluene, liquid",
+      "code": "7070b6839977adca657540b38cb5d158",
+      "candidates": [
+       "BTX production, from pyrolysis gas, average",
+       "BTX production, from reformate, average",
+       "market for printing ink, rotogravure, without solvent, in 55% toluene solution state",
+       "market for toluene diisocyanate",
+       "market for toluene diisocyanate, ISOPA",
+       "market for toluene, liquid",
+       "printing ink production, rotogravure, product in 55% toluene solution state",
+       "toluene diisocyanate production",
+       "toluene diisocyanate production, ISOPA"
+      ]
+     }
+    },
+    {
+     "name": "Electricity, medium voltage",
+     "amount": 0.8,
+     "unit": "kWh",
+     "type": "technosphere",
+     "comment": "Stirring, heating, distillation. 0.8 kWh per kg product.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "background",
+     "ecoinvent": {
+      "code": "42ec2f4634364ee86921b4c6dfe2de31",
+      "location": "RER",
+      "database": "ecoinvent-3.12-cutoff"
+     },
+     "prov_node": {
+      "iri": "oriont:Activity_c03db4bb5e7a3d27ced93476d9fefaed",
+      "label": "Electricity, medium voltage production",
+      "generated_by": 5
+     },
+     "selection": {
+      "call": "79a9011ec263482f91a14ff11a45efde",
+      "query": "market for electricity, medium voltage",
+      "args": {
+       "query": "market for electricity, medium voltage",
+       "location": "RER",
+       "top_k": 5
+      },
+      "tool": "search_ecoinvent_processes",
+      "agent": "EcoinventSearchAgent",
+      "time": "14:33:29",
+      "selected": "market group for electricity, medium voltage",
+      "code": "42ec2f4634364ee86921b4c6dfe2de31",
+      "candidates": [
+       "market group for electricity, medium voltage"
+      ]
+     }
+    },
+    {
+     "name": "Heat, process",
+     "amount": 2.5,
+     "unit": "MJ",
+     "type": "technosphere",
+     "comment": "Heating and distillation. 2.5 MJ per kg.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "background",
+     "ecoinvent": {
+      "code": "8c67b38f777f6a40004833818fb1ae62",
+      "location": "RER",
+      "database": "ecoinvent-3.12-cutoff"
+     },
+     "prov_node": {
+      "iri": "oriont:Activity_34fa689b99b3a5ffecab5cff9e8fb61f",
+      "label": "Heat, process production",
+      "generated_by": 5
+     },
+     "selection": {
+      "call": "6780eb070d534a15a39f3b6ecb15e28a",
+      "query": "market for heat",
+      "args": {
+       "location": "RER",
+       "query": "market for heat",
+       "top_k": 10
+      },
+      "tool": "search_ecoinvent_processes",
+      "agent": "EcoinventSearchAgent",
+      "time": "14:33:31",
+      "selected": "market for heat, from steam, in chemical industry",
+      "code": "8c67b38f777f6a40004833818fb1ae62",
+      "candidates": [
+       "heat and power co-generation unit construction, 1MW electrical, common components for heat+electricity",
+       "heat and power co-generation unit construction, 1MW electrical, components for heat only",
+       "heat and power co-generation unit construction, 200kW electrical, common components for heat+electricity",
+       "heat and power co-generation unit construction, 200kW electrical, components for heat only",
+       "heat and power co-generation unit construction, 500kW electrical, common components for heat+electricity",
+       "heat and power co-generation unit construction, 500kW electrical, components for heat only",
+       "heat and power co-generation unit construction, 50kW electrical, common components for heat+electricity",
+       "heat and power co-generation unit construction, 50kW electrical, components for heat only",
+       "market for heat, from steam, in chemical industry",
+       "market group for heat, central or small-scale, biomethane"
+      ]
+     }
+    },
+    {
+     "name": "Carbon dioxide",
+     "amount": 0.15,
+     "unit": "kg",
+     "type": "biosphere",
+     "comment": "CO2 from combustion and solvent evaporation.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "biosphere"
+    },
+    {
+     "name": "Waste water",
+     "amount": 0.1,
+     "unit": "kg",
+     "type": "biosphere",
+     "comment": "From workup, neutralization, and washing.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "biosphere"
+    }
+   ]
+  },
+  {
+   "name": "Etocrylene production",
+   "location": "EUR",
+   "comment": "Knoevenagel condensation of ethyl cyanoacetate + benzophenone.",
+   "exchanges": [
+    {
+     "name": "Piperidine",
+     "amount": 0.01,
+     "unit": "kg",
+     "type": "technosphere",
+     "comment": "Base catalyst at ~1 wt%.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "background",
+     "ecoinvent": {
+      "code": "02c05f87fdecc378dcfe88dabfc90f9a",
+      "location": "RER",
+      "database": "ecoinvent-3.12-cutoff"
+     },
+     "prov_node": {
+      "iri": "oriont:Activity_ff1bd68f91753789e737fd7235f1112e",
+      "label": "Piperidine production",
+      "generated_by": 5
+     },
+     "selection": {
+      "call": "9a5066acb27b4d4eb247c5a910ead015",
+      "query": "piperidine",
+      "args": {
+       "query": "piperidine",
+       "location": "RER"
+      },
+      "tool": "search_ecoinvent_processes",
+      "agent": "EcoinventSearchAgent",
+      "time": "14:33:28",
+      "selected": "piperidine production",
+      "code": "02c05f87fdecc378dcfe88dabfc90f9a",
+      "candidates": [
+       "phenolic resin production",
+       "piperidine production"
+      ]
+     }
+    },
+    {
+     "name": "Dimethylformamide",
+     "amount": 0.5,
+     "unit": "kg",
+     "type": "technosphere",
+     "comment": "Solvent, 50% of product mass. Recovered.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "background",
+     "ecoinvent": {
+      "code": "c2143c330c38340901a6a87957fcad43",
+      "location": "RER",
+      "database": "ecoinvent-3.12-cutoff"
+     },
+     "prov_node": {
+      "iri": "oriont:Activity_15a8e2f456955a236a950eaa8293f452",
+      "label": "Dimethylformamide production",
+      "generated_by": 5
+     },
+     "selection": {
+      "call": "92dfe355f21641f0922ac8ac630016e9",
+      "query": "dimethylformamide",
+      "args": {
+       "query": "dimethylformamide",
+       "location": "RER"
+      },
+      "tool": "search_ecoinvent_processes",
+      "agent": "EcoinventSearchAgent",
+      "time": "14:33:29",
+      "selected": "N,N-dimethylformamide production, direct synthesis",
+      "code": "c2143c330c38340901a6a87957fcad43",
+      "candidates": [
+       "N,N-dimethylformamide production, direct synthesis"
+      ]
+     }
+    },
+    {
+     "name": "Electricity, medium voltage",
+     "amount": 0.6,
+     "unit": "kWh",
+     "type": "technosphere",
+     "comment": "Stirring and temperature control. 0.6 kWh per kg.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "background",
+     "ecoinvent": {
+      "code": "42ec2f4634364ee86921b4c6dfe2de31",
+      "location": "RER",
+      "database": "ecoinvent-3.12-cutoff"
+     },
+     "prov_node": {
+      "iri": "oriont:Activity_c03db4bb5e7a3d27ced93476d9fefaed",
+      "label": "Electricity, medium voltage production",
+      "generated_by": 5
+     },
+     "selection": {
+      "call": "79a9011ec263482f91a14ff11a45efde",
+      "query": "market for electricity, medium voltage",
+      "args": {
+       "query": "market for electricity, medium voltage",
+       "location": "RER",
+       "top_k": 5
+      },
+      "tool": "search_ecoinvent_processes",
+      "agent": "EcoinventSearchAgent",
+      "time": "14:33:29",
+      "selected": "market group for electricity, medium voltage",
+      "code": "42ec2f4634364ee86921b4c6dfe2de31",
+      "candidates": [
+       "market group for electricity, medium voltage"
+      ]
+     }
+    },
+    {
+     "name": "Heat, process",
+     "amount": 1.2,
+     "unit": "MJ",
+     "type": "technosphere",
+     "comment": "Heating to 25-80°C. 1.2 MJ per kg.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "background",
+     "ecoinvent": {
+      "code": "8c67b38f777f6a40004833818fb1ae62",
+      "location": "RER",
+      "database": "ecoinvent-3.12-cutoff"
+     },
+     "prov_node": {
+      "iri": "oriont:Activity_34fa689b99b3a5ffecab5cff9e8fb61f",
+      "label": "Heat, process production",
+      "generated_by": 5
+     },
+     "selection": {
+      "call": "6780eb070d534a15a39f3b6ecb15e28a",
+      "query": "market for heat",
+      "args": {
+       "location": "RER",
+       "query": "market for heat",
+       "top_k": 10
+      },
+      "tool": "search_ecoinvent_processes",
+      "agent": "EcoinventSearchAgent",
+      "time": "14:33:31",
+      "selected": "market for heat, from steam, in chemical industry",
+      "code": "8c67b38f777f6a40004833818fb1ae62",
+      "candidates": [
+       "heat and power co-generation unit construction, 1MW electrical, common components for heat+electricity",
+       "heat and power co-generation unit construction, 1MW electrical, components for heat only",
+       "heat and power co-generation unit construction, 200kW electrical, common components for heat+electricity",
+       "heat and power co-generation unit construction, 200kW electrical, components for heat only",
+       "heat and power co-generation unit construction, 500kW electrical, common components for heat+electricity",
+       "heat and power co-generation unit construction, 500kW electrical, components for heat only",
+       "heat and power co-generation unit construction, 50kW electrical, common components for heat+electricity",
+       "heat and power co-generation unit construction, 50kW electrical, components for heat only",
+       "market for heat, from steam, in chemical industry",
+       "market group for heat, central or small-scale, biomethane"
+      ]
+     }
+    },
+    {
+     "name": "Carbon dioxide",
+     "amount": 0.08,
+     "unit": "kg",
+     "type": "biosphere",
+     "comment": "CO2 from solvent evaporation and heating.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "biosphere"
+    },
+    {
+     "name": "Waste water",
+     "amount": 0.05,
+     "unit": "kg",
+     "type": "biosphere",
+     "comment": "From washing and workup.",
+     "agent": "BW2LCIbuilder_agent",
+     "kind": "biosphere"
+    }
+   ]
+  }
+ ],
+ "dropped": [
+  {
+   "activity": "Octocrylene production",
+   "name": "Titanium tetrachloride",
+   "amount": 0.005,
+   "unit": "kg",
+   "comment": "Acid catalyst at 0.5 wt% of product mass",
+   "reason": "matched, but removed while fixing the inventory (validate_bw_inventory loop)",
+   "selection": {
+    "call": "d30a7a570eab4ced8a1416e3c43075f9",
+    "query": "titanium tetrachloride",
+    "args": {
+     "target_activity": "titanium tetrachloride",
+     "top_k": 10
+    },
+    "tool": "get_activities_embeddings",
+    "agent": "EcoinventSearchAgent",
+    "time": "14:33:21",
+    "selected": "market for titanium tetrachloride",
+    "code": "5d987bfd4ebee4fee48fc5fa21a8e8c6",
+    "candidates": [
+     "market for chlorine, for reuse in titanium tetrachloride production",
+     "market for titanium tetrachloride",
+     "titanium tetrachloride production"
+    ]
+   }
+  },
+  {
+   "activity": "Etocrylene production",
+   "name": "Ethyl cyanoacetate",
+   "amount": 0.408,
+   "unit": "kg",
+   "comment": "Molar ratio 1:1 normalized. Ethyl cyanoacetate (C5H7NO2, MW 113.11) to Etocrylene (C18H15NO2, MW 277.3): 113.11/277.3 = 0.408 kg",
+   "reason": "no suitable ecoinvent node found",
+   "selection": null
+  },
+  {
+   "activity": "Etocrylene production",
+   "name": "Benzophenone",
+   "amount": 0.657,
+   "unit": "kg",
+   "comment": "Molar ratio 1:1 normalized. Benzophenone (C13H10O, MW 182.22): 182.22/277.3 = 0.657 kg",
+   "reason": "no suitable ecoinvent node found",
+   "selection": null
+  }
+ ],
+ "no_match": [
+  "1-Bromobutane",
+  "2-(1-Hydroxyethyl)hexanoic acid",
+  "2-Butylbutane-1,3-diol",
+  "Ethyl 2-acetylhexanoate",
+  "Ethyl cyanoacetate",
+  "Etocrylene",
+  "Octocrylene",
+  "benzophenone",
+  "ethyl acetoacetate"
+ ],
+ "replaced_upstream": [
+  "2-Ethylhexanol production",
+  "2-Butylbutane-1,3-diol production",
+  "2-(1-Hydroxyethyl)hexanoic acid production",
+  "Ethyl 2-(1-hydroxyethyl)hexanoate production",
+  "Ethyl 2-acetylhexanoate production",
+  "Ethyl cyanoacetate production",
+  "Benzophenone production",
+  "Ethyl acetoacetate production",
+  "1-Bromobutane production",
+  "Ethanol production",
+  "Carbon monoxide production",
+  "Carbon dioxide production"
+ ],
+ "selections": [
+  {
+   "call": "07d2b2b7ada84abe888e5ec246311cc3",
+   "query": "nickel primary production metal",
+   "args": {
+    "target_activity": "nickel primary production metal"
+   },
+   "tool": "get_activities_embeddings",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:22",
+   "selected": "market for nickel, class 1",
+   "code": "2ae117bef918d3854b0a6ff30ab2508a",
+   "candidates": [
+    "cobalt production",
+    "market for nickel, class 1",
+    "nickel mine operation and benefication to nickel concentrate, 16% Ni",
+    "nickel mine operation and benefication to nickel concentrate, 7% Ni",
+    "platinum group metal mine operation, ore with high palladium content",
+    "platinum group metal, extraction and refinery operations",
+    "processing of nickel-rich materials",
+    "smelting and refining of nickel concentrate, 16% Ni",
+    "smelting and refining of nickel concentrate, 7% Ni"
+   ]
+  },
+  {
+   "call": "080953d051b1487d90797e65c61528c8",
+   "query": "ethanol",
+   "args": {
+    "query": "ethanol",
+    "location": "RER"
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:01",
+   "selected": "market for ethanol, without water, in 99.7% solution state, from ethylene",
+   "code": "8d982b04a3d0b5c92e9c6ecf78f05eb9",
+   "candidates": [
+    "diethyl carbonate production, from phosgene and ethanol",
+    "ethanol production from rye",
+    "ethanol production, ethylene hydration",
+    "ethyl acrylate production, ethanol esterification with acrylic acid",
+    "market for ethanol, without water, in 99.7% solution state, from ethylene",
+    "petrol production, 15% ETBE additive by volume, with ethanol from biomass",
+    "petrol production, 4% ETBE additive by volume, with ethanol from biomass"
+   ]
+  },
+  {
+   "call": "391d9e9e446e45f2b6c4f3152b66d86e",
+   "query": "toluene",
+   "args": {
+    "query": "toluene",
+    "location": "RER"
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:17",
+   "selected": "market for toluene, liquid",
+   "code": "7070b6839977adca657540b38cb5d158",
+   "candidates": [
+    "BTX production, from pyrolysis gas, average",
+    "BTX production, from reformate, average",
+    "market for printing ink, rotogravure, without solvent, in 55% toluene solution state",
+    "market for toluene diisocyanate",
+    "market for toluene diisocyanate, ISOPA",
+    "market for toluene, liquid",
+    "printing ink production, rotogravure, product in 55% toluene solution state",
+    "toluene diisocyanate production",
+    "toluene diisocyanate production, ISOPA"
+   ]
+  },
+  {
+   "call": "3f8e391577784a24a806905a06f752a5",
+   "query": "nickel metal",
+   "args": {
+    "location": "RER",
+    "query": "nickel metal"
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:19",
+   "selected": "piperidine production",
+   "code": "02c05f87fdecc378dcfe88dabfc90f9a",
+   "candidates": [
+    "1-propanol production",
+    "chloronitrobenzene production",
+    "cyclohexane production, benzene hydrogenation, liquid phase process",
+    "flat glass production, coated",
+    "iron-nickel-chromium alloy production",
+    "manganese production",
+    "market for flat glass, coated",
+    "o-aminophenol production",
+    "piperidine production",
+    "steel production, electric arc furnace, carbon"
+   ]
+  },
+  {
+   "call": "9a5066acb27b4d4eb247c5a910ead015",
+   "query": "piperidine",
+   "args": {
+    "query": "piperidine",
+    "location": "RER"
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:28",
+   "selected": "piperidine production",
+   "code": "02c05f87fdecc378dcfe88dabfc90f9a",
+   "candidates": [
+    "phenolic resin production",
+    "piperidine production"
+   ]
+  },
+  {
+   "call": "596052df4f7b45debbc5cda4a152da57",
+   "query": "hydrogen gas",
+   "args": {
+    "query": "hydrogen gas",
+    "location": "RER"
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:16",
+   "selected": "hydrogen production, steam methane reforming",
+   "code": "0518790ef5d66a43ab0d307504f9db89",
+   "candidates": [
+    "butyrolactone production, dehydrogenation of 1,4-butanediol",
+    "carbon monoxide production, from synthesis gas, through absorption",
+    "carbon monoxide production, from synthesis gas, through cryogenic separation",
+    "hydrochloric acid production, from the reaction of hydrogen with chlorine",
+    "hydrogen compression, from low to medium pressure",
+    "hydrogen production, steam methane reforming",
+    "hydrogen sulfide production",
+    "synthesis gas production, from natural gas, with a 1 to 1 molar ratio",
+    "synthesis gas production, from natural gas, with a 3 to 1 molar ratio"
+   ]
+  },
+  {
+   "call": "6780eb070d534a15a39f3b6ecb15e28a",
+   "query": "market for heat",
+   "args": {
+    "location": "RER",
+    "query": "market for heat",
+    "top_k": 10
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:31",
+   "selected": "market for heat, from steam, in chemical industry",
+   "code": "8c67b38f777f6a40004833818fb1ae62",
+   "candidates": [
+    "heat and power co-generation unit construction, 1MW electrical, common components for heat+electricity",
+    "heat and power co-generation unit construction, 1MW electrical, components for heat only",
+    "heat and power co-generation unit construction, 200kW electrical, common components for heat+electricity",
+    "heat and power co-generation unit construction, 200kW electrical, components for heat only",
+    "heat and power co-generation unit construction, 500kW electrical, common components for heat+electricity",
+    "heat and power co-generation unit construction, 500kW electrical, components for heat only",
+    "heat and power co-generation unit construction, 50kW electrical, common components for heat+electricity",
+    "heat and power co-generation unit construction, 50kW electrical, components for heat only",
+    "market for heat, from steam, in chemical industry",
+    "market group for heat, central or small-scale, biomethane"
+   ]
+  },
+  {
+   "call": "79a9011ec263482f91a14ff11a45efde",
+   "query": "market for electricity, medium voltage",
+   "args": {
+    "query": "market for electricity, medium voltage",
+    "location": "RER",
+    "top_k": 5
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:29",
+   "selected": "market group for electricity, medium voltage",
+   "code": "42ec2f4634364ee86921b4c6dfe2de31",
+   "candidates": [
+    "market group for electricity, medium voltage"
+   ]
+  },
+  {
+   "call": "8bc2695089814107ae61768187a0b503",
+   "query": "sulfuric acid",
+   "args": {
+    "query": "sulfuric acid",
+    "location": "RER"
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:38",
+   "selected": "market for sulfuric acid",
+   "code": "0fe0828b9a068f323c0390713cb0353f",
+   "candidates": [
+    "boric acid production, anhydrous, powder",
+    "chlorosulfonic acid production",
+    "market for sulfuric acid",
+    "methacrylic acid production",
+    "methyl methacrylate production, acetone cyanohydrin process, with sulfuric acid recovery",
+    "potassium sulfate production",
+    "sulfuric acid production",
+    "titanium dioxide production, sulfate process"
+   ]
+  },
+  {
+   "call": "92dfe355f21641f0922ac8ac630016e9",
+   "query": "dimethylformamide",
+   "args": {
+    "query": "dimethylformamide",
+    "location": "RER"
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:29",
+   "selected": "N,N-dimethylformamide production, direct synthesis",
+   "code": "c2143c330c38340901a6a87957fcad43",
+   "candidates": [
+    "N,N-dimethylformamide production, direct synthesis"
+   ]
+  },
+  {
+   "call": "aaf3d35fae23495d88e0773beaf0f762",
+   "query": "market for water",
+   "args": {
+    "location": "RER",
+    "query": "market for water",
+    "top_k": 10
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:40",
+   "selected": "market group for tap water",
+   "code": "71ff50db1cc6e286add77f18eacbb6d1",
+   "candidates": [
+    "market for water, completely softened",
+    "market for water, ultrapure",
+    "market group for tap water"
+   ]
+  },
+  {
+   "call": "c1b1bd40855e45eea2045e9c4b086770",
+   "query": "2-ethylhexanol",
+   "args": {
+    "query": "2-ethylhexanol",
+    "location": "RER"
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:10",
+   "selected": "market for 2-ethylhexanol",
+   "code": "2e2c4eb4dd68b21a3f24ca67b336e581",
+   "candidates": [
+    "2-ethyl hexyl acrylate production, 2-ethylhexanol esterification with acrylic acid",
+    "2-ethylhexanal production, 2-ethyl-2-hexenal partial hydrogenation",
+    "2-ethylhexanol production, 2-ethylhexanal hydrogenation",
+    "market for 2-ethylhexanol"
+   ]
+  },
+  {
+   "call": "d30a7a570eab4ced8a1416e3c43075f9",
+   "query": "titanium tetrachloride",
+   "args": {
+    "target_activity": "titanium tetrachloride",
+    "top_k": 10
+   },
+   "tool": "get_activities_embeddings",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:21",
+   "selected": "market for titanium tetrachloride",
+   "code": "5d987bfd4ebee4fee48fc5fa21a8e8c6",
+   "candidates": [
+    "market for chlorine, for reuse in titanium tetrachloride production",
+    "market for titanium tetrachloride",
+    "titanium tetrachloride production"
+   ]
+  },
+  {
+   "call": "f9b467093b0c4ca7acb14bdd405e6b2b",
+   "query": "sodium ethoxide",
+   "args": {
+    "query": "sodium ethoxide",
+    "location": "RER"
+   },
+   "tool": "search_ecoinvent_processes",
+   "agent": "EcoinventSearchAgent",
+   "time": "14:33:28",
+   "selected": "sodium ethoxide production",
+   "code": "e15543b1a91ea1cc2157c80a789dfa88",
+   "candidates": [
+    "diethyl carbonate production, via reactive distillation",
+    "organophosphorus-compound production, unspecified",
+    "pyrethroid-compound production",
+    "sodium ethoxide production"
+   ]
+  }
+ ],
+ "agent_model": "claude-haiku-4-5-20251001"
+}

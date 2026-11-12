@@ -1,0 +1,571 @@
+{
+    "iri": "oriont:LCIAResult_77ca85459a7745dd92e8644fe0d2c39c",
+    "source": "Brightway 2.5 LCIA",
+    "uncertainty_type": 5,
+    "functional_unit": "Octocrylene production",
+    "foreground_db": "lcia_74268b26",
+    "scores": [
+        {
+            "iri": "lcont:ImpactCategoryScore_431271c113f94b63aabd0449eaced1a3",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / acidification / accumulated exceedance (AE)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / acidification / accumulated exceedance (AE)",
+            "score": 0.01453702129247796,
+            "unit": "mol H+-Eq",
+            "ssbd_class": "https://w3id.org/ssbd/AcidificationImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_a5022e69fa3640d89de4972b9db123da",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "acidification",
+                "unit": "mol H+-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_ca62393a56db472aac3efff884d9cd52",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_4f411e4b27174f73ae2219e48f3b908b",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / climate change / global warming potential (GWP100)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / climate change / global warming potential (GWP100)",
+            "score": 3.9853363205050645,
+            "unit": "kg CO2-Eq",
+            "ssbd_class": "https://w3id.org/ssbd/GlobalWarmingImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_1bd196937f0e464db42c628ddc670fed",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "climate change",
+                "unit": "kg CO2-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_f1abd636d519458aa57790cdb0fcdc29",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_a36088f6a3824d0c9a7ba78976895dd3",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / climate change: biogenic / global warming potential (GWP100)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / climate change: biogenic / global warming potential (GWP100)",
+            "score": 0.0024995011600385483,
+            "unit": "kg CO2-Eq",
+            "ssbd_class": "https://w3id.org/ssbd/GlobalWarmingImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_52ef5a7afcbd4581aab2fd3fd939bf52",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "climate change: biogenic",
+                "unit": "kg CO2-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_c2722ca3d38c44e7885f4e7ccc614b51",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_b652ed15c9d24505baa529a88f36adbc",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / climate change: fossil / global warming potential (GWP100)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / climate change: fossil / global warming potential (GWP100)",
+            "score": 3.9802029697164922,
+            "unit": "kg CO2-Eq",
+            "ssbd_class": "https://w3id.org/ssbd/GlobalWarmingImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_fbaa7b6c269042c49ec218e507e16373",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "climate change: fossil",
+                "unit": "kg CO2-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_374de7075c7342128c45083cf84571e5",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_5d58a4ec88064f9ea44e2d6074203595",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / climate change: land use and land use change / global warming potential (GWP100)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / climate change: land use and land use change / global warming potential (GWP100)",
+            "score": 0.0026338496285333484,
+            "unit": "kg CO2-Eq",
+            "ssbd_class": "https://w3id.org/ssbd/GlobalWarmingImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_db3e3ca5eae84c7c848aad70cc854d73",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "climate change: land use and land use change",
+                "unit": "kg CO2-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_67c896a2f9c74070bb22f6a7e245234a",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_3bb9518b635d43ffa86048467444aa12",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / ecotoxicity: freshwater / comparative toxic unit for ecosystems (CTUe)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / ecotoxicity: freshwater / comparative toxic unit for ecosystems (CTUe)",
+            "score": 23.74573599088722,
+            "unit": "CTUe",
+            "ssbd_class": "https://w3id.org/ssbd/FreshwaterAquaticEcotoxicityImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_8dd7a615bb7242caa969a72960025c00",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "ecotoxicity: freshwater",
+                "unit": "CTUe",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_6f9aeffd000d4cca828af6cc2ab676b4",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_05d2d5451ae44e09bea269a0d75004e6",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / ecotoxicity: freshwater, inorganics / comparative toxic unit for ecosystems (CTUe)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / ecotoxicity: freshwater, inorganics / comparative toxic unit for ecosystems (CTUe)",
+            "score": 22.58025772331036,
+            "unit": "CTUe",
+            "ssbd_class": "https://w3id.org/ssbd/FreshwaterAquaticEcotoxicityImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_4b3f8353abbf4f2596be93c2efe7c1c8",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "ecotoxicity: freshwater, inorganics",
+                "unit": "CTUe",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_78cd7e5cb4f94b26bc31d68b7aaa3283",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_44a42a4149364aa8ab82167823c0430b",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / ecotoxicity: freshwater, organics / comparative toxic unit for ecosystems (CTUe)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / ecotoxicity: freshwater, organics / comparative toxic unit for ecosystems (CTUe)",
+            "score": 1.1654782675768645,
+            "unit": "CTUe",
+            "ssbd_class": "https://w3id.org/ssbd/FreshwaterAquaticEcotoxicityImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_62c73eff9f814c2dace74674df53279f",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "ecotoxicity: freshwater, organics",
+                "unit": "CTUe",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_47ef603f80aa494a8f13bb315d742adc",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_9de5bec46139467e9932690065326de0",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / energy resources: non-renewable / abiotic depletion potential (ADP): fossil fuels",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / energy resources: non-renewable / abiotic depletion potential (ADP): fossil fuels",
+            "score": 89.21443802309267,
+            "unit": "MJ, net calorific value",
+            "ssbd_class": "https://w3id.org/ssbd/FossilResourcesScarcityImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_f6250799c0384fe9b3812af382af6f74",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "energy resources: non-renewable",
+                "unit": "MJ, net calorific value",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_021cb15e6f394939ae44c2909691b91d",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_af461fc2a2fb4bebbfd8827ec8c3e753",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / eutrophication: freshwater / fraction of nutrients reaching freshwater end compartment (P)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / eutrophication: freshwater / fraction of nutrients reaching freshwater end compartment (P)",
+            "score": 0.00098775613475876,
+            "unit": "kg P-Eq",
+            "ssbd_class": null,
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_9940576652d349f5b3f31508fe118e3a",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "eutrophication: freshwater",
+                "unit": "kg P-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_a439b13dc577422386f4b2361132200e",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_a8f89c1119534396b3c8d90f7501ce34",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / eutrophication: marine / fraction of nutrients reaching marine end compartment (N)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / eutrophication: marine / fraction of nutrients reaching marine end compartment (N)",
+            "score": 0.0031527371700005302,
+            "unit": "kg N-Eq",
+            "ssbd_class": null,
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_2b5849f03e1a4f9486923d41b38c1263",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "eutrophication: marine",
+                "unit": "kg N-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_44070337b6ce4ddf8c74646de37ab190",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_1368cf23b6d54fa1857fa09b246d961c",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / eutrophication: terrestrial / accumulated exceedance (AE)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / eutrophication: terrestrial / accumulated exceedance (AE)",
+            "score": 0.03431862226335179,
+            "unit": "mol N-Eq",
+            "ssbd_class": null,
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_b418768575714750b718200e6bd9bd45",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "eutrophication: terrestrial",
+                "unit": "mol N-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_662ce50a6bd54c2b85d4e04b0d019452",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_a1946a231ac3411cb3a5339009e262b8",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / human toxicity: carcinogenic / comparative toxic unit for human (CTUh)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / human toxicity: carcinogenic / comparative toxic unit for human (CTUh)",
+            "score": 1.0568427319695768e-9,
+            "unit": "CTUh",
+            "ssbd_class": "https://w3id.org/ssbd/HumanToxicityCancerImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_e804df79da78497a80531917582fa322",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "human toxicity: carcinogenic",
+                "unit": "CTUh",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_c4a59ae8843c40be9417e693f16c8e98",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_391cadb61b754f44b38d924692d133b8",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / human toxicity: non-carcinogenic / comparative toxic unit for human (CTUh)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / human toxicity: non-carcinogenic / comparative toxic unit for human (CTUh)",
+            "score": 2.7121032839222442e-8,
+            "unit": "CTUh",
+            "ssbd_class": "https://w3id.org/ssbd/HumanToxicityNonCancerImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_5b92dcc7c9534fdb8c6f8e7e1e39d745",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "human toxicity: non-carcinogenic",
+                "unit": "CTUh",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_7f7aacf932a241f787f7e54e126fe762",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_107439f8f2774719b2afcdeee9cbbf3c",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / ionising radiation: human health / human exposure efficiency relative to u235",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / ionising radiation: human health / human exposure efficiency relative to u235",
+            "score": 0.37754006231551557,
+            "unit": "kBq U235-Eq",
+            "ssbd_class": null,
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_5a13a88171324e82b95d6b97e1bc10b6",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "ionising radiation: human health",
+                "unit": "kBq U235-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_f1f1c84ea1a24e67ba5b10421db0c6d0",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_84c96cb372de4d08ae2b840575f4753e",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / land use / soil quality index",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / land use / soil quality index",
+            "score": 8.250913134207064,
+            "unit": "dimensionless",
+            "ssbd_class": "https://w3id.org/ssbd/LandUseChangeImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_1199d1d5c99c42f98bac146b894e8b6b",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "land use",
+                "unit": "dimensionless",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_da02c31943774d0ba70650f257706a0c",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_37a2793f4cc8408fba7a45f7e91b81b5",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / material resources: metals/minerals / abiotic depletion potential (ADP): elements (ultimate reserves)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / material resources: metals/minerals / abiotic depletion potential (ADP): elements (ultimate reserves)",
+            "score": 0.000025528241968597004,
+            "unit": "kg Sb-Eq",
+            "ssbd_class": "https://w3id.org/ssbd/MineralResourcesScarcityImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_07d63e0c38304a929cbc5ea2cb3ec5a7",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "material resources: metals/minerals",
+                "unit": "kg Sb-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_a47d2b3cda824d02b933be7a1800c58c",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_cd18c65f0c8748668e04ed9f54e2092f",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / ozone depletion / ozone depletion potential (ODP)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / ozone depletion / ozone depletion potential (ODP)",
+            "score": 1.5940016287219712e-7,
+            "unit": "kg CFC-11-Eq",
+            "ssbd_class": "https://w3id.org/ssbd/StratosphericOzoneLayerDepletionImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_519e7e833082431c88caf52c5fa0a15c",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "ozone depletion",
+                "unit": "kg CFC-11-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_62059a88ee024186b8b8314f5515d37d",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_c8d95d5f9a5348caaf190ebecd4f7cd6",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / particulate matter formation / impact on human health",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / particulate matter formation / impact on human health",
+            "score": 1.2253729361207584e-7,
+            "unit": "disease incidence",
+            "ssbd_class": null,
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_fdc5ff750f2c4a84b7caba18ffcf4336",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "particulate matter formation",
+                "unit": "disease incidence",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_5c08cf0ced214652b6ab0d1e3e3f5c9a",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_ed127e68e5c74bd8ade36bd52382e268",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / photochemical oxidant formation: human health / tropospheric ozone concentration increase",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / photochemical oxidant formation: human health / tropospheric ozone concentration increase",
+            "score": 0.019690045428642305,
+            "unit": "kg NMVOC-Eq",
+            "ssbd_class": null,
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_15e0b65026a54ec3a085ba9739c4ec92",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "photochemical oxidant formation: human health",
+                "unit": "kg NMVOC-Eq",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_c3ef885b7fd64d75b3eb16f73d6e6f02",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        },
+        {
+            "iri": "lcont:ImpactCategoryScore_19500a37055b44088fc9c35d98838508",
+            "source": "Brightway 2.5 LCIA",
+            "uncertainty_type": 5,
+            "category_key": "ecoinvent-3.12 / EF v3.1 / water use / user deprivation potential (deprivation-weighted water consumption)",
+            "method_tuple": "ecoinvent-3.12 / EF v3.1 / water use / user deprivation potential (deprivation-weighted water consumption)",
+            "score": 1.0544381146782178,
+            "unit": "m3 world Eq deprived",
+            "ssbd_class": "https://w3id.org/ssbd/WaterResourceDepletionImpactAssessment",
+            "note": null,
+            "error": null,
+            "indicator": {
+                "iri": "oriont:ImpactCategoryIndicator_4de86f663c5b420ebb23ee94cc3b24af",
+                "source": "Brightway 2.5 LCIA",
+                "uncertainty_type": 5,
+                "name": "water use",
+                "unit": "m3 world Eq deprived",
+                "impact_category": {
+                    "iri": "oriont:ImpactCategory_7217b34282de466e82448dac0f8c7c14",
+                    "source": "Brightway 2.5 LCIA",
+                    "uncertainty_type": 5,
+                    "name": "EF v3.1",
+                    "description": null
+                }
+            }
+        }
+    ],
+    "summary": {
+        "iri": "lcont:LCIASummary_281ce8bea63f4d9a9eff6a5f5770fba8",
+        "source": "Brightway 2.5 LCIA",
+        "uncertainty_type": 5,
+        "total_methods_evaluated": 21,
+        "method_set": "ecoinvent-3.12",
+        "functional_unit": "Octocrylene production",
+        "process": "Octocrylene production",
+        "location": {
+            "iri": "oriont:Location_e43586d5cb874a048b46a8a29fd5628c",
+            "source": null,
+            "uncertainty_type": 5,
+            "code": "GLO",
+            "name": null
+        }
+    }
+}

@@ -1,0 +1,261 @@
+{
+ "title": "Life Cycle Assessment of Octocrylene",
+ "workflow_id": "74268b26-a16d-44ec-bcee-1191a8499c5f",
+ "query": "I want LCI for Octocrylene produced in Europe.",
+ "start": "2026-11-02T14:21:49.543589+00:00",
+ "end": "2026-11-02T14:40:20.275741+00:00",
+ "minutes": 18.5,
+ "model": "claude-haiku-4-5-20251001",
+ "triples": 12582,
+ "counts": {
+  "llm_inferences": 262,
+  "tool_calls": 242,
+  "artifact_saves": 14,
+  "agents": 8,
+  "workflow_steps": 8,
+  "background_candidates": 143,
+  "data_nodes": 836
+ },
+ "tokens": 4852247,
+ "steps": [
+  {
+   "n": 1,
+   "label": "SMILES_identification",
+   "title": "Smiles Identification",
+   "start": "14:23:03",
+   "end": "14:23:07",
+   "seconds": 3.5,
+   "counts": {
+    "user": 1,
+    "tool": 1,
+    "llm": 1
+   },
+   "tokens": 3649,
+   "agents": {
+    "orchestrator_agent": 1
+   },
+   "tools": {
+    "get_chemical_from_pubchem": 1
+   },
+   "inputs": [],
+   "outputs": []
+  },
+  {
+   "n": 2,
+   "label": "retrosynthesis_prediction",
+   "title": "Retrosynthesis Prediction",
+   "start": "14:23:07",
+   "end": "14:23:23",
+   "seconds": 16.6,
+   "counts": {
+    "tool": 2,
+    "llm": 1
+   },
+   "tokens": 4095,
+   "agents": {
+    "orchestrator_agent": 1
+   },
+   "tools": {
+    "save_location": 1,
+    "predict_retrosynthesis": 1
+   },
+   "inputs": [],
+   "outputs": [
+    "retros"
+   ]
+  },
+  {
+   "n": 3,
+   "label": "synthesis_route_completion",
+   "title": "Synthesis Route Completion",
+   "start": "14:23:23",
+   "end": "14:27:56",
+   "seconds": 273.1,
+   "counts": {
+    "save": 1,
+    "llm": 130,
+    "tool": 140
+   },
+   "tokens": 1799212,
+   "agents": {
+    "SynthesisCompleter_agent": 63,
+    "EquationBalancer_agent": 61,
+    "orchestrator_agent": 6
+   },
+   "tools": {
+    "get_chemical_from_pubchem": 51,
+    "split_reaction_smiles": 20,
+    "validate_equation_balance": 13,
+    "balance_reaction_smiles": 11,
+    "identify_missing_atoms": 11,
+    "EquationBalancer_agent": 11,
+    "suggest_byproduct_combinations": 10,
+    "get_molecule_from_cir": 6,
+    "suggest_coreactant_combinations": 5,
+    "choose_retrosynthesis_route": 1,
+    "load_json": 1
+   },
+   "inputs": [
+    "retros"
+   ],
+   "outputs": [
+    "completed_route.json",
+    "retro_0.json"
+   ]
+  },
+  {
+   "n": 4,
+   "label": "process_completion",
+   "title": "Process Completion",
+   "start": "14:27:56",
+   "end": "14:31:51",
+   "seconds": 234.2,
+   "counts": {
+    "llm": 24,
+    "save": 4,
+    "tool": 3,
+    "user": 1
+   },
+   "tokens": 766250,
+   "agents": {
+    "ProcessDescriptor_agent": 14,
+    "orchestrator_agent": 10
+   },
+   "tools": {
+    "load_json": 3
+   },
+   "inputs": [
+    "completed_route.json",
+    "retro_0.json"
+   ],
+   "outputs": [
+    "completed_route.json",
+    "process_route.json"
+   ]
+  },
+  {
+   "n": 5,
+   "label": "inventory_draft",
+   "title": "Inventory Draft",
+   "start": "14:31:51",
+   "end": "14:32:47",
+   "seconds": 56.4,
+   "counts": {
+    "tool": 1,
+    "llm": 3,
+    "save": 1
+   },
+   "tokens": 95419,
+   "agents": {
+    "InventoryDrafter_agent": 2,
+    "orchestrator_agent": 1
+   },
+   "tools": {
+    "load_json": 1
+   },
+   "inputs": [
+    "completed_route.json",
+    "process_route.json"
+   ],
+   "outputs": [
+    "inventory_draft.json",
+    "process_route.json"
+   ]
+  },
+  {
+   "n": 6,
+   "label": "brightway_LCI",
+   "title": "Brightway Lci",
+   "start": "14:32:47",
+   "end": "14:38:26",
+   "seconds": 338.5,
+   "counts": {
+    "tool": 76,
+    "llm": 90,
+    "save": 7
+   },
+   "tokens": 1718154,
+   "agents": {
+    "EcoinventSearchAgent": 69,
+    "BW2LCIbuilder_agent": 19,
+    "orchestrator_agent": 2
+   },
+   "tools": {
+    "search_ecoinvent_processes": 35,
+    "EcoinventSearchAgent": 25,
+    "get_activities_embeddings": 6,
+    "validate_bw_inventory": 5,
+    "search_ecoinvent_flows": 3,
+    "load_json": 2
+   },
+   "inputs": [
+    "inventory_draft.json",
+    "process_route.json"
+   ],
+   "outputs": [
+    "bw_inventory.json",
+    "draft_LCI.json",
+    "inventory_draft.json"
+   ]
+  },
+  {
+   "n": 7,
+   "label": "lcia",
+   "title": "Lcia",
+   "start": "14:38:26",
+   "end": "14:40:00",
+   "seconds": 94.5,
+   "counts": {
+    "tool": 18,
+    "llm": 10,
+    "save": 1
+   },
+   "tokens": 259321,
+   "agents": {
+    "LCIA_agent": 7,
+    "orchestrator_agent": 3
+   },
+   "tools": {
+    "search_lcia_methods": 13,
+    "get_biosphere_flow": 2,
+    "load_json": 2,
+    "run_lcia": 1
+   },
+   "inputs": [
+    "bw_inventory.json",
+    "draft_LCI.json",
+    "inventory_draft.json"
+   ],
+   "outputs": [
+    "bw_inventory.json",
+    "lcia_results.json"
+   ]
+  },
+  {
+   "n": 8,
+   "label": "final_response",
+   "title": "Final Response",
+   "start": "14:40:00",
+   "end": "14:40:20",
+   "seconds": 19.6,
+   "counts": {
+    "llm": 3,
+    "tool": 1
+   },
+   "tokens": 206147,
+   "agents": {
+    "orchestrator_agent": 3
+   },
+   "tools": {
+    "load_json": 1
+   },
+   "inputs": [
+    "bw_inventory.json",
+    "lcia_results.json"
+   ],
+   "outputs": [
+    "lcia_results.json"
+   ]
+  }
+ ]
+}

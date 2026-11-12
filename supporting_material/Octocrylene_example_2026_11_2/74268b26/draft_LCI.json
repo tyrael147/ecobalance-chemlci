@@ -1,0 +1,27 @@
+{
+    "result": {
+        "inventory": {
+            "name": "Octocrylene production, GLO",
+            "comment": "Complete 7-step synthesis route for Octocrylene (2-ethylhexyl 2-cyano-3,3-diphenylprop-2-enoate), a UV filter for cosmetics. Normalized to 1 kg Octocrylene reference product.",
+            "source": "InventoryDrafter_agent",
+            "nodes": [
+                {
+                    "id": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "name": "Octocrylene production",
+                    "unit": "kg",
+                    "type": {
+                        "name": "process"
+                    },
+                    "location": {
+                        "code": "GLO"
+                    },
+                    "code": "default_code",
+                    "database": "default_database"
+                }
+            ]
+        },
+        "success": "Inventory format validated.",
+        "uncertainty_type": 4,
+        "source": "InventoryDrafter_agent"
+    }
+}

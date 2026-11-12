@@ -1,0 +1,468 @@
+{
+    "name": "Octocrylene production, EUR",
+    "comment": "Life Cycle Inventory for Octocrylene (2-ethylhexyl 2-cyano-3,3-diphenylprop-2-enoate), a UV filter for cosmetics. Transesterification route: Etocrylene + 2-ethylhexanol \u2192 Octocrylene. EUR region. Normalized to 1 kg product.",
+    "source": "BW2LCIbuilder_agent",
+    "nodes": [
+        {
+            "id": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+            "name": "Octocrylene production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "EUR"
+            },
+            "code": "foreground_fallback",
+            "database": "default_database",
+            "source": "BW2LCIbuilder_agent",
+            "product_information": "2-Ethylhexyl 2-cyano-3,3-diphenylprop-2-enoate. UV filter for cosmetics and sunscreens.",
+            "comment": "Transesterification of Etocrylene with 2-ethylhexanol. Acid-catalyzed at 60-120\u00b0C. Catalyst: TiCl4. Solvent: Toluene. Ethanol removal via distillation.",
+            "reference_flow": {
+                "id": "ac53d8f2-2014-4784-b1f9-5359511ed6b3",
+                "name": "Octocrylene",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Octocrylene"
+                },
+                "from_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                "source": "BW2LCIbuilder_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "7cfad0ac-7c60-4b5b-91a7-f94301324de9",
+                    "name": "Etocrylene",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.767,
+                    "comment": "Molar ratio normalized to 1 kg Octocrylene.",
+                    "flow_object": {
+                        "name": "Etocrylene"
+                    },
+                    "from_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "d3a31e88-a09a-4ae8-a5d6-e49c403bd6bf",
+                    "name": "2-Ethylhexanol",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.36,
+                    "comment": "Molar ratio normalized. MW 130.23: 130.23/361.5 = 0.360 kg",
+                    "flow_object": {
+                        "name": "2-Ethylhexanol"
+                    },
+                    "from_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "752d7392-0427-44fe-a381-61e286d96d26",
+                    "name": "Ethanol",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": -0.127,
+                    "comment": "By-product credit. System expansion credit.",
+                    "flow_object": {
+                        "name": "Ethanol"
+                    },
+                    "from_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "f7f6d6cd-0a27-42df-8981-b0b983eb8ff6",
+                    "name": "Toluene",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.3,
+                    "comment": "Solvent carrier, 30% of product mass. Recovered.",
+                    "flow_object": {
+                        "name": "Toluene"
+                    },
+                    "from_activity": "492a10e6-42c2-4dd1-8928-e4334b3cb87f",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "cb687756-6a63-4a36-b73a-ef9df52597f6",
+                    "name": "Electricity, medium voltage",
+                    "unit": "kWh",
+                    "type": "technosphere",
+                    "amount": 0.8,
+                    "comment": "Stirring, heating, distillation. 0.8 kWh per kg product.",
+                    "flow_object": {
+                        "name": "Electricity, medium voltage"
+                    },
+                    "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "e3a17e89-753e-4c4c-931e-30f0d3d6bfaa",
+                    "name": "Heat, process",
+                    "unit": "MJ",
+                    "type": "technosphere",
+                    "amount": 2.5,
+                    "comment": "Heating and distillation. 2.5 MJ per kg.",
+                    "flow_object": {
+                        "name": "Heat, process"
+                    },
+                    "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "266e7854-0de1-44f7-ae6a-256a32772085",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.15,
+                    "comment": "CO2 from combustion and solvent evaporation.",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": null,
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "3c58ba07-f313-4e72-b524-add905c52144",
+                    "name": "Waste water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.1,
+                    "comment": "From workup, neutralization, and washing.",
+                    "flow_object": {
+                        "name": "Waste water"
+                    },
+                    "from_activity": null,
+                    "to_activity": "d6fb93b2-a9cc-4f4f-a23b-7aa8f5d765f5",
+                    "source": "BW2LCIbuilder_agent"
+                }
+            ]
+        },
+        {
+            "id": "16c2e6be-38ea-41b2-a989-003785e541ed",
+            "name": "Etocrylene production",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "EUR"
+            },
+            "code": "foreground_fallback",
+            "database": "default_database",
+            "source": "BW2LCIbuilder_agent",
+            "product_information": "Ethyl 2-cyano-3,3-diphenylprop-2-enoate. UV-absorbing intermediate.",
+            "comment": "Knoevenagel condensation of ethyl cyanoacetate + benzophenone.",
+            "reference_flow": {
+                "id": "7f547577-8c55-4ff5-aab7-465d425f0efe",
+                "name": "Etocrylene",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Etocrylene"
+                },
+                "from_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                "source": "BW2LCIbuilder_agent"
+            },
+            "exchanges": [
+                {
+                    "id": "698e12f2-7b67-4ca1-afe9-88e46b75fd53",
+                    "name": "Piperidine",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.01,
+                    "comment": "Base catalyst at ~1 wt%.",
+                    "flow_object": {
+                        "name": "Piperidine"
+                    },
+                    "from_activity": "97473956-04d2-4547-b740-ea7bc1808926",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "54c37470-7568-4d09-8ba2-5910552c4bba",
+                    "name": "Dimethylformamide",
+                    "unit": "kg",
+                    "type": "technosphere",
+                    "amount": 0.5,
+                    "comment": "Solvent, 50% of product mass. Recovered.",
+                    "flow_object": {
+                        "name": "Dimethylformamide"
+                    },
+                    "from_activity": "4f8808d4-349d-4059-8aa6-858591ffc996",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "6121c8bb-c169-40e8-b231-26a50f1cfd0c",
+                    "name": "Electricity, medium voltage",
+                    "unit": "kWh",
+                    "type": "technosphere",
+                    "amount": 0.6,
+                    "comment": "Stirring and temperature control. 0.6 kWh per kg.",
+                    "flow_object": {
+                        "name": "Electricity, medium voltage"
+                    },
+                    "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "71696022-4503-4938-adf2-d3f3f37a1c0b",
+                    "name": "Heat, process",
+                    "unit": "MJ",
+                    "type": "technosphere",
+                    "amount": 1.2,
+                    "comment": "Heating to 25-80\u00b0C. 1.2 MJ per kg.",
+                    "flow_object": {
+                        "name": "Heat, process"
+                    },
+                    "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "d7c5592d-fbf5-49d7-9a3d-cb98f0fc0e5c",
+                    "name": "Carbon dioxide",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.08,
+                    "comment": "CO2 from solvent evaporation and heating.",
+                    "flow_object": {
+                        "name": "Carbon dioxide"
+                    },
+                    "from_activity": null,
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "BW2LCIbuilder_agent"
+                },
+                {
+                    "id": "bcc5b8ed-1786-4cb7-adb2-876dfa743545",
+                    "name": "Waste water",
+                    "unit": "kg",
+                    "type": "biosphere",
+                    "amount": 0.05,
+                    "comment": "From washing and workup.",
+                    "flow_object": {
+                        "name": "Waste water"
+                    },
+                    "from_activity": null,
+                    "to_activity": "16c2e6be-38ea-41b2-a989-003785e541ed",
+                    "source": "BW2LCIbuilder_agent"
+                }
+            ]
+        },
+        {
+            "id": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+            "name": "2-Ethylhexanol",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "RER"
+            },
+            "code": "2e2c4eb4dd68b21a3f24ca67b336e581",
+            "database": "ecoinvent-3.12-cutoff",
+            "source": "BW2LCIbuilder_agent",
+            "product_information": "2-Ethylhexan-1-ol. Industrial commodity.",
+            "reference_flow": {
+                "id": "d886189b-fa12-48ed-962b-bae1868bb50b",
+                "name": "2-Ethylhexanol",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "2-Ethylhexanol"
+                },
+                "from_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                "to_activity": "686ed7fe-e7d9-4e0b-a34f-78903e452b83",
+                "source": "BW2LCIbuilder_agent"
+            },
+            "exchanges": []
+        },
+        {
+            "id": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+            "name": "Ethanol",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "RER"
+            },
+            "code": "8d982b04a3d0b5c92e9c6ecf78f05eb9",
+            "database": "ecoinvent-3.12-cutoff",
+            "source": "BW2LCIbuilder_agent",
+            "product_information": "Ethanol, without water, 99.7% solution from ethylene.",
+            "reference_flow": {
+                "id": "9c298308-48ce-455f-aa13-dc45b566ba9b",
+                "name": "Ethanol",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Ethanol"
+                },
+                "from_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                "to_activity": "ca534c84-6dbd-442c-b6c7-5e5ed7157010",
+                "source": "BW2LCIbuilder_agent"
+            },
+            "exchanges": []
+        },
+        {
+            "id": "492a10e6-42c2-4dd1-8928-e4334b3cb87f",
+            "name": "Toluene",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "RER"
+            },
+            "code": "7070b6839977adca657540b38cb5d158",
+            "database": "ecoinvent-3.12-cutoff",
+            "source": "BW2LCIbuilder_agent",
+            "product_information": "Toluene, liquid. Aromatic solvent.",
+            "reference_flow": {
+                "id": "a9c0f7a6-b1c3-4d1f-a3e5-2f9b8c6d7a5e",
+                "name": "Toluene",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Toluene"
+                },
+                "from_activity": "492a10e6-42c2-4dd1-8928-e4334b3cb87f",
+                "to_activity": "492a10e6-42c2-4dd1-8928-e4334b3cb87f",
+                "source": "BW2LCIbuilder_agent"
+            },
+            "exchanges": []
+        },
+        {
+            "id": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+            "name": "Electricity, medium voltage",
+            "unit": "kWh",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "RER"
+            },
+            "code": "42ec2f4634364ee86921b4c6dfe2de31",
+            "database": "ecoinvent-3.12-cutoff",
+            "source": "BW2LCIbuilder_agent",
+            "product_information": "Electricity, medium voltage. Utility grid.",
+            "reference_flow": {
+                "id": "b2c1e9a5-6f3d-4a8b-9c7e-5d2f1a8b6c9e",
+                "name": "Electricity, medium voltage",
+                "unit": "kWh",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Electricity, medium voltage"
+                },
+                "from_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                "to_activity": "02bf65ed-b1de-4843-ac49-ba1a643fba63",
+                "source": "BW2LCIbuilder_agent"
+            },
+            "exchanges": []
+        },
+        {
+            "id": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+            "name": "Heat, process",
+            "unit": "MJ",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "RER"
+            },
+            "code": "8c67b38f777f6a40004833818fb1ae62",
+            "database": "ecoinvent-3.12-cutoff",
+            "source": "BW2LCIbuilder_agent",
+            "product_information": "Heat, from steam, in chemical industry.",
+            "reference_flow": {
+                "id": "c3d2f1a8-9b7c-4e6f-8d5a-3c2b1e9f7a6d",
+                "name": "Heat, process",
+                "unit": "MJ",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Heat, process"
+                },
+                "from_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                "to_activity": "84d71d50-d98a-47e0-805f-8790e540a4ce",
+                "source": "BW2LCIbuilder_agent"
+            },
+            "exchanges": []
+        },
+        {
+            "id": "97473956-04d2-4547-b740-ea7bc1808926",
+            "name": "Piperidine",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "RER"
+            },
+            "code": "02c05f87fdecc378dcfe88dabfc90f9a",
+            "database": "ecoinvent-3.12-cutoff",
+            "source": "BW2LCIbuilder_agent",
+            "product_information": "Piperidine. Base catalyst.",
+            "reference_flow": {
+                "id": "d4e5f6a7-b8c9-0123-defa-234567890124",
+                "name": "Piperidine",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Piperidine"
+                },
+                "from_activity": "97473956-04d2-4547-b740-ea7bc1808926",
+                "to_activity": "97473956-04d2-4547-b740-ea7bc1808926",
+                "source": "BW2LCIbuilder_agent"
+            },
+            "exchanges": []
+        },
+        {
+            "id": "4f8808d4-349d-4059-8aa6-858591ffc996",
+            "name": "Dimethylformamide",
+            "unit": "kg",
+            "type": {
+                "name": "process"
+            },
+            "location": {
+                "code": "RER"
+            },
+            "code": "c2143c330c38340901a6a87957fcad43",
+            "database": "ecoinvent-3.12-cutoff",
+            "source": "BW2LCIbuilder_agent",
+            "product_information": "N,N-Dimethylformamide. Polar aprotic solvent.",
+            "reference_flow": {
+                "id": "e5f6a7b8-c9d0-1234-efab-345678901235",
+                "name": "Dimethylformamide",
+                "unit": "kg",
+                "type": "production",
+                "amount": 1.0,
+                "flow_object": {
+                    "name": "Dimethylformamide"
+                },
+                "from_activity": "4f8808d4-349d-4059-8aa6-858591ffc996",
+                "to_activity": "4f8808d4-349d-4059-8aa6-858591ffc996",
+                "source": "BW2LCIbuilder_agent"
+            },
+            "exchanges": []
+        }
+    ]
+}

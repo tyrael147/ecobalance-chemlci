@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 462" width="980" height="462" style="font-variant-numeric:lining-nums;font-feature-settings:'lnum'">
+<title>Provenance classes of LifeCycleOnto.ttl used by adk_prov</title>
+<g id="onto">
+<path d="M249 66 L127 66" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M127 66 L135 61.8 L135 70.2 Z" fill="#353535"/>
+<rect x="140.3" y="57" width="95.5" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="188" y="69.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">wasAssociatedWith</text>
+<path d="M335 66 L477 66" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M477 66 L469 70.2 L469 61.8 Z" fill="#353535"/>
+<rect x="373.9" y="57" width="64.3" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="406" y="69.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">hasSoftware</text>
+<path d="M335 66 Q592 -46 849 66" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M849 66 L840 66.7 L843.3 59 Z" fill="#353535"/>
+<rect x="564.2" y="1" width="55.6" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="592" y="13.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">hasOutput</text>
+<path d="M292 109 L292 177" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292 177 L287.8 169 L296.2 169 Z" fill="#353535"/>
+<rect x="251.7" y="134" width="80.5" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="292" y="146.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">hasSubProcess</text>
+<path d="M249 220 L127 220" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M127 220 L135 215.8 L135 224.2 Z" fill="#353535"/>
+<rect x="147.7" y="211" width="80.5" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="188" y="223.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">hasSubProcess</text>
+<path d="M335 220 L457 220" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M457 220 L449 224.2 L449 215.8 Z" fill="#353535"/>
+<rect x="355.7" y="211" width="80.5" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="396" y="223.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">hasSubProcess</text>
+<path d="M543 220 L665 220" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M665 220 L657 224.2 L657 215.8 Z" fill="#353535"/>
+<rect x="571.9" y="211" width="64.3" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="604" y="223.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">hasSoftware</text>
+<path d="M751 220 L871 220" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M871 220 L863 224.2 L863 215.8 Z" fill="#353535"/>
+<rect x="768.9" y="211" width="84.3" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="811" y="223.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">implementsModel</text>
+<path d="M674.7 192.8 L553.3 93.2" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"/>
+<path d="M553.3 93.2 L563.4 95.1 L557.1 102.8 Z" fill="#ffffff"/>
+<path d="M553.3 93.2 L563.4 95.1 L557.1 102.8 Z" fill="none" stroke="#353535" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="584.9" y="135" width="58.1" height="15" rx="0" fill="#fcf6d7" stroke="none" stroke-width="1.5"/>
+<text x="614" y="146.5" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#353535" text-anchor="middle" font-style="italic">Subclass of</text>
+<path d="M84 263 L84 331" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84 331 L79.8 323 L88.2 323 Z" fill="#353535"/>
+<rect x="41.9" y="288" width="84.3" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="84" y="300.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">used, generated</text>
+<path d="M120.5 242.7 L295.5 351.3" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M295.5 351.3 L286.5 350.7 L290.9 343.5 Z" fill="#353535"/>
+<rect x="160.3" y="288" width="95.5" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="208" y="300.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">wasAssociatedWith</text>
+<path d="M468.3 249.1 L363.7 344.9" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M363.7 344.9 L366.8 336.4 L372.4 342.6 Z" fill="#353535"/>
+<rect x="384.2" y="288" width="63.7" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="416" y="300.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">executedBy</text>
+<path d="M517.8 259.1 L552.2 334.9" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M552.2 334.9 L545.1 329.3 L552.7 325.8 Z" fill="#353535"/>
+<rect x="518.8" y="288" width="32.5" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="535" y="300.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">used</text>
+<path d="M536.9 242 L721.1 352" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M721.1 352 L712.1 351.5 L716.4 344.3 Z" fill="#353535"/>
+<rect x="601.2" y="288" width="55.6" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="629" y="300.6" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">generated</text>
+<path d="M250.3 209.6 C192.6 215.7 277.3 121.6 277.3 179.6" fill="none" stroke="#353535" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M277.3 179.6 L273.1 171.6 L281.5 171.6 Z" fill="#353535"/>
+<rect x="186.7" y="154.1" width="84.3" height="17" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="228.8" y="166.7" font-family="Raleway, Arial, sans-serif" font-size="10.4" fill="#353535" text-anchor="middle">isPredecessorOf</text>
+<circle cx="84" cy="66" r="43" fill="#aaccff" stroke="#353535" stroke-width="1.6"><title>lcont:User</title></circle>
+<text x="84" y="55.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-weight="bold">lcont:</text>
+<text x="84" y="69" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="middle" font-weight="bold">User</text>
+<text x="84" y="122" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#6b6b6b" text-anchor="middle" font-style="italic">⊑ prov:Person</text>
+<circle cx="292" cy="66" r="43" fill="#aaccff" stroke="#353535" stroke-width="1.6"><title>lcont:Computation</title></circle>
+<text x="292" y="55.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-weight="bold">lcont:</text>
+<text x="292" y="69" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="middle" font-weight="bold">Computation</text>
+<text x="292" y="17" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#6b6b6b" text-anchor="middle" font-style="italic">⊑ ssbd:Computation</text>
+<circle cx="520" cy="66" r="43" fill="#3366cc" stroke="#353535" stroke-width="1.6"><title>ssbd:Software</title></circle>
+<text x="520" y="55.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold">ssbd:</text>
+<text x="520" y="69" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#ffffff" text-anchor="middle" font-weight="bold">Software</text>
+<circle cx="892" cy="66" r="43" fill="#3366cc" stroke="#353535" stroke-width="1.6"><title>ssbd:Dataset</title></circle>
+<text x="892" y="55.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold">ssbd:</text>
+<text x="892" y="69" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#ffffff" text-anchor="middle" font-weight="bold">Dataset</text>
+<text x="892" y="122" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#6b6b6b" text-anchor="middle" font-style="italic">⊑ ssbd:Data</text>
+<circle cx="84" cy="220" r="43" fill="#aaccff" stroke="#353535" stroke-width="1.6"><title>lcont:ToolCall</title></circle>
+<text x="84" y="209.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-weight="bold">lcont:</text>
+<text x="84" y="223" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="middle" font-weight="bold">ToolCall</text>
+<text x="84" y="171" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#6b6b6b" text-anchor="middle" font-style="italic">⊑ lcont:Computation</text>
+<circle cx="292" cy="220" r="43" fill="#aaccff" stroke="#353535" stroke-width="1.6"><title>lcont:WorkflowStep</title></circle>
+<text x="292" y="209.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-weight="bold">lcont:</text>
+<text x="292" y="223" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="middle" font-weight="bold">WorkflowStep</text>
+<text x="292" y="276" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#6b6b6b" text-anchor="middle" font-style="italic">⊑ ssbd:Process</text>
+<circle cx="500" cy="220" r="43" fill="#aaccff" stroke="#353535" stroke-width="1.6"><title>lcont:LLMInference</title></circle>
+<text x="500" y="209.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-weight="bold">lcont:</text>
+<text x="500" y="223" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="middle" font-weight="bold">LLMInference</text>
+<text x="500" y="171" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#6b6b6b" text-anchor="middle" font-style="italic">⊑ lcont:Computation</text>
+<circle cx="708" cy="220" r="43" fill="#aaccff" stroke="#353535" stroke-width="1.6"><title>lcont:LLMSoftware</title></circle>
+<text x="708" y="209.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-weight="bold">lcont:</text>
+<text x="708" y="223" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="middle" font-weight="bold">LLMSoftware</text>
+<circle cx="914" cy="220" r="43" fill="#3366cc" stroke="#353535" stroke-width="1.6"><title>ssbd:LargeLanguageModel</title></circle>
+<text x="914" y="196.7" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold">ssbd:</text>
+<text x="914" y="210.4" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#ffffff" text-anchor="middle" font-weight="bold">Large</text>
+<text x="914" y="223" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#ffffff" text-anchor="middle" font-weight="bold">Language</text>
+<text x="914" y="235.6" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#ffffff" text-anchor="middle" font-weight="bold">Model</text>
+<circle cx="84" cy="374" r="43" fill="#3366cc" stroke="#353535" stroke-width="1.6"><title>ssbd:Data</title></circle>
+<text x="84" y="363.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold">ssbd:</text>
+<text x="84" y="377" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#ffffff" text-anchor="middle" font-weight="bold">Data</text>
+<circle cx="332" cy="374" r="43" fill="#aaccff" stroke="#353535" stroke-width="1.6"><title>lcont:LLMAgent</title></circle>
+<text x="332" y="363.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-weight="bold">lcont:</text>
+<text x="332" y="377" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="middle" font-weight="bold">LLMAgent</text>
+<text x="332" y="430" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#6b6b6b" text-anchor="middle" font-style="italic">⊑ prov:SoftwareAgent</text>
+<circle cx="570" cy="374" r="43" fill="#aaccff" stroke="#353535" stroke-width="1.6"><title>lcont:Prompt</title></circle>
+<text x="570" y="363.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-weight="bold">lcont:</text>
+<text x="570" y="377" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="middle" font-weight="bold">Prompt</text>
+<text x="570" y="430" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#6b6b6b" text-anchor="middle" font-style="italic">⊑ ssbd:Information</text>
+<circle cx="758" cy="374" r="43" fill="#aaccff" stroke="#353535" stroke-width="1.6"><title>lcont:LLMResponse</title></circle>
+<text x="758" y="363.4" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#f46524" text-anchor="middle" font-weight="bold">lcont:</text>
+<text x="758" y="377" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="middle" font-weight="bold">LLMResponse</text>
+<text x="758" y="430" font-family="Raleway, Arial, sans-serif" font-size="9.6" fill="#6b6b6b" text-anchor="middle" font-style="italic">⊑ ssbd:Information</text>
+<g id="legend-onto">
+<path d="M4 441 h8 l4 4 v10 h-12 Z" fill="#ffffff" stroke="#353535" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="21" y="452" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="start" font-weight="bold">LifeCycleOnto.ttl</text>
+<circle cx="144.3" cy="448" r="7" fill="#aaccff" stroke="#353535" stroke-width="1"/>
+<text x="155.3" y="452" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="start">lcont class (LIST, this work)</text>
+<circle cx="325.8" cy="448" r="7" fill="#3366cc" stroke="#353535" stroke-width="1"/>
+<text x="336.8" y="452" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="start">reused class (SSbD core)</text>
+<rect x="485.6" y="441" width="26" height="14" rx="0" fill="#aaccff" stroke="none" stroke-width="1.5"/>
+<text x="517.6" y="452" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="start">object property</text>
+<line x1="615.3" y1="448" x2="643.3" y2="448" stroke="#353535" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="5 3"/>
+<text x="649.3" y="452" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#353535" text-anchor="start">subclass of</text>
+<text x="730.2" y="452" font-family="Raleway, Arial, sans-serif" font-size="10.8" fill="#6b6b6b" text-anchor="start" font-style="italic">⊑ superclass</text>
+</g>
+</g>
+</svg>

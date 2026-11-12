@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 851" width="2000" height="851" style="font-variant-numeric:lining-nums;font-feature-settings:'lnum'">
+<title>LCA tasks within Safe and Sustainable by Design (molecular, process and product context)</title>
+
+<!-- 'by design' context regions (drawn under the grey flows) -->
+<g id="ctx-molecular">
+<rect x="5" y="588" width="693" height="257" rx="28" fill="#d9e5fb"/>
+</g>
+<g id="ctx-process">
+<rect x="377" y="163" width="321" height="392" rx="28" fill="#cbe8bd"/>
+</g>
+<g id="ctx-product">
+<rect x="1009" y="163" width="353" height="392" rx="28" fill="#f6ccfc"/>
+</g>
+
+<!-- grey flows: translucent so the context colours show through -->
+<g id="flow-main" opacity="0.6" fill="#b7b7b7">
+<rect x="333" y="317" width="1339" height="185"/>
+<path d="M333 5 A300 403.5 0 0 1 333 812 V627 A102 218.5 0 0 0 333 190 Z"/>
+</g>
+<g id="flow-background" opacity="0.6" fill="#b7b7b7">
+<path d="M333 5 H1003 A287 312 0 0 1 1290 317 H1100 A97 127 0 0 0 1003 190 H333 Z"/>
+</g>
+
+<!-- task boxes -->
+<g id="box-supply">
+<rect x="55" y="5" width="278" height="185" fill="#024981"/>
+<g font-family="Raleway, Arial, sans-serif" fill="#ffffff" text-anchor="middle" font-weight="500">
+<text x="194" y="43" font-size="28" font-weight="bold">Supply network</text>
+<text x="194" y="75" font-size="28" font-weight="bold">model</text>
+<text x="194" y="136" font-size="24">Background Life</text>
+<text x="194" y="167" font-size="24">Cycle Inventory</text>
+</g>
+</g>
+<g id="box-goal">
+<rect x="55" y="317" width="278" height="185" fill="#024981"/>
+<g font-family="Raleway, Arial, sans-serif" fill="#ffffff" text-anchor="middle" font-weight="500">
+<text x="194" y="372" font-size="28" font-weight="bold">Goal &amp; scope</text>
+<text x="194" y="433" font-size="24">System boundaries</text>
+<text x="194" y="464" font-size="24">&amp; functional unit</text>
+</g>
+</g>
+<g id="box-candidate">
+<rect x="55" y="627" width="278" height="185" fill="#e66200"/>
+<g font-family="Raleway, Arial, sans-serif" fill="#ffffff" text-anchor="middle" font-weight="500">
+<text x="194" y="682" font-size="28" font-weight="bold">ChAM candidate</text>
+<text x="194" y="743" font-size="24">Molecular and</text>
+<text x="194" y="775" font-size="24">structural properties</text>
+</g>
+</g>
+<g id="box-cham-lcia">
+<rect x="737" y="317" width="233" height="185" fill="#024981"/>
+<g font-family="Raleway, Arial, sans-serif" fill="#ffffff" text-anchor="middle" font-weight="500">
+<text x="854" y="372" font-size="28" font-weight="bold">ChAM</text>
+<text x="854" y="433" font-size="24">Life Cycle Impact</text>
+<text x="854" y="464" font-size="24">Assessment</text>
+</g>
+<text x="854" y="540" font-family="Raleway, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" font-weight="500">(cradle-to-gate)</text>
+</g>
+<g id="box-product-lcia">
+<rect x="1400" y="317" width="233" height="185" fill="#024981"/>
+<g font-family="Raleway, Arial, sans-serif" fill="#ffffff" text-anchor="middle" font-weight="500">
+<text x="1517" y="372" font-size="28" font-weight="bold">Product</text>
+<text x="1517" y="433" font-size="24">Life Cycle Impact</text>
+<text x="1517" y="464" font-size="24">Assessment</text>
+</g>
+<text x="1517" y="536" font-family="Raleway, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" font-weight="500">(cradle-to-grave)</text>
+</g>
+<g id="impact-arrow">
+<path d="M1672 317 H1893 V280 L1995 410 L1893 540 V502 H1672 Z" fill="#e66200"/>
+<g font-family="Raleway, Arial, sans-serif" font-size="29" font-weight="bold" fill="#ffffff" text-anchor="middle">
+<text x="1797" y="386">Life Cycle</text>
+<text x="1797" y="418">environmental</text>
+<text x="1797" y="450">impact</text>
+</g>
+</g>
+
+<!-- candidate molecule (molecular context) -->
+<g id="candidate-molecule">
+<g transform="translate(428 641)" stroke="#555555" stroke-width="3" fill="none" stroke-linejoin="round">
+<path d="M0 -26 L22.5 -13 V13 L0 26 L-22.5 13 V-13 Z"/>
+<path d="M22.5 -13 L40 -24 M-22.5 13 L-40 24"/>
+<g fill="#ffffff" stroke-width="2.6">
+<circle cx="0" cy="-26" r="4.6"/><circle cx="22.5" cy="-13" r="4.6"/><circle cx="22.5" cy="13" r="4.6"/>
+<circle cx="0" cy="26" r="4.6"/><circle cx="-22.5" cy="13" r="4.6"/><circle cx="-22.5" cy="-13" r="4.6"/>
+</g>
+</g>
+<g font-family="Raleway, Arial, sans-serif" font-size="24" fill="#5f5f5f" text-anchor="middle" font-weight="500">
+<text x="418" y="711">ChAM</text>
+<text x="418" y="738">candidate</text>
+</g>
+</g>
+
+<!-- ChAM production (process context) -->
+<g id="process-cham">
+<!-- beaker: reactants -->
+<g transform="translate(443 233)">
+<circle cx="-6" cy="-36" r="3.4" fill="#333333"/><circle cx="3" cy="-41" r="2.6" fill="#333333"/><circle cx="5" cy="-31" r="4.2" fill="#333333"/>
+<path d="M-19 -24 H17 V20 Q17 28 9 28 H-9 Q-17 28 -17 20 V-18 Z" fill="#333333"/>
+<path d="M2 -12 H11 M-4 -4 H11 M2 4 H11 M-4 12 H11" stroke="#ffffff" stroke-width="2.6"/>
+</g>
+<!-- pylon: electricity -->
+<g transform="translate(590 228)" stroke="#333333" stroke-width="2.6" fill="none" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-4 -30 L0 -38 L4 -30 M-4 -30 L-20 38 M4 -30 L20 38"/>
+<path d="M-20 -22 H20 M-20 -22 L-6 -15 M20 -22 L6 -15 M-20 -22 V-16 M20 -22 V-16"/>
+<path d="M-27 -6 H27 M-27 -6 L-9 1 M27 -6 L9 1 M-27 -6 V0 M27 -6 V0"/>
+<path d="M-6 -15 H6 M-9 1 H9 M-13 19 H13 M-6 -15 L9 1 M6 -15 L-9 1 M-9 1 L13 19 M9 1 L-13 19 M-13 19 L20 38 M13 19 L-20 38"/>
+</g>
+<g font-family="Raleway, Arial, sans-serif" font-size="24" fill="#333333" text-anchor="middle" font-weight="500">
+<text x="447" y="289">reactants</text>
+<text x="588" y="289">electricity</text>
+</g>
+<!-- inputs merge into production -->
+<path d="M447 307 V345 H588 V307 M520 345 V373" stroke="#222222" stroke-width="2.6" fill="none"/>
+<path d="M520 385 L513.5 371 H526.5 Z" fill="#222222"/>
+<text x="522" y="333" font-family="Raleway, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle">...</text>
+<text x="546" y="358" font-family="Raleway, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle">...</text>
+<!-- factory -->
+<g transform="translate(487 371)">
+<path d="M0 79 V0 H13 V36 L31 24 V36 L49 24 V36 L67 24 V36 H75 V79 Z" fill="#111111"/>
+<rect x="15" y="57" width="11" height="10" fill="#ffffff"/><rect x="32" y="57" width="11" height="10" fill="#ffffff"/><rect x="49" y="57" width="11" height="10" fill="#ffffff"/>
+</g>
+<text x="526" y="476" font-family="Raleway, Arial, sans-serif" font-size="24" fill="#111111" text-anchor="middle" font-weight="500">production</text>
+<!-- flask: ChAM output -->
+<g transform="translate(625 347)" fill="#111111">
+<circle cx="-2" cy="-14" r="3.2"/><circle cx="4" cy="-21" r="2.6"/><circle cx="-1" cy="-27" r="2.2"/><circle cx="4" cy="-8" r="2.4"/>
+<rect x="-7" y="-3" width="14" height="4"/>
+<path d="M-5 0 H5 V16 L18 50 Q20 57 13 57 H-13 Q-20 57 -18 50 L-5 16 Z"/>
+</g>
+<text x="623" y="434" font-family="Raleway, Arial, sans-serif" font-size="24" fill="#111111" text-anchor="middle" font-weight="500">ChAM</text>
+<path d="M583 447 H672" stroke="#111111" stroke-width="3"/>
+<path d="M687 447 L670 439 V455 Z" fill="#111111"/>
+</g>
+
+<!-- product formulation (product context) -->
+<g id="process-product">
+<!-- box: supplies -->
+<g transform="translate(1100 229)">
+<path d="M0 -29 L26 -15 V15 L0 29 L-26 15 V-15 Z" fill="#383838"/>
+<path d="M-26 -15 L0 -1 L26 -15 M0 -1 V29" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+<path d="M-13 -22 L13 -8" stroke="#ffffff" stroke-width="4"/>
+</g>
+<!-- pylon: electricity -->
+<g transform="translate(1242 226)" stroke="#333333" stroke-width="2.6" fill="none" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-4 -30 L0 -38 L4 -30 M-4 -30 L-20 38 M4 -30 L20 38"/>
+<path d="M-20 -22 H20 M-20 -22 L-6 -15 M20 -22 L6 -15 M-20 -22 V-16 M20 -22 V-16"/>
+<path d="M-27 -6 H27 M-27 -6 L-9 1 M27 -6 L9 1 M-27 -6 V0 M27 -6 V0"/>
+<path d="M-6 -15 H6 M-9 1 H9 M-13 19 H13 M-6 -15 L9 1 M6 -15 L-9 1 M-9 1 L13 19 M9 1 L-13 19 M-13 19 L20 38 M13 19 L-20 38"/>
+</g>
+<g font-family="Raleway, Arial, sans-serif" font-size="24" fill="#333333" text-anchor="middle" font-weight="500">
+<text x="1100" y="287">supplies</text>
+<text x="1240" y="287">electricity</text>
+</g>
+<path d="M1100 303 V343 H1242 V303 M1175 343 V370" stroke="#222222" stroke-width="2.6" fill="none"/>
+<path d="M1175 382 L1168.5 368 H1181.5 Z" fill="#222222"/>
+<text x="1172" y="331" font-family="Raleway, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle">...</text>
+<!-- flask: ChAM input -->
+<g transform="translate(1063 357)" fill="#111111">
+<circle cx="-2" cy="-14" r="3.2"/><circle cx="4" cy="-21" r="2.6"/><circle cx="-1" cy="-27" r="2.2"/><circle cx="4" cy="-8" r="2.4"/>
+<rect x="-7" y="-3" width="14" height="4"/>
+<path d="M-5 0 H5 V16 L18 47 Q20 53 13 53 H-13 Q-20 53 -18 47 L-5 16 Z"/>
+</g>
+<text x="1060" y="433" font-family="Raleway, Arial, sans-serif" font-size="24" fill="#111111" text-anchor="middle" font-weight="500">ChAM</text>
+<path d="M1018 446 H1106" stroke="#111111" stroke-width="3"/>
+<path d="M1121 446 L1104 438 V454 Z" fill="#111111"/>
+<!-- factory -->
+<g transform="translate(1133 369)">
+<path d="M0 79 V0 H13 V36 L31 24 V36 L49 24 V36 L67 24 V36 H75 V79 Z" fill="#111111"/>
+<rect x="15" y="57" width="11" height="10" fill="#ffffff"/><rect x="32" y="57" width="11" height="10" fill="#ffffff"/><rect x="49" y="57" width="11" height="10" fill="#ffffff"/>
+</g>
+<text x="1172" y="473" font-family="Raleway, Arial, sans-serif" font-size="24" fill="#111111" text-anchor="middle" font-weight="500">production</text>
+<!-- products: lipstick, spray can, brick wall -->
+<g transform="translate(1237 352)">
+<path d="M3 20 L3 6 L10 0 V20 Z" fill="#111111"/>
+<rect x="1" y="21" width="11" height="10" fill="#111111"/>
+<rect x="0" y="33" width="13" height="31" rx="1.5" fill="#111111"/>
+<g stroke="#111111" stroke-width="2.2" fill="none" stroke-linejoin="round">
+<rect x="20" y="22" width="16" height="38" rx="3"/>
+<path d="M22 22 Q28 13 34 22 M26 15 V9 H32 V13"/>
+</g>
+<g stroke="#111111" stroke-width="1.6" stroke-linecap="round">
+<path d="M36 10 L44 6 M36 12 L45 12 M36 14 L44 18"/>
+</g>
+<g stroke="#111111" stroke-width="2" fill="none">
+<path d="M42 30 H74 M42 42 H74 M42 54 H74 M58 21 V30 M50 30 V42 M66 30 V42 M58 42 V54"/>
+</g>
+</g>
+<text x="1278" y="433" font-family="Raleway, Arial, sans-serif" font-size="24" fill="#111111" text-anchor="middle" font-weight="500">product</text>
+<path d="M1228 446 H1337" stroke="#111111" stroke-width="3"/>
+<path d="M1352 446 L1335 438 V454 Z" fill="#111111"/>
+</g>
+
+<!-- legends -->
+<g id="legend-tasks" font-family="Raleway, Arial, sans-serif" font-size="24" fill="#111111" font-weight="500">
+<text x="1685" y="30" font-weight="bold">Tasks</text>
+<rect x="1683" y="56" width="56" height="32" rx="4" fill="#024981"/>
+<text x="1760" y="80">LCA specific</text>
+<rect x="1683" y="107" width="56" height="32" rx="4" fill="#e66200"/>
+<text x="1760" y="131">From / to SSbD</text>
+</g>
+<g id="legend-context" font-family="Raleway, Arial, sans-serif" font-size="24" fill="#111111" font-weight="500">
+<text x="1015" y="686" font-weight="bold">‘By design’ context</text>
+<rect x="1020" y="710" width="57" height="33" rx="4" fill="#d9e5fb"/>
+<text x="1090" y="736">Molecular</text>
+<rect x="1020" y="761" width="57" height="33" rx="4" fill="#cbe8bd"/>
+<text x="1090" y="786">Process</text>
+<rect x="1020" y="812" width="57" height="33" rx="4" fill="#f6ccfc"/>
+<text x="1090" y="836">Product</text>
+</g>
+</svg>

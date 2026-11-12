@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 944 470" width="944" height="470" style="font-variant-numeric:lining-nums;font-feature-settings:'lnum'">
+<title>lca_models: pydantic classes mapped to ontology classes</title>
+<g id="pkg-labels">
+<rect x="2" y="4" width="372" height="464" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" opacity="0.28"/>
+<rect x="378" y="4" width="374" height="464" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" opacity="0.28"/>
+<rect x="756" y="4" width="186" height="356" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" opacity="0.28"/>
+<text x="10" y="24" font-family="Raleway, Arial, sans-serif" font-size="12" fill="#353535" text-anchor="start" font-weight="bold">lca_models.chemistry</text>
+<text x="386" y="24" font-family="Raleway, Arial, sans-serif" font-size="12" fill="#353535" text-anchor="start" font-weight="bold">lca_models.core: LCI</text>
+<text x="764" y="24" font-family="Raleway, Arial, sans-serif" font-size="12" fill="#353535" text-anchor="start" font-weight="bold">lca_models.core: LCIA</text>
+</g>
+<g id="edges">
+<path d="M184 106.5 C200 106.5 200 162 189.9 162" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M184 162 L191 158.4 L191 165.6 Z" fill="#9a9a9a"/><path d="M184 106.5 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M184 321 C188 321 188 54 186.1 54" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M192 54 L185 57.6 L185 50.4 Z" fill="#9a9a9a"/><path d="M184 321 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M368 120 C384 120 384 188 373.9 188" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M368 188 L375 184.4 L375 191.6 Z" fill="#9a9a9a"/><path d="M368 120 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M368 93 C384 93 384 370 373.9 370" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M368 370 L375 366.4 L375 373.6 Z" fill="#9a9a9a"/><path d="M368 93 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M368 231 C384 231 384 286 373.9 286" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M368 286 L375 282.4 L375 289.6 Z" fill="#9a9a9a"/><path d="M368 231 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M368 315.5 C384 315.5 384 370 373.9 370" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M368 370 L375 366.4 L375 373.6 Z" fill="#9a9a9a"/><path d="M368 315.5 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M560 106.5 C576 106.5 576 150 566 150" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M560 150 L567 146.4 L567 153.6 Z" fill="#9a9a9a"/><path d="M560 106.5 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M560 260.5 C564 260.5 564 54 562 54" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M568 54 L561 57.6 L561 50.4 Z" fill="#9a9a9a"/><path d="M560 260.5 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M560 206.5 C564 206.5 564 330 562 330" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M568 330 L561 333.6 L561 326.4 Z" fill="#9a9a9a"/><path d="M560 206.5 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M744 160.5 C760 160.5 760 228 750 228" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M744 228 L751 224.4 L751 231.6 Z" fill="#9a9a9a"/><path d="M744 160.5 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M936 106.5 C952 106.5 952 162 942 162" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M936 162 L943 158.4 L943 165.6 Z" fill="#9a9a9a"/><path d="M936 106.5 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M936 245.5 C952 245.5 952 288 942 288" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M936 288 L943 284.4 L943 291.6 Z" fill="#9a9a9a"/><path d="M936 245.5 l5 -3 l5 3 l-5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M384 415 C376 415 376 374 373.9 374" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="4 3" stroke-linecap="round"/>
+<path d="M368 374 L375 370.4 L375 377.6 Z" fill="#9a9a9a"/><path d="M384 415 l-5 -3 l-5 3 l5 3 Z" fill="#353535" stroke="#353535" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M560 376 C580 376 538 278 560 274" fill="none" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M568 272 L558 268 L560 279 Z" fill="#ffffff" stroke="#9a9a9a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="pkg-chem">
+<rect x="10.2" y="42.2" width="176" height="80.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="8" y="40" width="176" height="80.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="8" y="40" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="16" y="54" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">RetrosynthesisRoute</text>
+<line x1="8" y1="72" x2="184" y2="72" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="10.2" y="154.2" width="176" height="80.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="8" y="152" width="176" height="80.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="8" y="152" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="16" y="166" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">RetrosynthesisNode</text>
+<line x1="8" y1="184" x2="184" y2="184" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="10.2" y="270.2" width="176" height="67" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="8" y="268" width="176" height="67" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="8" y="268" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="16" y="282" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">SynthesisRoute</text>
+<line x1="8" y1="300" x2="184" y2="300" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="194.2" y="42.2" width="176" height="107.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="192" y="40" width="176" height="107.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="192" y="40" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="200" y="54" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">ReactionNode</text>
+<line x1="192" y1="72" x2="368" y2="72" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="194.2" y="180.2" width="176" height="80.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="192" y="178" width="176" height="80.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="192" y="178" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="200" y="192" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">Equation</text>
+<line x1="192" y1="210" x2="368" y2="210" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="194.2" y="278.2" width="176" height="67" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="192" y="276" width="176" height="67" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="192" y="276" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="200" y="290" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">ReactionParticipant</text>
+<line x1="192" y1="308" x2="368" y2="308" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="194.2" y="362.2" width="176" height="107.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="192" y="360" width="176" height="107.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="192" y="360" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="200" y="374" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">Molecule</text>
+<line x1="192" y1="392" x2="368" y2="392" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<g id="chem-py">
+<text x="16" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">target_SMILES</text>
+<text x="178" y="83" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="16" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">root_node_id</text>
+<text x="178" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="16" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">nodes</text>
+<text x="178" y="110" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">list[Retrosynthes…</text>
+<text x="16" y="195" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">reaction_SMILES</text>
+<text x="178" y="195" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="16" y="208.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">product_SMILES</text>
+<text x="178" y="208.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="16" y="222" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">precursors_SMILES</text>
+<text x="178" y="222" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">list[str]</text>
+<text x="16" y="311" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">root_node_id</text>
+<text x="178" y="311" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="16" y="324.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">nodes</text>
+<text x="178" y="324.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">list[ReactionNode]</text>
+<text x="200" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">reaction_SMILES</text>
+<text x="362" y="83" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="200" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">target_molecule</text>
+<text x="362" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">Molecule</text>
+<text x="200" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">byproducts</text>
+<text x="362" y="110" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">list[Molecule]</text>
+<text x="200" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">detailed_equation</text>
+<text x="362" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">Equation | None</text>
+<text x="200" y="137" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">process_description</text>
+<text x="362" y="137" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str | None</text>
+<text x="200" y="221" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">reaction_smiles</text>
+<text x="362" y="221" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="200" y="234.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">reactants</text>
+<text x="362" y="234.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">list[ReactionPart…</text>
+<text x="200" y="248" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">products</text>
+<text x="362" y="248" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">list[ReactionPart…</text>
+<text x="200" y="319" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">molecule</text>
+<text x="362" y="319" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">Molecule</text>
+<text x="200" y="332.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">stoichiometry</text>
+<text x="362" y="332.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">int</text>
+<text x="200" y="403" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">smiles</text>
+<text x="362" y="403" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">SMILES</text>
+<text x="200" y="416.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">name</text>
+<text x="362" y="416.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str | None</text>
+<text x="200" y="430" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">chemical_formula</text>
+<text x="362" y="430" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">ChemicalFormula</text>
+<text x="200" y="443.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">molecular_weight</text>
+<text x="362" y="443.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">MolecularWeight</text>
+<text x="200" y="457" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">inchi</text>
+<text x="362" y="457" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">InChI</text>
+</g>
+<g id="chem-rdf">
+<text x="16" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="42.6" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasSMILES</text>
+<text x="16" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="42.6" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasRootNode</text>
+<text x="16" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="42.6" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasRetrosynthesisStep</text>
+<text x="16" y="195" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="42.6" y="195" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">reactionSMILES</text>
+<text x="16" y="208.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="42.6" y="208.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasSMILES</text>
+<text x="16" y="222" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="42.6" y="222" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasSMILES</text>
+<text x="16" y="311" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="42.6" y="311" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasRootNode</text>
+<text x="16" y="324.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="42.6" y="324.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasReactionStep</text>
+<text x="200" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">reactionSMILES</text>
+<text x="200" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasTargetMolecule</text>
+<text x="200" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasByproduct</text>
+<text x="200" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasDetailedEquation</text>
+<text x="200" y="137" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">rdfs:</text>
+<text x="220.9" y="137" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">comment</text>
+<text x="200" y="221" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="221" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">reactionSMILES</text>
+<text x="200" y="234.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="234.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasReactant</text>
+<text x="200" y="248" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="248" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasProduct</text>
+<text x="200" y="319" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="319" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasMolecule</text>
+<text x="200" y="332.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="332.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">stoichiometry</text>
+<text x="200" y="403" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="403" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasSMILES</text>
+<text x="200" y="416.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">rdfs:</text>
+<text x="220.9" y="416.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">label</text>
+<text x="200" y="430" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="430" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasChemicalFormula</text>
+<text x="200" y="443.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="443.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasMolecularWeight</text>
+<text x="200" y="457" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="226.7" y="457" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasInChI</text>
+</g>
+<g id="chem-iri">
+<text x="16" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="44" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">RetrosynthesisRoute</text>
+<text x="16" y="183" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="44" y="183" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">RetrosynthesisStep</text>
+<text x="16" y="299" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="44" y="299" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">SynthesisRoute</text>
+<text x="200" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="228" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">ReactionStep</text>
+<text x="200" y="209" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="228" y="209" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">ChemicalEquation</text>
+<text x="200" y="307" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="228" y="307" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">ReactionParticipant</text>
+<text x="200" y="391" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#7a4ea3" text-anchor="start" font-weight="bold">emmo:</text>
+<text x="228" y="391" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#7a4ea3" text-anchor="start" font-weight="bold">Molecule</text>
+</g>
+</g>
+<g id="pkg-lci">
+<rect x="386.2" y="42.2" width="176" height="80.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="384" y="40" width="176" height="80.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="384" y="40" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="392" y="54" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">Inventory</text>
+<line x1="384" y1="72" x2="560" y2="72" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="386.2" y="142.2" width="176" height="134.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="384" y="140" width="176" height="134.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="384" y="140" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="392" y="154" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">LCIActivityNode</text>
+<line x1="384" y1="172" x2="560" y2="172" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="386.2" y="364.2" width="176" height="67" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="384" y="362" width="176" height="67" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="384" y="362" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="392" y="376" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">ChemicalObject</text>
+<line x1="384" y1="394" x2="560" y2="394" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="570.2" y="42.2" width="176" height="134.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="568" y="40" width="176" height="134.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="568" y="40" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="576" y="54" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">LCIExchange</text>
+<line x1="568" y1="72" x2="744" y2="72" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="570.2" y="220.2" width="176" height="80.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="568" y="218" width="176" height="80.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="568" y="218" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="576" y="232" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">FlowObject</text>
+<line x1="568" y1="250" x2="744" y2="250" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="570.2" y="318.2" width="176" height="67" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="568" y="316" width="176" height="67" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="568" y="316" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="576" y="330" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">Location</text>
+<line x1="568" y1="348" x2="744" y2="348" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<g id="lci-py">
+<text x="392" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">name</text>
+<text x="554" y="83" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str | None</text>
+<text x="392" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">comment</text>
+<text x="554" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str | None</text>
+<text x="392" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">nodes</text>
+<text x="554" y="110" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">list[LCIActivityN…</text>
+<text x="392" y="183" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">name</text>
+<text x="554" y="183" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="392" y="196.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">unit</text>
+<text x="554" y="196.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="392" y="210" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">location</text>
+<text x="554" y="210" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">Location</text>
+<text x="392" y="223.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">database</text>
+<text x="554" y="223.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="392" y="237" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">code</text>
+<text x="554" y="237" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="392" y="250.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">reference_flow</text>
+<text x="554" y="250.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">LCIExchange</text>
+<text x="392" y="264" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">exchanges</text>
+<text x="554" y="264" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">list[LCIExchange]</text>
+<text x="392" y="405" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">name</text>
+<text x="554" y="405" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="392" y="418.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">molecule</text>
+<text x="554" y="418.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">Molecule</text>
+<text x="576" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">name</text>
+<text x="738" y="83" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="576" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">amount</text>
+<text x="738" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">float</text>
+<text x="576" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">unit</text>
+<text x="738" y="110" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="576" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">type</text>
+<text x="738" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">Literal[…]</text>
+<text x="576" y="137" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">from_activity</text>
+<text x="738" y="137" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">UUID | None</text>
+<text x="576" y="150.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">to_activity</text>
+<text x="738" y="150.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">UUID | None</text>
+<text x="576" y="164" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">flow_object</text>
+<text x="738" y="164" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">FlowObject</text>
+<text x="576" y="261" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">name</text>
+<text x="738" y="261" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="576" y="274.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">cas_number</text>
+<text x="738" y="274.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str | None</text>
+<text x="576" y="288" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">category</text>
+<text x="738" y="288" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str | None</text>
+<text x="576" y="359" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">code</text>
+<text x="738" y="359" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="576" y="372.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">name</text>
+<text x="738" y="372.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str | None</text>
+</g>
+<g id="lci-rdf">
+<text x="392" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">rdfs:</text>
+<text x="412.9" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">label</text>
+<text x="392" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">rdfs:</text>
+<text x="412.9" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">comment</text>
+<text x="392" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="418.6" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasActivity</text>
+<text x="392" y="183" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">rdfs:</text>
+<text x="412.9" y="183" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">label</text>
+<text x="392" y="196.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="418.6" y="196.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">referenceUnit</text>
+<text x="392" y="210" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="421.5" y="210" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasLocation</text>
+<text x="392" y="223.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="418.6" y="223.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">sourceDatabase</text>
+<text x="392" y="237" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="418.6" y="237" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">activityCode</text>
+<text x="392" y="250.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="421.5" y="250.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasDeterminingFlow</text>
+<text x="392" y="264" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="418.6" y="264" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasExchange</text>
+<text x="392" y="405" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">rdfs:</text>
+<text x="412.9" y="405" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">label</text>
+<text x="392" y="418.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="418.6" y="418.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">representsMolecule</text>
+<text x="576" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">rdfs:</text>
+<text x="597" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">label</text>
+<text x="576" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="602.6" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">amount</text>
+<text x="576" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="602.6" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">flowUnit</text>
+<text x="576" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="602.6" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">flowType</text>
+<text x="576" y="137" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="605.5" y="137" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">isOutputOf</text>
+<text x="576" y="150.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="605.5" y="150.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">isInputOf</text>
+<text x="576" y="164" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="605.5" y="164" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasObjectType</text>
+<text x="576" y="261" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">rdfs:</text>
+<text x="597" y="261" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">label</text>
+<text x="576" y="274.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">skos:</text>
+<text x="602.6" y="274.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">notation</text>
+<text x="576" y="288" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="602.6" y="288" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasCategory</text>
+<text x="576" y="359" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">rdfs:</text>
+<text x="597" y="359" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">label</text>
+<text x="576" y="372.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">skos:</text>
+<text x="602.6" y="372.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">prefLabel</text>
+</g>
+<g id="lci-iri">
+<text x="392" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="420" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">Inventory</text>
+<text x="392" y="171" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="423" y="171" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">Activity</text>
+<text x="392" y="393" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="420" y="393" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">ChemicalObject</text>
+<text x="576" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="607" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">Flow</text>
+<text x="576" y="249" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="607" y="249" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">FlowObject</text>
+<text x="576" y="347" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="607" y="347" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">Location</text>
+</g>
+</g>
+<g id="pkg-lcia">
+<rect x="762.2" y="42.2" width="176" height="94" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="760" y="40" width="176" height="94" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="760" y="40" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="768" y="54" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">LCIAResult</text>
+<line x1="760" y1="72" x2="936" y2="72" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="762.2" y="154.2" width="176" height="107.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="760" y="152" width="176" height="107.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="760" y="152" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="768" y="166" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">ImpactCategoryScore</text>
+<line x1="760" y1="184" x2="936" y2="184" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<rect x="762.2" y="280.2" width="176" height="80.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="760" y="278" width="176" height="80.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="760" y="278" width="176" height="20" rx="0" fill="#353535" stroke="none" stroke-width="1.5"/>
+<text x="768" y="292" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">ImpactCategoryIndicator</text>
+<line x1="760" y1="310" x2="936" y2="310" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<g id="lcia-py">
+<text x="768" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">functional_unit</text>
+<text x="930" y="83" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="768" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">foreground_db</text>
+<text x="930" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="768" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">scores</text>
+<text x="930" y="110" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">list[ImpactCatego…</text>
+<text x="768" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">summary</text>
+<text x="930" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">LCIASummary</text>
+<text x="768" y="195" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">method_tuple</text>
+<text x="930" y="195" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="768" y="208.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">score</text>
+<text x="930" y="208.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">float</text>
+<text x="768" y="222" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">unit</text>
+<text x="930" y="222" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="768" y="235.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">ssbd_class</text>
+<text x="930" y="235.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str | None</text>
+<text x="768" y="249" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">indicator</text>
+<text x="930" y="249" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">ImpactCategoryInd…</text>
+<text x="768" y="321" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">name</text>
+<text x="930" y="321" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="768" y="334.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">unit</text>
+<text x="930" y="334.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="768" y="348" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">impact_category</text>
+<text x="930" y="348" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">ImpactCategory</text>
+</g>
+<g id="lcia-rdf">
+<text x="768" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="794.6" y="83" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">functionalUnit</text>
+<text x="768" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="794.6" y="96.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">foregroundDb</text>
+<text x="768" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="794.6" y="110" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasImpactScore</text>
+<text x="768" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="794.6" y="123.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasLCIASummary</text>
+<text x="768" y="195" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="794.6" y="195" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">methodTuple</text>
+<text x="768" y="208.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="794.6" y="208.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">impactScore</text>
+<text x="768" y="222" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="794.6" y="222" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">impactUnit</text>
+<text x="768" y="235.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="794.6" y="235.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">ssbd_class_iri</text>
+<text x="768" y="249" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="797.5" y="249" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">quantifiesImpactIndicator</text>
+<text x="768" y="321" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="797.5" y="321" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasIndicatorName</text>
+<text x="768" y="334.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="797.5" y="334.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">hasIndicatorUnit</text>
+<text x="768" y="348" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="797.5" y="348" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">assessesImpactCategory</text>
+</g>
+<g id="lcia-iri">
+<text x="768" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="799" y="71" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">LCIAResult</text>
+<text x="768" y="183" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="796" y="183" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#f46524" text-anchor="start" font-weight="bold">ImpactCategoryScore</text>
+<text x="768" y="309" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">oriont:</text>
+<text x="799" y="309" font-family="Raleway, Arial, sans-serif" font-size="10" fill="#80350e" text-anchor="start" font-weight="bold">ImpactCategoryIndicator</text>
+</g>
+</g>
+<g id="pkg-base">
+<rect x="762.2" y="374.2" width="176" height="80.5" rx="1" fill="#000000" stroke="none" stroke-width="1.5" opacity="0.16"/>
+<rect x="760" y="372" width="176" height="80.5" rx="1" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<rect x="760" y="372" width="176" height="32" rx="0" fill="#9a9a9a" stroke="none" stroke-width="1.5"/>
+<text x="768" y="386" font-family="Raleway, Arial, sans-serif" font-size="11.5" fill="#fcf6d7" text-anchor="start" font-weight="bold">DataModel</text>
+<line x1="760" y1="404" x2="936" y2="404" stroke="#d6d3c4" stroke-width="1" stroke-linecap="round"/>
+<text x="768" y="400" font-family="Raleway, Arial, sans-serif" font-size="9" fill="#fcf6d7" text-anchor="start" font-style="italic">pydantic BaseModel, every class</text>
+<g id="base-py">
+<text x="768" y="415" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">iri</text>
+<text x="930" y="415" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str</text>
+<text x="768" y="428.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">source</text>
+<text x="930" y="428.5" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">str | None</text>
+<text x="768" y="442" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">uncertainty_type</text>
+<text x="930" y="442" font-family="Raleway, Arial, sans-serif" font-size="8.5" fill="#6b6b6b" text-anchor="end">int</text>
+</g>
+<g id="base-rdf">
+<text x="768" y="415" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">@id:</text>
+<text x="786.1" y="415" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold"></text>
+<text x="768" y="428.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="start" font-weight="bold">dcterms:</text>
+<text x="806" y="428.5" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">source</text>
+<text x="768" y="442" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#f46524" text-anchor="start" font-weight="bold">lcont:</text>
+<text x="794.6" y="442" font-family="Raleway, Arial, sans-serif" font-size="9.5" fill="#353535" text-anchor="start" font-weight="bold">uncertaintyType</text>
+</g>
+<g id="base-iri">
+
+</g>
+</g>
+</svg>
