@@ -285,17 +285,13 @@ h1 { font-size: 1.55rem !important; }
 
 
 ---
-clicks: 3
----
 
 # Provenance <span class="hl">by design</span>: the run is a graph
 
 ## PROV-O, SSbD core ontology and lcont, recorded at runtime by ChemLCI
 
 <div class="flex justify-center -mt-1">
-<SvgFigure src="fig-prov-layers" width="935px"
-  :show="{ 'level-step': 1, 'level-call': 2, 'level-data': 3 }"
-    />
+<SvgFigure src="fig-prov-layers" width="935px" />
 </div>
 
 <!--# Provenance <span class="hl">by design</span>: the ontology behind the graph
@@ -374,7 +370,7 @@ const tabs = [
 <div style="height:25.5rem"><ProvTrace initial="Toluene" /></div>
 
 ---
-clicks: 3
+clicks: 2
 ---
 
 # Limitations and <span class="hl">next steps</span>
@@ -384,7 +380,7 @@ clicks: 3
 .numrow .body { font-size: 0.95rem; margin-top: 0.3rem; }
 </style>
 
-<div class="grid grid-cols-2 gap-x-10 gap-y-10 mt-12">
+<div class="flex flex-col gap-y-9 mt-12" style="max-width:44rem">
 <Step :from="0" class="numrow">
 <div class="num">1</div>
 <div><div class="head">Validation and error propagation</div>
@@ -392,16 +388,11 @@ clicks: 3
 </Step>
 <Step :from="1" class="numrow">
 <div class="num">2</div>
-<div><div class="head">Gaps are pruned, not filled</div>
-<div class="body it">Benzophenone and ethyl cyanoacetate had no ecoinvent match and were cut off. Call smiles2impact as a gap-filler, flagged in the provenance.</div></div>
+<div><div class="head">Making the provenance usable</div>
+<div class="body it">The final orchestrator summary describes a 7-step route, but the provenance graph is huge! We need to design visualization instruments to maximise the use of the provenance graph for final users.</div></div>
 </Step>
 <Step :from="2" class="numrow">
 <div class="num">3</div>
-<div><div class="head">Narrative ≠ data</div>
-<div class="body it">The final LLM summary describes a 7-step route; the computed inventory has 2 steps and ecoinvent 2-ethylhexanol. Trust the provenance-linked objects; generate reports from the graph.</div></div>
-</Step>
-<Step :from="3" class="numrow">
-<div class="num">4</div>
 <div><div class="head">Expert rationale and cost</div>
 <div class="body it">Energy, solvents and emissions are LLM heuristics: bring in industrial expert rules and human review. One route: ~18 min, ~4.9 M tokens with a small model.</div></div>
 </Step>
@@ -418,8 +409,31 @@ layout: end
 <div> gustavo.larrea@list.lu </div>
 <div style="font-weight:700">Gustavo Larrea-Gallegos</div>
 <div><i>Luxembourg Institute of Science and Technology (LIST)</i></div>
-<div class="tiny mt-6" style="color:#cfc9ad">PINK has received funding from the European Union's Horizon Europe Research and Innovation programme under grant agreement No. 101137809.</div>
 </div>
+
+<div class="funders">
+<div class="f-row">
+<img src="./figures/logos/pink.png" class="f-pink" alt="PINK project">
+<div class="f-sep"></div>
+<img src="./figures/logos/eu-flag.png" class="f-eu" alt="Flag of the European Union">
+<img src="./figures/logos/sbfi.png" class="f-sbfi" alt="Swiss Confederation, State Secretariat for Education, Research and Innovation SERI">
+<img src="./figures/logos/ukri-innovateuk.png" class="f-ukri" alt="UKRI Innovate UK">
+</div>
+</div>
+
+<div class="f-txt">PINK has received funding from the European Union's Horizon Europe Research and Innovation programme under grant agreement <span style="white-space:nowrap">No. 101137809</span>.</div>
+
+<style>
+.funders { position: absolute; left: 2.7rem; bottom: 1.6rem; }
+.funders .f-row { display: flex; align-items: center; gap: 1.3rem; }
+.funders img { display: block; flex-shrink: 0; }
+.funders .f-pink { height: 32px; }
+.funders .f-sep { width: 1px; height: 40px; background: #5a5a5a; }
+.funders .f-eu { height: 32px; }
+.funders .f-sbfi { height: 50px; }
+.funders .f-ukri { height: 32px; }
+.f-txt { position: absolute; left: 50%; top: 19.5rem; transform: translateX(-50%); width: 40rem; text-align: center; font-size: 1.15rem; line-height: 1.45; font-weight: 500; color: var(--ie-cream); }
+</style>
 
 ---
 layout: section
