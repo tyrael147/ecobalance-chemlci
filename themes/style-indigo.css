@@ -1,0 +1,248 @@
+/* =====================================================================
+   Theme "indigo": Indigo: deep violet and lavender, Space Grotesk headings, Inter text.
+   Same layout as themes/style-warm.css (the original IE-day look); only fonts and colours change.
+   Activate with:  cp themes/style-indigo.css style.css
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   Inter and Space Grotesk (SIL Open Font License) are shipped in public/fonts
+   as variable fonts, so the deck renders the same everywhere (also offline).
+
+   Type hierarchy (mirrors the IE-day deck; headings use --font-head)
+     display  (cover / section titles) ... ExtraBold    800
+     h1       (slide title) ............... ExtraBold    800
+     h2       (kicker / subtitle) ......... Medium       500  orange
+     h3, item headings, labels ............ Bold         700
+     body ................................. Regular      400
+     descriptions under item headings ..... Medium Italic 500 orange
+     captions, sources, footers ........... Regular/Italic 400, small
+     number blocks ........................ Black        900
+   --------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-Italic.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/spacegrotesk/SpaceGrotesk.ttf') format('truetype');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: block;
+}
+
+:root {
+  --font: 'Inter', Arial, sans-serif;
+  --font-head: 'Space Grotesk', Arial, sans-serif;
+
+  /* palette (variable names kept from the IE-day deck: --ie-orange = accent, --ie-cream = light background) */
+  --ie-bg-dark: #17152b;     /* cover / section / closing background */
+  --ie-cream: #f6f5fb;       /* content background, text on dark */
+  --ie-orange: #5b4bdb;      /* accents, keywords, descriptions */
+  --ie-orange-lt: #c2bbf5;
+  --ie-dark: #1d1b30;        /* text on light */
+  --ie-muted: #625f78;
+  --ie-rule: #d8d5ea;
+  --ie-link: #3f51b5;
+  --ie-affil: #bdb8d9;       /* affiliations on dark */
+  --ie-tint: #ebe8fc;        /* light accent tint (hover, chips) */
+  --ie-tint2: #eeedf5;       /* neutral tint (candidate tags) */
+  --ie-accent-on-dark: #a99cff;  /* accent on cover / section / closing slides */
+  --ie-gap: #c0392b;         /* missing data / errors */
+
+  --shadow: 2px 2px 0 rgba(0, 0, 0, 0.10), 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.slidev-layout {
+  font-family: var(--font);
+  font-weight: 400;
+  color: var(--ie-dark);
+  background: var(--ie-cream);
+  padding: 2.35rem 2.7rem 2.6rem;
+  font-size: 1.02rem;
+  line-height: 1.42;
+  font-variant-numeric: lining-nums;   /* lining figures everywhere */
+}
+
+/* headings -------------------------------------------------------- */
+.slidev-layout h1 {
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: 1.95rem;
+  line-height: 1.12;
+  color: var(--ie-dark);
+  margin: 0 0 0.25rem -0.02em;
+}
+.hl, .accent { color: var(--ie-orange); }
+.dark { color: var(--ie-dark); }
+.slidev-layout h2 {
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: var(--ie-orange);
+  margin: 0 0 0.9rem;
+  opacity: 1;
+}
+.slidev-layout h1 + p { opacity: 1; margin-top: 0; }
+.slidev-layout h3 { font-weight: 700; font-size: 1.08rem; color: var(--ie-dark); margin: 0 0 0.3rem; }
+.slidev-layout strong, .slidev-layout b { font-weight: 700; color: inherit; }
+.slidev-layout em, .slidev-layout i { font-style: italic; }
+.slidev-layout a { color: var(--ie-link); text-decoration: underline; border: 0; }
+.slidev-layout p { margin: 0.3rem 0; line-height: inherit; }   /* Slidev base sets a fixed 1.5rem */
+.slidev-layout li { line-height: inherit; }
+.katex { font-size: 1em; }
+
+.slidev-layout ul { list-style: none; padding-left: 0; margin: 0.2rem 0; }
+.slidev-layout ul > li { position: relative; padding-left: 1.15rem; margin: 0.36rem 0; line-height: 1.34; }
+.slidev-layout ul > li::before {
+  content: ''; position: absolute; left: 0.15rem; top: 0.5em;
+  width: 0.4rem; height: 0.4rem; border-radius: 50%; background: var(--ie-dark);   /* IE-day round bullets */
+}
+
+/* chrome (slide-bottom.vue) --------------------------------------- */
+.ie-chrome { position: absolute; inset: 0; pointer-events: none; }
+.ie-dash { position: absolute; top: 20px; left: 2.7rem; width: 20px; height: 2px; background: var(--ie-dark); }
+.ie-chrome.dark .ie-dash { background: var(--ie-cream); }
+.ie-logo { position: absolute; right: 10px; bottom: 2px; height: 75px; }
+.ie-chrome.dark .ie-logo { filter: invert(1); }
+.ie-pageno { position: absolute; left: 2.7rem; bottom: 14px; font: 400 10px var(--font); color: var(--ie-muted); }
+
+/* dark layouts ----------------------------------------------------- */
+.ie-dark { background: var(--ie-bg-dark); color: var(--ie-cream); padding: 0; overflow: hidden; }
+.ie-dark-content { position: absolute; inset: 0; padding: 2.9rem 2.7rem 2.6rem; }
+.ie-dark h1 { color: var(--ie-cream); font-weight: 800; }
+.ie-dark .hl { color: var(--ie-orange); }
+
+/* cover: LIST order (title > authors > affiliations > rule > date), IE colours & type */
+.ie-cover h1 { font-size: 2.3rem; line-height: 1.13; max-width: 46rem; margin: 1.5rem 0 0.5rem; }
+.ie-cover .lead { font-weight: 400; font-size: 1.35rem; color: var(--ie-orange); max-width: 46rem; line-height: 1.35; }
+.ie-cover .authors { margin-top: 1.9rem; font-size: 0.92rem; color: var(--ie-cream); line-height: 1.45; max-width: 50rem; }
+.ie-cover .authors b { color: var(--ie-orange); font-weight: 700; }
+.ie-cover .authors sup { font-size: 0.62em; margin-left: 1px; color: var(--ie-orange-lt); }
+.ie-cover .affil { margin-top: 0.55rem; font-size: 0.75rem; line-height: 1.35; color: var(--ie-affil); columns: 1; column-gap: 1.8rem; max-width: 52rem; font-style: italic; }
+.ie-cover .affil sup { color: var(--ie-orange); font-style: normal; margin-right: 2px; }
+.ie-cover .rule { width: 2.2rem; height: 4px; background: var(--ie-cream); margin: 1.2rem 0 0.5rem; }
+.ie-cover .event { color: var(--ie-orange); font-size: 1.20rem; font-weight: 500; }
+.ie-cover .date { color: var(--ie-orange); font-size: 1.05rem; font-weight: 500; }
+.ie-cover .based-on { position: absolute; left: 2.7rem; bottom: 1.1rem; font-size: 0.56rem; color: #8a86a8; max-width: 40rem; line-height: 1.3; font-style: italic; }
+
+/* section: IE-day section slide */
+.ie-section h1 { font-size: 2.3rem; margin-top: 8.2rem; max-width: 40rem; }
+.ie-section .lead { color: var(--ie-orange); font-style: italic; font-size: 0.95rem; margin-top: 1.2rem; }
+
+/* closing: LIST order ("thank you" left, contact information right), IE colours & type */
+.ie-end h1 { font-size: 3.8rem; margin-top: 7rem; }
+.ie-end .contact { position: absolute; right: 2.7rem; top: 7.6rem; width: 21rem; font-size: 0.85rem; line-height: 1.45; }
+.ie-end .contact .lbl { color: var(--ie-orange); font-weight: 700; margin-bottom: 0.35rem; }
+
+/* text bubbles: rectangular, white, small shadow -------------------- */
+.block { background: #fff; box-shadow: var(--shadow); padding: 0.85rem 1rem; line-height: 1.36; }
+.callout { background: #fff; color: var(--ie-dark); font-weight: 300; padding: 0.8rem 1rem; box-shadow: var(--shadow); border-left: 4px solid var(--ie-orange); line-height: 1.36; }
+.tag {
+  display: inline-block; padding: 0.06rem 0.5rem; margin: 0.16rem 0.18rem 0.16rem 0;
+  background: #fff; color: var(--ie-dark);
+  font-size: 0.68rem; font-weight: 700; box-shadow: 1.5px 1.5px 0 rgba(0, 0, 0, 0.13);
+}
+.tag.hi { background: var(--ie-orange); color: #fff; }
+/* provenance explorers: one colour per kind of element (see the legends) */
+.k-cls { font-family: ui-monospace, Menlo, monospace; font-weight: 700; color: #3d2fb0; background: #e2defb; padding: 0 0.3rem; white-space: nowrap; }
+.k-file { font-family: ui-monospace, Menlo, monospace; font-weight: 600; color: #1d5a85; background: #d8e8f5; padding: 0 0.3rem; white-space: nowrap; }
+.k-edge { font-style: italic; color: var(--ie-muted); }
+.k-sub { font-style: italic; color: var(--ie-muted); }
+.k-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.9rem; font-size: 0.58rem; color: var(--ie-dark); }
+.k-legend > span { display: inline-flex; align-items: center; gap: 0.3rem; }
+/* figures sit directly on the slide background */
+.figcard { background: transparent; padding: 0; }
+.qr { background: #fff; padding: 4px; display: inline-block; scale:1.5; }   /* QR codes need a light quiet zone */
+
+/* number blocks (IE-day agenda: square block, heavy number) */
+.numrow { display: grid; grid-template-columns: 2.6rem 1fr; gap: 0 0.8rem; align-items: start; margin-bottom: 0.7rem; }
+.numrow .num {
+  width: 2.6rem; height: 2.6rem; background: var(--ie-bg-dark); color: var(--ie-cream);
+  font-weight: 900; font-size: 1.8rem; line-height: 2.6rem; text-align: center;
+}
+.numrow .head { font-weight: 700; color: var(--ie-dark); font-size: 1.02rem; line-height: 1.2; }
+.numrow .body { font-size: 0.8rem; color: var(--ie-dark); line-height: 1.34; margin-top: 0.12rem; }
+.numrow .body.it { font-style: italic; font-weight: 500; color: var(--ie-orange); }
+
+/* examples box: ABM-LCA studies that actually did the integration */
+.examples { background: #fff; box-shadow: var(--shadow); border-left: 4px solid var(--ie-orange); padding: 0.5rem 0.75rem; font-size: 0.74rem; line-height: 1.34; }
+.examples .lbl { font-weight: 800; color: var(--ie-orange); text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.62rem; margin-bottom: 0.15rem; }
+.examples .dim { font-weight: 700; color: var(--ie-dark); }
+.examples .ref { font-style: italic; color: var(--ie-muted); white-space: nowrap; }
+.examples p { margin: 0.12rem 0; }
+
+/* title-left layout (IE-day "initiative" slides) */
+.side-title { font-weight: 800; font-size: 2.3rem; line-height: 1.12; color: var(--ie-dark); }
+
+/* utilities */
+.muted { color: var(--ie-muted); }
+.small { font-size: 0.82rem; }
+.tiny { font-size: 0.66rem; line-height: 1.3; }
+.stack { display: grid; }
+.stack > * { grid-area: 1 / 1; }
+
+/* tables */
+.list-table { width: 100%; border-collapse: separate; border-spacing: 6px 0; font-size: 0.74rem; line-height: 1.3; }
+.list-table th { background: var(--ie-bg-dark); color: var(--ie-cream); text-align: left; padding: 0.35rem 0.5rem; font-weight: 700; font-size: 0.78rem; }
+.list-table td { padding: 0.35rem 0.5rem; border-bottom: 1px solid var(--ie-rule); vertical-align: top; background: #fff; }
+.list-table td:first-child { font-weight: 700; color: var(--ie-dark); }
+
+/* mini Fig. 1 "you are here" navigator (no background) */
+.navigator { position: absolute; top: 14px; right: 26px; border: 1px solid var(--ie-rule); padding: 4px; }
+.navigator .svgfig-dim { opacity: 0.18; }
+
+.source { position: absolute; left: 4.4rem; bottom: 11px; font-size: 0.68rem; max-width: 42.5rem; color: var(--ie-muted); font-style: italic; }
+
+/* figures: deck font in the browser (the SVG files declare "Raleway, Arial") */
+.svgfig svg text { font-family: var(--font); }
+
+/* references slide */
+.refs { columns: 2; column-gap: 1.6rem; font-size: 0.68rem; line-height: 1.3; }
+.refs p { margin: 0 0 0.32rem; break-inside: avoid; padding-left: 0.9rem; text-indent: -0.9rem; }
+
+/* =====================================================================
+   Theme overrides
+   ===================================================================== */
+
+/* accent on dark slides (the light-slide accent is too dark there) */
+.ie-dark .hl, .ie-cover .authors b, .ie-cover .event, .ie-cover .date, .ie-cover .affil sup,
+.ie-cover .lead, .ie-section .lead, .ie-end .contact .lbl { color: var(--ie-accent-on-dark); }
+.ie-cover .authors sup { color: var(--ie-accent-on-dark); }
+
+/* headings */
+.slidev-layout h1, .ie-dark h1, .side-title { font-family: var(--font-head); font-weight: 700; letter-spacing: -0.01em; }
+.numrow .num { font-family: var(--font-head); font-weight: 700; }
+
+/* deck colours hard-coded in the figures (fill / stroke attributes) follow the theme;
+   colours of figures taken from papers are left untouched */
+.svgfig [fill="#f46524" i] { fill: var(--ie-orange); }
+.svgfig [stroke="#f46524" i] { stroke: var(--ie-orange); }
+.svgfig [fill="#f8bd90" i] { fill: var(--ie-orange-lt); }
+.svgfig [stroke="#f8bd90" i] { stroke: var(--ie-orange-lt); }
+.svgfig [fill="#fde3d3" i] { fill: var(--ie-tint); }
+.svgfig [fill="#353535" i] { fill: var(--ie-dark); }
+.svgfig [stroke="#353535" i] { stroke: var(--ie-dark); }
+.svgfig [fill="#fcf6d7" i] { fill: var(--ie-cream); }
+.svgfig [stroke="#fcf6d7" i] { stroke: var(--ie-cream); }
+.svgfig [fill="#cfc9ad" i] { fill: var(--ie-rule); }
+.svgfig [stroke="#d6d3c4" i] { stroke: var(--ie-rule); }
+.svgfig [fill="#66645d" i] { fill: var(--ie-muted); }
+
+/* warm tints hard-coded in the interactive components */
+.slidev-layout .jn-row.clickable:hover, .slidev-layout .tr-item:hover { background: var(--ie-tint); }
+.slidev-layout .tr-key-cand, .slidev-layout .tr-cands span { background: var(--ie-tint2); }
+.slidev-layout .tr-key-cand.pick { background: var(--ie-orange); }
+.slidev-layout .tr-key-edge { border-left-color: var(--ie-rule); }
+.slidev-layout .tr-card.gap { border-left-color: var(--ie-gap); }
+.slidev-layout .gap > .tr-dot, .slidev-layout .tr-dot.gap { background: var(--ie-gap); }
+.slidev-layout .jn-num { color: var(--ie-orange); }
