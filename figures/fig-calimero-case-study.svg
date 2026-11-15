@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Raleway, Arial, sans-serif">
+<g id="axes" font-size="16">
+<line x1="120" y1="450" x2="860" y2="450" stroke="#cfcfcf" stroke-width="1.2"/>
+<line x1="114" y1="450" x2="120" y2="450" stroke="#cfcfcf" stroke-width="1"/>
+<text x="110" y="455.5" font-size="16" text-anchor="end" fill="#404040">0</text>
+<line x1="120" y1="386.67" x2="860" y2="386.67" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="114" y1="386.67" x2="120" y2="386.67" stroke="#cfcfcf" stroke-width="1"/>
+<text x="110" y="392.17" font-size="16" text-anchor="end" fill="#404040">20</text>
+<line x1="120" y1="323.33" x2="860" y2="323.33" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="114" y1="323.33" x2="120" y2="323.33" stroke="#cfcfcf" stroke-width="1"/>
+<text x="110" y="328.83" font-size="16" text-anchor="end" fill="#404040">40</text>
+<line x1="120" y1="260" x2="860" y2="260" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="114" y1="260" x2="120" y2="260" stroke="#cfcfcf" stroke-width="1"/>
+<text x="110" y="265.5" font-size="16" text-anchor="end" fill="#404040">60</text>
+<line x1="120" y1="196.67" x2="860" y2="196.67" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="114" y1="196.67" x2="120" y2="196.67" stroke="#cfcfcf" stroke-width="1"/>
+<text x="110" y="202.17" font-size="16" text-anchor="end" fill="#404040">80</text>
+<line x1="120" y1="133.33" x2="860" y2="133.33" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="114" y1="133.33" x2="120" y2="133.33" stroke="#cfcfcf" stroke-width="1"/>
+<text x="110" y="138.83" font-size="16" text-anchor="end" fill="#404040">100</text>
+<line x1="120" y1="70" x2="860" y2="70" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="114" y1="70" x2="120" y2="70" stroke="#cfcfcf" stroke-width="1"/>
+<text x="110" y="75.5" font-size="16" text-anchor="end" fill="#404040">120</text>
+<line x1="860" y1="450" x2="866" y2="450" stroke="#cfcfcf" stroke-width="1"/>
+<text x="870" y="455.5" font-size="15" text-anchor="start" fill="#404040">0.00E+00</text>
+<line x1="860" y1="395.71" x2="866" y2="395.71" stroke="#cfcfcf" stroke-width="1"/>
+<text x="870" y="401.21" font-size="15" text-anchor="start" fill="#404040">1.00E-08</text>
+<line x1="860" y1="341.43" x2="866" y2="341.43" stroke="#cfcfcf" stroke-width="1"/>
+<text x="870" y="346.93" font-size="15" text-anchor="start" fill="#404040">2.00E-08</text>
+<line x1="860" y1="287.14" x2="866" y2="287.14" stroke="#cfcfcf" stroke-width="1"/>
+<text x="870" y="292.64" font-size="15" text-anchor="start" fill="#404040">3.00E-08</text>
+<line x1="860" y1="232.86" x2="866" y2="232.86" stroke="#cfcfcf" stroke-width="1"/>
+<text x="870" y="238.36" font-size="15" text-anchor="start" fill="#404040">4.00E-08</text>
+<line x1="860" y1="178.57" x2="866" y2="178.57" stroke="#cfcfcf" stroke-width="1"/>
+<text x="870" y="184.07" font-size="15" text-anchor="start" fill="#404040">5.00E-08</text>
+<line x1="860" y1="124.29" x2="866" y2="124.29" stroke="#cfcfcf" stroke-width="1"/>
+<text x="870" y="129.79" font-size="15" text-anchor="start" fill="#404040">6.00E-08</text>
+<line x1="860" y1="70" x2="866" y2="70" stroke="#cfcfcf" stroke-width="1"/>
+<text x="870" y="75.5" font-size="15" text-anchor="start" fill="#404040">7.00E-08</text>
+<line x1="120" y1="70" x2="120" y2="450" stroke="#cfcfcf" stroke-width="1"/>
+<line x1="860" y1="70" x2="860" y2="450" stroke="#cfcfcf" stroke-width="1"/>
+<line x1="120" y1="450" x2="120" y2="542" stroke="#cfcfcf" stroke-width="1"/>
+<line x1="490" y1="450" x2="490" y2="542" stroke="#cfcfcf" stroke-width="1"/>
+<line x1="860" y1="450" x2="860" y2="542" stroke="#cfcfcf" stroke-width="1"/>
+<text x="30" y="260" font-size="20" text-anchor="middle" fill="#404040" transform="rotate(-90 30 260)">EcoTox (CTUe)</text>
+<text x="968" y="260" font-size="20" text-anchor="middle" fill="#404040" transform="rotate(-90 968 260)">HTox (CTUh)</text>
+<text x="212.5" y="480" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">pumice stone</text>
+<text x="397.5" y="480" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">synthetic stone</text>
+<text x="305" y="528" font-size="20" text-anchor="middle" font-weight="bold" fill="#111">without predicted CFs</text>
+<text x="582.5" y="480" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">pumice stone</text>
+<text x="767.5" y="480" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">synthetic stone</text>
+<text x="675" y="528" font-size="20" text-anchor="middle" font-weight="bold" fill="#111">with predicted CFs</text>
+</g>
+<g id="legend" font-size="20">
+<rect id="legend-swatch-ecotox" x="290" y="12" width="18" height="18" fill="#3a6182"/>
+<text x="316" y="27" font-size="20" text-anchor="start" fill="#404040">Ecotoxicity, freshwater</text>
+<rect id="legend-swatch-htox" x="580" y="12" width="18" height="18" fill="#62ae55"/>
+<text x="606" y="27" font-size="20" text-anchor="start" fill="#404040">Human toxicity, total</text>
+</g>
+<g id="bars-without">
+<rect id="wo-pumice-ecotox" x="153.5" y="213.45" width="56" height="236.55" fill="#3a6182"/>
+<rect id="wo-pumice-htox" x="215.5" y="129.17" width="56" height="320.83" fill="#62ae55"/>
+<rect id="wo-synthetic-ecotox" x="338.5" y="333.15" width="56" height="116.85" fill="#3a6182"/>
+<rect id="wo-synthetic-htox" x="400.5" y="415.26" width="56" height="34.74" fill="#62ae55"/>
+</g>
+<g id="bars-with">
+<rect id="w-pumice-ecotox" x="523.5" y="120.67" width="56" height="329.33" fill="#3a6182"/>
+<rect id="w-pumice-htox" x="585.5" y="129.17" width="56" height="320.83" fill="#62ae55"/>
+<rect id="w-synthetic-ecotox" x="708.5" y="263.8" width="56" height="186.2" fill="#3a6182"/>
+<rect id="w-synthetic-htox" x="770.5" y="412.54" width="56" height="37.46" fill="#62ae55"/>
+</g>
+</svg>

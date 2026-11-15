@@ -1,9 +1,9 @@
 ---
 theme: default
-title: Leveraging machine learning and agentic AI to accelerate the in-silico LCA of chemicals
+title: Experiences from the use of AI-based approaches to enhance LCA workflows
 info: |
-  ## Leveraging machine learning and agentic AI to accelerate the in-silico Life Cycle Assessment of chemicals
-  Gustavo Larrea-Gallegos, Florian Cogoni, Antonino Marvuglia (LIST) — EcoBalance 2026.
+  ## Experiences from the use of AI-based approaches to enhance LCA workflows
+  Gustavo Larrea-Gallegos (LIST), EcoBalance 2026.
 
 author: Gustavo Larrea-Gallegos
 colorSchema: light
@@ -17,18 +17,18 @@ transition: fade
 drawings:
   persist: false
 mdc: true
-duration: 10min
+duration: 20min
 layout: cover
 ---
 
-# Leveraging <span class="hl">machine learning and agentic AI</span> to accelerate the in-silico Life Cycle Assessment of chemicals
+# Experiences from the use of <span class="hl">AI-based approaches</span> to enhance LCA workflows
 
 <div class="authors">
-<b>Gustavo Larrea-Gallegos<sup>1</sup></b>, Florian Cogoni<sup>1</sup>, Antonino Marvuglia<sup>1</sup>
+<b>Gustavo Larrea-Gallegos</b>
 </div>
 
 <div class="affil">
-<div><sup>1</sup>Environmental Sustainability Assessment and Circularity (SUSTAIN), Luxembourg Institute of Science and Technology, Luxembourg</div>
+<div>Environmental Sustainability Assessment and Circularity (SUSTAIN), Luxembourg Institute of Science and Technology, Luxembourg</div>
 </div>
 
 <div class="rule"></div>
@@ -36,17 +36,15 @@ layout: cover
 <div class="date">November 13th, 2026</div>
 
 ---
-clicks: 2
-hide: True
+clicks: 3
 ---
 
 <div class="grid grid-cols-[0.7fr_1.6fr] gap-10 h-full items-center">
 
 <style>
-.toc .numrow { margin-bottom: 1.9rem; }
-.toc .numrow .head { font-size: 1.25rem; }
-.toc .numrow .body { font-size: 0.95rem; margin-top: 0.3rem; }
-.toc .chips { margin-top: 0.35rem; }
+.toc .numrow { margin-bottom: 1.5rem; }
+.toc .numrow .head { font-size: 1.2rem; }
+.toc .numrow .body { font-size: 0.92rem; margin-top: 0.3rem; }
 </style>
 
 <div>
@@ -56,25 +54,212 @@ hide: True
 <div class="toc">
 <Step :from="0" class="numrow">
 <div class="num">1</div>
-<div><div class="head">ChemLCI: an agentic LCI builder</div>
-<div class="body it">Context description</div>
+<div><div class="head">AI in sustainability research</div>
+<div class="body it">Sustainable AI vs AI for sustainability, and where our projects sit</div>
 </div>
 </Step>
 <Step :from="1" class="numrow">
 <div class="num">2</div>
-<div><div class="head">A semantic framework for agentic LCI</div>
-<div class="body it">Ontologies and data models shared by humans and machines, and provenance by design</div>
+<div><div class="head">CALIMERO: machine learning for data-gap filling</div>
+<div class="body it">Predicting toxicity characterisation factors of chemicals</div>
 </div>
 </Step>
 <Step :from="2" class="numrow">
 <div class="num">3</div>
-<div><div class="head">Example of a traceable AI generated LCI
+<div><div class="head">PINK: ChemLCI, an agentic LCI builder</div>
+<div class="body it">Agentic AI drafting traceable inventories of chemicals in silico</div>
 </div>
+</Step>
+<Step :from="3" class="numrow">
+<div class="num">4</div>
+<div><div class="head">MECO-EPD: agents navigating construction products</div>
+<div class="body it">Classifying and extracting Environmental Product Declarations</div>
 </div>
 </Step>
 </div>
 
 </div>
+
+---
+clicks: 2
+---
+
+# Sustainable AI <span class="hl">and</span> AI for sustainability
+
+## two sides of the same debate (van Wynsberghe, 2021)
+
+<style>
+.duo2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; margin-top: 1.4rem; }
+.card2 { background: #fff; box-shadow: var(--shadow); padding: 1rem 1.2rem 1.1rem; border-top: 5px solid var(--ie-orange); transition: opacity 0.45s ease; }
+.card2.off { opacity: 0.35; }
+.card2 .k { font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ie-orange); }
+.card2 .name { font-weight: 800; font-size: 1.45rem; line-height: 1.2; margin: 0.15rem 0 0.5rem; }
+.card2 ul { font-size: 0.86rem; }
+.card2.dark { background: var(--ie-bg-dark); color: var(--ie-cream); }
+.card2.dark ul > li::before { background: var(--ie-cream); }
+</style>
+
+<div class="duo2">
+<div class="card2" :class="{ off: $clicks >= 2 }">
+<div class="k">the sustainability of AI</div>
+<div class="name">Sustainable AI</div>
+
+- Reduce the footprint of AI itself: energy, water, carbon and materials
+- Training, inference, data centres and hardware
+- LCA <b>of</b> AI systems
+
+</div>
+<Step :from="1">
+<div class="card2 dark">
+<div class="k">AI as an instrument</div>
+<div class="name">AI for sustainability</div>
+
+- Use AI to accelerate sustainability goals and assessments
+- Automation, data-gap filling, forecasting, decision support
+- AI <b>for</b> LCA workflows
+
+</div>
+</Step>
+</div>
+
+<Step :from="2" class="callout mt-6" style="max-width:40rem">
+This talk is about <b>AI for sustainability</b>: our experiences using AI to enhance LCA workflows. It is <b>not</b> about the footprint of AI.
+</Step>
+
+<div class="source">van Wynsberghe, A. (2021). Sustainable AI: AI for sustainability and the sustainability of AI. AI and Ethics, 1, 213-218</div>
+
+---
+clicks: 6
+---
+
+# AI for sustainability across the <span class="hl">green economy</span>
+
+<div class="stack -mt-1 mb-1">
+<Step :from="0" :to="1"><h2 style="margin:0">sectors of the green economy and the tasks AI is used for</h2></Step>
+<Step :from="1" :to="2"><h2 style="margin:0">we leave Sustainable AI aside</h2></Step>
+<Step :from="2" :to="3"><h2 style="margin:0">specific AI applications at LIST</h2></Step>
+<Step :from="3" :to="4"><h2 style="margin:0">and the projects behind them</h2></Step>
+<Step :from="4" :to="5"><h2 style="margin:0">CALIMERO: in-silico characterisation of chemicals</h2></Step>
+<Step :from="5" :to="6"><h2 style="margin:0">PINK: in-silico environmental data and sustainability assessment agents (ChemLCI)</h2></Step>
+<Step :from="6"><h2 style="margin:0">MECO-EPD: automatic parsing of environmental data of construction products</h2></Step>
+</div>
+
+<div class="flex justify-start -ml-2">
+<SvgFigure src="fig-green-economy" width="790px"
+  :show="{ '.task': 2, 'proj-band': 3, '.proj': 3 }"
+  :focus="{ 1: ['grid', 'proj-band', '.task', '.proj'], 4: ['grid', 'proj-band', '.calimero'], 5: ['grid', 'proj-band', '.calimero', '.pink'], 6: ['grid', 'proj-band', '.calimero', '.pink', '.meco'] }" />
+</div>
+
+---
+clicks: 2
+---
+
+# CALIMERO: AI for <span class="hl">data-gap filling</span>
+
+## characterising the toxicity of chemicals for LCA with machine learning
+
+<div class="grid grid-cols-[1fr_1.05fr] gap-8 items-start -mt-1">
+
+<div class="text-[0.9rem]">
+<Step :from="0" class="callout">
+Many chemicals in an inventory have <b>no ecotoxicity or human toxicity characterisation factor (CF)</b> in EF 3.1: their impacts are silently counted as <b>zero</b>.
+</Step>
+<Step :from="1" class="mt-4">
+
+- Start from the CFs of **5899 organic chemicals** in EF 3.1
+- Standardise the SMILES: **5227** chemicals
+
+</Step>
+<Step :from="2" class="mt-2">
+
+- Three molecular representations: **Mordred** descriptors, **Chemprop** molecular graphs, **GROVER** embeddings
+- Filter missing, near-constant and correlated features, remove outliers: **4965** chemicals for training
+
+</Step>
+</div>
+
+<div class="flex justify-center">
+<SvgFigure src="fig-calimero-curation" width="415px"
+  :show="{ standardize: 1, 'branch-mordred': 2, 'branch-chemprop': 2, 'branch-grover': 2 }" />
+</div>
+
+</div>
+
+<div class="source">Ding, T., Larrea-Gallegos, G., Busio, F., Marvuglia, A., and Schaubroeck, T. (2026). RSC Sustainability, 4, 3426-3438</div>
+
+---
+clicks: 3
+---
+
+# Training and selecting <span class="hl">the best model per cluster</span>
+
+<style>
+.hm-call { font-size: 0.74rem; padding: 0.45rem 0.7rem; }
+.hm-call b.r2 { color: var(--ie-orange); }
+</style>
+
+<div class="grid grid-cols-[1.3fr_1fr] gap-5 items-start mt-2">
+
+<div>
+<SvgFigure src="fig-calimero-training" width="100%"
+  :show="{ 'predict-input': 1, 'predict-curated': 1, 'within-ad': 1, 'assign-cluster': 1, 'best-model': 1 }" />
+<div class="stack text-[0.82rem] mt-3">
+<Step :from="0" :to="1" class="callout small">
+<b>Training</b>: machine learning and deep learning models, a chemical clustering and an applicability domain (AD) are fitted on the curated data. Performance is recorded <b>per model and per cluster</b>.
+</Step>
+<Step :from="1" class="callout small">
+<b>Predicting</b>: a new SMILES is curated, checked against the AD, assigned to a cluster, and the <b>best model of that cluster</b> predicts its CF.
+</Step>
+</div>
+</div>
+
+<div>
+<SvgFigure src="fig-calimero-performance" width="100%"
+  :focus="{ 2: ['title', 'axes', 'colorbar', 'cell-r15-c9'], 3: ['title', 'axes', 'colorbar', 'cell-r15-c9', 'cell-r15-c8'] }" />
+<div class="flex flex-col gap-2 mt-2">
+<Step :from="2" class="callout hm-call">hh: non-agri soil, cluster 9: <b>MPNN_GE_M</b> on Mordred descriptors, <b class="r2">R2 = 0.72</b></Step>
+<Step :from="3" class="callout hm-call">same target, cluster 8: <b>RF</b> on GROVER embeddings, only <b class="r2">R2 = 0.16</b></Step>
+</div>
+</div>
+
+</div>
+
+<div class="source">No single algorithm wins: the best model, representation and attainable accuracy depend on the chemical cluster. Ding et al. (2026)</div>
+
+---
+clicks: 2
+---
+
+# Case study: do the predicted CFs <span class="hl">change the results</span>?
+
+## textile case study: pumice stone vs synthetic stone
+
+<div class="grid grid-cols-[1.25fr_1fr] gap-7 items-center mt-1">
+
+<div>
+<SvgFigure src="fig-calimero-case-study" width="100%" :show="{ 'bars-with': 1 }" />
+</div>
+
+<div class="text-[0.9rem]">
+<Step :from="0">
+
+- Without predicted CFs, chemicals with no CF contribute nothing to toxicity
+
+</Step>
+<Step :from="1" class="mt-2">
+
+- With predicted CFs, freshwater ecotoxicity rises by **39 %** (pumice) and **59 %** (synthetic stone)
+- Human toxicity barely changes
+
+</Step>
+<Step :from="2" class="callout mt-4">
+Filling the gaps does not flip the ranking here, but it changes the <b>size of the impacts</b> and the <b>ratio between options</b> (ecotoxicity: 2.0 > 1.8 times): missing CFs bias comparisons.
+</Step>
+</div>
+
+</div>
+
+<div class="source">Freshwater ecotoxicity in CTUe (left axis), human toxicity in CTUh (right axis). Ding et al. (2026)</div>
 
 ---
 
@@ -398,6 +583,268 @@ clicks: 2
 </Step>
 </div>
 
+
+---
+clicks: 2
+---
+
+# MECO-EPD: <span class="hl">motivation</span>
+
+## using agentic AI workflows to navigate the space of construction products in LCA
+
+<style>
+.mot { display: grid; grid-template-columns: 2.4rem 1fr; gap: 0 0.8rem; align-items: start; margin-bottom: 1rem; font-size: 0.86rem; line-height: 1.36; }
+.mot .num { width: 2.4rem; height: 2.4rem; background: var(--ie-bg-dark); color: var(--ie-cream); font-weight: 900; font-size: 1.5rem; line-height: 2.4rem; text-align: center; }
+.symbols { position: relative; height: 19rem; }
+.sym { position: absolute; background: #fff; box-shadow: var(--shadow); padding: 0.3rem 0.6rem; font-size: 0.74rem; line-height: 1.3; white-space: nowrap; }
+.sym.green { border-left: 4px solid #6ea880; }
+.sym.dark { border-left: 4px solid var(--ie-dark); }
+.sym .lang { font-weight: 700; color: var(--ie-orange); margin-right: 0.25rem; }
+.sym-obj { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; font-weight: 800; font-size: 1rem; color: var(--ie-dark); }
+.sym-obj .q { font-size: 2.4rem; font-weight: 900; color: var(--ie-orange); line-height: 1; }
+</style>
+
+<div class="grid grid-cols-[1.15fr_1fr] gap-8 items-start mt-1">
+
+<div>
+<Step :from="0" class="mot">
+<div class="num">1</div>
+<div>Decarbonising buildings and construction depends on <b>transparent life cycle data</b>. <b>Environmental Product Declarations (EPDs)</b> report the environmental performance of construction products.</div>
+</Step>
+<Step :from="1" class="mot">
+<div class="num">2</div>
+<div>Many EPDs are published worldwide <b>without a common product classification or data schema</b>: information is missing or not machine readable, a barrier to analysing or retrieving EPDs.</div>
+</Step>
+<Step :from="2" class="mot">
+<div class="num">3</div>
+<div>We developed an <b>AI system that extracts structured data</b> by navigating a predefined EPD data model in an agentic manner, for EPD data consumers of the <b>Luxembourgish construction sector</b>.</div>
+</Step>
+</div>
+
+<Step :from="1">
+<div class="symbols">
+<div class="sym green" style="left:0.5rem; top:0.6rem">Steel &gt; StructuralSteel &gt; WeldedSteelSections</div>
+<div class="sym green" style="left:3.5rem; top:3.4rem"><span class="lang">FR</span>Profil Reconstitué Soudé acier</div>
+<div class="sym green" style="left:7rem; top:5.6rem"><span class="lang">EN</span>Welded Steel Section steel</div>
+<div class="sym-obj"><div class="q">?</div>same product,<br>different symbols</div>
+<div class="sym dark" style="left:0.5rem; top:12.4rem">Masonry &gt; CMU</div>
+<div class="sym dark" style="left:5rem; top:14.6rem"><span class="lang">FR</span>Briques en béton de laitier</div>
+<div class="sym dark" style="left:2rem; top:16.8rem"><span class="lang">EN</span>Slag concrete bricks</div>
+</div>
+</Step>
+
+</div>
+
+<Step :from="2" class="source">Practitioners use different symbols for the same product: what it <i>is</i> (material) or what it <i>does</i> (function).</Step>
+
+---
+clicks: 5
+---
+
+# Problem statement: <span class="hl">symbols</span>, objects and interpretants
+
+<style>
+.triad { position: absolute; right: 1.2rem; top: 0.4rem; width: 260px; }
+</style>
+
+<div class="stack mb-1">
+<Step :from="0" :to="1"><h2 style="margin:0">triadic semiotics (Peirce): a sign stands for an object to someone, through an interpretant</h2></Step>
+<Step :from="1" :to="2"><h2 style="margin:0">data consumers and data producers both use symbols, but not the same ones</h2></Step>
+<Step :from="2" :to="3"><h2 style="margin:0">retrieval: iterate from consumer symbols to producer symbols until the right data object is found</h2></Step>
+<Step :from="3" :to="4"><h2 style="margin:0">each iteration costs the consumer, even more when the consumer is an LLM agent</h2></Step>
+<Step :from="4" :to="5"><h2 style="margin:0">better semantic representations (taxonomies, data models) can be indexed: fewer iterations</h2></Step>
+<Step :from="5"><h2 style="margin:0">cheaper for the consumers, but the cost moves to the producers, who must represent and annotate their data</h2></Step>
+</div>
+
+<div class="relative">
+<div class="flex justify-center">
+<SvgFigure src="fig-meco-problem" width="880px"
+  :show="{ provider: 1, 'terms-provider': 1, 'nlp-direct': 2, 'consumer-ai': 3, 'semantic-left': 4, 'semantic-right': 4, indexing: 4, 'cost-left': 5, 'cost-right': 5 }"
+  :hide="{ problem1: 0, problem2: 0 }" />
+</div>
+
+<Step :from="0" :to="1" class="triad">
+<SvgFigure src="fig-triad" />
+</Step>
+</div>
+
+---
+clicks: 2
+---
+
+# The ideal system and its <span class="hl">two problems</span>
+
+<div class="grid grid-cols-[1.55fr_1fr] gap-6 items-center mt-2">
+
+<div>
+<SvgFigure src="fig-meco-problem" width="100%"
+  :show="{ problem1: 1, problem2: 2 }"
+  :focus="{ 1: ['problem1', 'object', 'consumer-human', 'consumer-ai', 'terms-consumer', 'semantic-left', 'cost-left', 'indexing'], 2: [] }" />
+</div>
+
+<div class="text-[0.88rem]">
+<div class="callout">
+Ideally, one <b>semantic representation</b> minimises the iterations from the symbols of the users to the symbols of the producers.
+</div>
+<Step :from="1" class="numrow mt-5">
+<div class="num">1</div>
+<div><div class="head">Representation</div>
+<div class="body it">The data model must represent the space of products with enough semantic granularity.</div></div>
+</Step>
+<Step :from="2" class="numrow mt-2">
+<div class="num">2</div>
+<div><div class="head">Annotation</div>
+<div class="body it">The data of the producers must be annotated against that representation.</div></div>
+</Step>
+</div>
+
+</div>
+
+---
+clicks: 2
+---
+
+# Problem 1: <span class="hl">representation</span>, and cptax
+
+<div class="grid grid-cols-[1fr_1.05fr] gap-8 items-center mt-4">
+
+<div class="text-[0.92rem]">
+<Step :from="0">
+
+- EPD retrieval with **weak semantic representations** can require several human-computer iterations until the right match is found
+- Data models help, but they must represent the space of products with **enough semantic granularity**
+
+</Step>
+<Step :from="1" class="callout mt-5">
+<b>cptax</b>, a construction product taxonomy: we adapted a generic data model (<b>OpenEPD</b>) to cover a sample of <b>100 Luxembourgish product symbols</b>.
+</Step>
+<Step :from="2" class="mt-4 small">
+
+- 118 of 351 categories differ from OpenEPD: modified, moved, new or dropped
+
+</Step>
+</div>
+
+<div class="flex justify-center">
+<SvgFigure src="fig-cptax-waffle" width="420px"
+  :show="{ unchanged: 1, modified: 1, moved: 1, new: 1, dropped: 1, caption: 1 }"
+  :focus="{ 2: ['modified', 'moved', 'new', 'dropped', 'caption'] }" />
+</div>
+
+</div>
+
+---
+clicks: 4
+---
+
+# Problem 2: <span class="hl">annotation</span>, an agentic workflow
+
+<div class="stack mb-1">
+<Step :from="0" :to="2"><h2 style="margin:0">providers use different taxonomies and data assets, and a massive body of EPDs (~50k) would still need annotation</h2></Step>
+<Step :from="2" :to="4"><h2 style="margin:0">the classification agent explores cptax level by level, reasoning only over the categories of one level</h2></Step>
+<Step :from="4"><h2 style="margin:0">the data model of the identified path becomes a JSON schema: the response format of the extraction agent</h2></Step>
+</div>
+
+<div class="grid grid-cols-[300px_430px] gap-12 justify-center items-start">
+
+<div>
+<SvgFigure src="fig-meco-classification" width="100%"
+  :show="{ extraction: 1, database: 1 }"
+  :focus="{ 2: ['classification'], 4: ['extraction'] }" />
+</div>
+
+<div>
+<SvgFigure src="fig-meco-exploration" width="100%"
+  :show="{ cptax: 2, exploration: 3, 'step-1': 3, 'step-2': 3, 'step-3': 3, 'step-4': 3, isolated: 4, schema: 4, extraction: 4, output: 4 }" />
+</div>
+
+</div>
+
+---
+clicks: 5
+---
+
+# Experiences <span class="hl">and</span> recommendations
+
+<style>
+.xp-col h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ie-orange); margin-bottom: 0.9rem; }
+.xp-col .numrow { margin-bottom: 1.15rem; }
+.xp-col .numrow .head { font-size: 1rem; }
+.xp-col .numrow .body { font-size: 0.84rem; }
+</style>
+
+<div class="grid grid-cols-2 gap-10 mt-6">
+
+<div class="xp-col">
+<h3>experiences</h3>
+<Step :from="0" class="numrow">
+<div class="num">1</div>
+<div><div class="head">Unpredictable cost</div>
+<div class="body it">PDF size cannot be anticipated, so the cost per classified EPD can increase considerably.</div></div>
+</Step>
+<Step :from="1" class="numrow">
+<div class="num">2</div>
+<div><div class="head">Ambiguous taxonomies</div>
+<div class="body it">An ambiguous taxonomy can lead to dead ends or multi-class issues during graph exploration.</div></div>
+</Step>
+<Step :from="2" class="numrow">
+<div class="num">3</div>
+<div><div class="head">Limited generalisation</div>
+<div class="body it">cptax is a closed-world solution to an open-world problem.</div></div>
+</Step>
+</div>
+
+<div class="xp-col">
+<h3>recommendations</h3>
+<Step :from="3" class="numrow">
+<div class="num">1</div>
+<div><div class="head">EPD footprints</div>
+<div class="body it">Generating EPD "footprints" can prevent unnecessary token consumption.</div></div>
+</Step>
+<Step :from="4" class="numrow">
+<div class="num">2</div>
+<div><div class="head">Multidimensional taxonomies</div>
+<div class="body it">The OpenEPD taxonomy has one axis; material, function and domain axes allow less ambiguous classifications.</div></div>
+</Step>
+<Step :from="5" class="numrow">
+<div class="num">3</div>
+<div><div class="head">Application-level ontologies</div>
+<div class="body it">A future solution can use an application-level ontology to identify undefined products.</div></div>
+</Step>
+</div>
+
+</div>
+
+---
+clicks: 2
+---
+
+# Research <span class="hl">directions</span>
+
+<style>
+.numrow .head { font-size: 1.2rem; }
+.numrow .body { font-size: 0.95rem; margin-top: 0.3rem; }
+</style>
+
+<!-- PLACEHOLDER: research directions, to be filled in -->
+
+<div class="flex flex-col gap-y-9 mt-12" style="max-width:44rem">
+<Step :from="0" class="numrow">
+<div class="num">1</div>
+<div><div class="head">[Research direction 1]</div>
+<div class="body it">[placeholder]</div></div>
+</Step>
+<Step :from="1" class="numrow">
+<div class="num">2</div>
+<div><div class="head">[Research direction 2]</div>
+<div class="body it">[placeholder]</div></div>
+</Step>
+<Step :from="2" class="numrow">
+<div class="num">3</div>
+<div><div class="head">[Research direction 3]</div>
+<div class="body it">[placeholder]</div></div>
+</Step>
+</div>
 ---
 layout: end
 ---
@@ -420,6 +867,8 @@ layout: end
 <img src="./figures/logos/ukri-innovateuk.png" class="f-ukri" alt="UKRI Innovate UK">
 </div>
 </div>
+
+<!-- TODO: add the funders of CALIMERO and MECO-EPD (logos in .f-row and text below) -->
 
 <div class="f-txt">PINK has received funding from the European Union's Horizon Europe Research and Innovation programme under grant agreement <span style="white-space:nowrap">No. 101137809</span>.</div>
 
@@ -557,6 +1006,7 @@ import lcia from './data/octocrylene/lcia_results.json'
 <div class="refs mt-1">
 
 <p>Caldeira, C., Farcal, L., Garmendia Aguirre, I., et al. (2022). <i>Safe and sustainable by design chemicals and materials: Framework for the definition of criteria and evaluation procedure for chemicals and materials</i>. EUR 31100 EN, Publications Office of the European Union, Luxembourg.</p>
+<p>Ding, T., Larrea-Gallegos, G., Busio, F., Marvuglia, A., and Schaubroeck, T. (2026). Characterizing chemical toxicity for life cycle assessment using machine learning and deep learning models based on environmental footprint: methodological comparison and textile case study. <i>RSC Sustainability</i>, 4, 3426-3438. https://doi.org/10.1039/d6su00023a</p>
 <p>Donaldson, A., Balaji, B., Oriekezie, C., Kumar, M., and Patouillard, L. (2025). An expert-grounded benchmark of general purpose LLMs in LCA. <i>arXiv:2510.19886</i>.</p>
 <p>Garmendia Aguirre, I., Abbate, E., Bracalente, G., Mancini, L., Cappucci, G. M., et al. (2025). <i>Safe and Sustainable by Design Chemicals and Materials. Revised framework (2025)</i>. Bracalente, G., Abbate, E., and Garmendia Aguirre, I. (editors). Publications Office of the European Union, Luxembourg. https://data.europa.eu/doi/10.2760/5103785, JRC143022.</p>
 <p>Genheden, S., Thakkar, A., Chadimová, V., Reymond, J.-L., Engkvist, O., and Bjerrum, E. (2020). AiZynthFinder: a fast, robust and flexible open-source software for retrosynthetic planning. <i>Journal of Cheminformatics</i>, 12, 70.</p>
@@ -568,8 +1018,9 @@ import lcia from './data/octocrylene/lcia_results.json'
 <p>Parvatker, A. G., and Eckelman, M. J. (2018). Comparative evaluation of chemical life cycle inventory generation methods and implications for life cycle assessment results. <i>ACS Sustainable Chemistry and Engineering</i>, 7, 350.</p>
 <p>Sitaraman, A., Balaji, B., and Agarwal, Y. (2025). SpiderGen: Towards procedure generation for carbon life cycle assessments with generative AI. <i>arXiv:2511.10684</i>.</p>
 <p>Tu, Z., et al. (2025). ASKCOS: open-source, data-driven synthesis planning. <i>Accounts of Chemical Research</i>.</p>
+<p>van Wynsberghe, A. (2021). Sustainable AI: AI for sustainability and the sustainability of AI. <i>AI and Ethics</i>, 1, 213-218.</p>
 <p>Zhang, Z., et al. (2026). Sustainability assessment using multimodal AI agents. <i>Nature Electronics</i> (arXiv:2507.17012).</p>
 <p>Zhang, et al. (2024). <i>[complete reference as cited in the LCM 2025 deck]</i></p>
-<p>SSbD core ontology: https://w3id.org/ssbd/. ORIENTING ontology (ORIONT): https://orienting.eu/oriont. EMMO: https://w3id.org/emmo. VOWL notation: Lohmann et al. (2016). PINK: https://pink-project.eu</p>
+<p>SSbD core ontology: https://w3id.org/ssbd/. ORIENTING ontology (ORIONT): https://orienting.eu/oriont. EMMO: https://w3id.org/emmo. VOWL notation: Lohmann et al. (2016). PINK: https://pink-project.eu. openEPD: Building Transparency, https://www.buildingtransparency.org</p>
 
 </div>

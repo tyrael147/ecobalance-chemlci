@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.92 354">
+<defs/>
+<g id="inputs">
+<g data-icon="json" transform="matrix(0.0933245 0 0 0.093364 13.857957 17.276729)">
+<path d="M150 40 H408 V470 H64 V128 Z" fill="#f3f2f3"/>
+<path d="M64 128 L150 40 V105 Q150 128 127 128 Z" fill="#a4b8f8"/>
+<rect x="195" y="77" width="256" height="111" fill="#6385ff"/>
+<text x="323" y="160" text-anchor="middle" font-size="80" font-family="Arial, Helvetica, sans-serif" font-weight="700" textLength="230" lengthAdjust="spacingAndGlyphs" fill="#ffffff">JSON</text>
+<path d="M178 268 Q160 268 160 285 V310 Q160 325 145 325 Q160 325 160 340 V365 Q160 382 178 382" fill="none" stroke="#6385ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M178 268 Q160 268 160 285 V310 Q160 325 145 325 Q160 325 160 340 V365 Q160 382 178 382" fill="none" stroke="#6385ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" transform="matrix(-1 0 0 1 475 0)"/>
+<rect x="194" y="339" width="19" height="17" rx="3" fill="#6385ff"/><rect x="226" y="339" width="19" height="17" rx="3" fill="#6385ff"/><rect x="259" y="339" width="19" height="17" rx="3" fill="#6385ff"/>
+</g>
+<g data-icon="txt" transform="matrix(0.0784987 0 0 0.0785318 75.982424 20.692016)">
+<path d="M138 0 H415 Q433 0 433 18 V494 Q433 512 415 512 H43 Q25 512 25 494 V105 Z" fill="#fee7cc"/>
+<path d="M433 355 Q380 460 270 512 H415 Q433 512 433 494 Z" fill="#fddcb8"/>
+<path d="M25 105 L138 0 V85 Q138 105 118 105 Z" fill="#ffa98f"/>
+<rect x="113" y="166" width="373" height="195" rx="18" fill="#c8fcfd"/>
+<text x="300" y="322" text-anchor="middle" font-size="165" font-family="Arial, Helvetica, sans-serif" font-weight="400" textLength="300" lengthAdjust="spacingAndGlyphs" fill="#e8192c" stroke="#e8192c" stroke-width="6">TXT</text>
+</g>
+<g data-icon="pdf" transform="matrix(0.0784987 0 0 0.0785318 146.157571 20.692016)">
+<path d="M130 0 H302 L447 150 V445 A65 65 0 0 1 382 510 H130 A65 65 0 0 1 65 445 V65 A65 65 0 0 1 130 0 Z" fill="#e62529"/>
+<path d="M302 0 L447 150 H302 Z" fill="#ef6769"/>
+<text x="260" y="382" text-anchor="middle" font-size="130" font-family="Arial, Helvetica, sans-serif" font-weight="700" textLength="246" lengthAdjust="spacingAndGlyphs" fill="#ffffff">PDF</text>
+</g>
+<text x="34.16" y="71.79" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">ILCD+EPD</text>
+<text x="34.16" y="84.35" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">(json)</text>
+<text x="92.27" y="71.79" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">EPD</text>
+<text x="92.27" y="84.35" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">(markdown)</text>
+<text x="166.29" y="71.79" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">EPD</text>
+<text x="166.29" y="84.35" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">(pdf)</text>
+</g>
+<g id="classification">
+<path fill="none" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(19.999695%, 19.999695%, 19.999695%)" stroke-opacity="1" stroke-miterlimit="4" d="M -0.00127024 0.00173883 C -0.00127024 65.238568 17.215492 140.718992 82.44879 140.718992 " transform="matrix(0.627795, 0, 0, 0.62806, 34.160954, 90.213752)"/>
+<path fill-rule="nonzero" fill="rgb(19.999695%, 19.999695%, 19.999695%)" fill-opacity="1" d="M 84.324219 173.855469 L 92.316406 178.59375 L 84.324219 183.332031 Z M 84.324219 173.855469 "/>
+<path fill="none" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(19.999695%, 19.999695%, 19.999695%)" stroke-opacity="1" stroke-miterlimit="4" d="M 0.00235508 0.00173883 C 0.00235508 40.36038 36.594975 53.67643 36.594975 94.035072 " transform="matrix(0.627795, 0, 0, 0.62806, 92.256334, 90.213752)"/>
+<path fill-rule="nonzero" fill="rgb(19.999695%, 19.999695%, 19.999695%)" fill-opacity="1" d="M 119.96875 147.675781 L 115.230469 155.667969 L 110.496094 147.675781 Z M 119.96875 147.675781 "/>
+<path fill="none" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(19.999695%, 19.999695%, 19.999695%)" stroke-opacity="1" stroke-miterlimit="4" d="M 47.302393 0.00173883 C 47.302393 42.108073 0.00140781 51.928738 0.00140781 94.035072 " transform="matrix(0.627795, 0, 0, 0.62806, 129.073335, 90.213752)"/>
+<path fill-rule="nonzero" fill="rgb(19.999695%, 19.999695%, 19.999695%)" fill-opacity="1" d="M 133.808594 147.675781 L 129.074219 155.667969 L 124.335938 147.675781 Z M 133.808594 147.675781 "/>
+<g data-icon="robot" transform="matrix(0.0895098 0 0 0.0895477 92.31637 155.674681)">
+<path d="M115 52 C125 8 385 8 395 52 Z" fill="#d0d9dc" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="19" y="100" width="50" height="146" rx="26" fill="#dfe6e9" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="443" y="100" width="50" height="146" rx="26" fill="#dfe6e9" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="171" y="290" width="170" height="50" fill="#cfd8dc" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M65 445 V425 Q65 336 150 336 H362 Q447 336 447 425 V480 Q447 497 430 497 H82 Q65 497 65 480 Z" fill="#dde5e8" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M148 497 V428 Q148 415 162 415 H350 Q364 415 364 428 V497 Z" fill="#44b8ea" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="57" y="48" width="398" height="246" rx="56" fill="#dce3e6" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="90" y="80" width="332" height="184" rx="32" fill="#38495a" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="171" cy="165" rx="34" ry="42" fill="#44b8ea" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="341" cy="165" rx="34" ry="42" fill="#44b8ea" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="230" y="205" width="52" height="14" rx="7" fill="#1a1a1a"/>
+<path d="M140 50 H168 M200 50 H378" fill="none" stroke="#1a1a1a" stroke-width="14" stroke-linecap="round"/>
+</g>
+<text x="116.65" y="214.99" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">classification</text>
+<text x="116.65" y="227.54" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">agent</text>
+</g>
+<g id="extraction">
+<path fill="none" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(19.999695%, 19.999695%, 19.999695%)" stroke-opacity="1" stroke-miterlimit="4" d="M 0.000200647 -0.00120078 C 77.005856 -0.00120078 115.508684 -0.00120078 192.514339 -0.00120078 " transform="matrix(0.627795, 0, 0, 0.62806, 138.144405, 178.59841)"/>
+<path fill-rule="nonzero" fill="rgb(19.999695%, 19.999695%, 19.999695%)" fill-opacity="1" d="M 257.40625 173.859375 L 265.394531 178.597656 L 257.40625 183.335938 Z M 257.40625 173.859375 "/>
+<text x="198" y="175" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="6.5" fill="#1a1a1a">cptax class (str)</text>
+<path fill="none" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(19.999695%, 19.999695%, 19.999695%)" stroke-opacity="1" stroke-miterlimit="4" d="M 0.00214622 0.00173883 C 0.00214622 80.706582 178.52261 13.330228 178.52261 94.035072 " transform="matrix(0.627795, 0, 0, 0.62806, 176.236934, 90.213752)"/>
+<path fill-rule="nonzero" fill="rgb(19.999695%, 19.999695%, 19.999695%)" fill-opacity="1" d="M 293.046875 147.675781 L 288.3125 155.667969 L 283.574219 147.675781 Z M 293.046875 147.675781 "/>
+<g data-icon="robot" transform="matrix(0.0895098 0 0 0.0895477 265.394523 155.674681)">
+<path d="M115 52 C125 8 385 8 395 52 Z" fill="#d0d9dc" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="19" y="100" width="50" height="146" rx="26" fill="#dfe6e9" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="443" y="100" width="50" height="146" rx="26" fill="#dfe6e9" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="171" y="290" width="170" height="50" fill="#cfd8dc" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M65 445 V425 Q65 336 150 336 H362 Q447 336 447 425 V480 Q447 497 430 497 H82 Q65 497 65 480 Z" fill="#dde5e8" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M148 497 V428 Q148 415 162 415 H350 Q364 415 364 428 V497 Z" fill="#44b8ea" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="57" y="48" width="398" height="246" rx="56" fill="#dce3e6" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="90" y="80" width="332" height="184" rx="32" fill="#38495a" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="171" cy="165" rx="34" ry="42" fill="#44b8ea" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="341" cy="165" rx="34" ry="42" fill="#44b8ea" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="230" y="205" width="52" height="14" rx="7" fill="#1a1a1a"/>
+<path d="M140 50 H168 M200 50 H378" fill="none" stroke="#1a1a1a" stroke-width="14" stroke-linecap="round"/>
+</g>
+<text x="288.38" y="215.09" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">extraction</text>
+<text x="288.38" y="227.64" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">agent</text>
+</g>
+<g id="database">
+<path fill="none" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(19.999695%, 19.999695%, 19.999695%)" stroke-opacity="1" stroke-miterlimit="4" d="M -0.00148632 -0.000949418 C -0.00148632 56.99498 28.558303 113.953593 85.553439 113.953593 " transform="matrix(0.627795, 0, 0, 0.62806, 116.625933, 230.856065)"/>
+<path fill-rule="nonzero" fill="rgb(19.999695%, 19.999695%, 19.999695%)" fill-opacity="1" d="M 168.738281 297.683594 L 176.730469 302.425781 L 168.738281 307.164062 Z M 168.738281 297.683594 "/>
+<path fill="none" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(19.999695%, 19.999695%, 19.999695%)" stroke-opacity="1" stroke-miterlimit="4" d="M 91.803602 0.00184093 C 91.803602 55.107028 65.290908 110.989659 10.181091 110.989659 " transform="matrix(0.627795, 0, 0, 0.62806, 230.670864, 232.717594)"/>
+<path fill-rule="nonzero" fill="rgb(19.999695%, 19.999695%, 19.999695%)" fill-opacity="1" d="M 238.660156 307.164062 L 230.671875 302.425781 L 238.660156 297.683594 Z M 238.660156 307.164062 "/>
+<g data-icon="database" transform="matrix(0.105362 0 0 0.105406 176.732107 275.442474)">
+<path d="M40 350 V445 A215 52 0 0 0 470 445 V350 Z" fill="#153a6b"/>
+<ellipse cx="255" cy="350" rx="215" ry="52" fill="#2558a0"/>
+<circle cx="102" cy="435" r="17" fill="#ffc107"/>
+<path d="M40 205 V300 A215 52 0 0 0 470 300 V205 Z" fill="#153a6b"/>
+<ellipse cx="255" cy="205" rx="215" ry="52" fill="#2558a0"/>
+<circle cx="102" cy="290" r="17" fill="#ffc107"/>
+<path d="M40 60 V155 A215 52 0 0 0 470 155 V60 Z" fill="#153a6b"/>
+<ellipse cx="255" cy="60" rx="215" ry="52" fill="#2558a0"/>
+<circle cx="102" cy="145" r="17" fill="#ffc107"/>
+</g>
+<text x="203.74" y="340.46" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="8.8" fill="#1a1a1a">database</text>
+<text x="109" y="262" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="6.5" fill="#1a1a1a" transform="rotate(-90 109 262)">cptax class (str)</text>
+<text x="298" y="262" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="6.5" fill="#1a1a1a" transform="rotate(-90 298 262)">cptax specs (json)</text>
+</g>
+</svg>

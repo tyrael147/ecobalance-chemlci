@@ -1,0 +1,30 @@
+{
+ "source": "_private_source_docs/CALIMERO-results-case-study.png",
+ "method": "pixel measurement; left axis 0-120 (y=985.5 to 92.5 px), right axis 0-7e-8 (same extent); blue=EcoTox, green=HTox",
+ "items": [
+  {
+   "scenario": "without predicted CFs",
+   "product": "pumice stone",
+   "ecotox_ctue": 74.7,
+   "htox_ctuh": 5.91e-08
+  },
+  {
+   "scenario": "without predicted CFs",
+   "product": "synthetic stone",
+   "ecotox_ctue": 36.9,
+   "htox_ctuh": 6.4e-09
+  },
+  {
+   "scenario": "with predicted CFs",
+   "product": "pumice stone",
+   "ecotox_ctue": 104.0,
+   "htox_ctuh": 5.91e-08
+  },
+  {
+   "scenario": "with predicted CFs",
+   "product": "synthetic stone",
+   "ecotox_ctue": 58.8,
+   "htox_ctuh": 6.9e-09
+  }
+ ]
+}

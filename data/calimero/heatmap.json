@@ -1,0 +1,1848 @@
+{
+ "rows": [
+  "eco: agri soil",
+  "eco: air indoor",
+  "eco: air unspec.",
+  "eco: fresh water",
+  "eco: non-agri soil",
+  "eco: non-urban/high stacks",
+  "eco: sea water",
+  "eco: soil unspec.",
+  "eco: stratosphere/troposphere",
+  "eco: urban air",
+  "eco: water unspec.",
+  "hh: agri soil",
+  "hh: air indoor",
+  "hh: air unspec.",
+  "hh: fresh water",
+  "hh: non-agri soil",
+  "hh: non-urban/high stacks",
+  "hh: sea water",
+  "hh: soil unspec.",
+  "hh: stratosphere/troposphere",
+  "hh: urban air",
+  "hh: water unspec."
+ ],
+ "cols": [
+  "Cluster_0",
+  "Cluster_1",
+  "Cluster_2",
+  "Cluster_3",
+  "Cluster_4",
+  "Cluster_5",
+  "Cluster_6",
+  "Cluster_7",
+  "Cluster_8",
+  "Cluster_9"
+ ],
+ "cells": [
+  {
+   "r": 0,
+   "c": 0,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#4a79b2",
+   "r2": 0.54
+  },
+  {
+   "r": 0,
+   "c": 1,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#6fb1c2",
+   "r2": 0.45
+  },
+  {
+   "r": 0,
+   "c": 2,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#a6d3b9",
+   "r2": 0.36
+  },
+  {
+   "r": 0,
+   "c": 3,
+   "algo": "MPNN_GO_M",
+   "rep": "chemical graph",
+   "color": "#8dc5bd",
+   "r2": 0.39
+  },
+  {
+   "r": 0,
+   "c": 4,
+   "algo": "MPNN_GO_M",
+   "rep": "chemical graph",
+   "color": "#c3e2b7",
+   "r2": 0.32
+  },
+  {
+   "r": 0,
+   "c": 5,
+   "algo": "GP",
+   "rep": "mordred",
+   "color": "#a4d2ba",
+   "r2": 0.36
+  },
+  {
+   "r": 0,
+   "c": 6,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#c0e0b7",
+   "r2": 0.32
+  },
+  {
+   "r": 0,
+   "c": 7,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#76b8c1",
+   "r2": 0.43
+  },
+  {
+   "r": 0,
+   "c": 8,
+   "algo": "GP",
+   "rep": "mordred",
+   "color": "#4d7fb5",
+   "r2": 0.53
+  },
+  {
+   "r": 0,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#99ccba",
+   "r2": 0.37
+  },
+  {
+   "r": 1,
+   "c": 0,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#2f3a91",
+   "r2": 0.65
+  },
+  {
+   "r": 1,
+   "c": 1,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#7cbbc0",
+   "r2": 0.42
+  },
+  {
+   "r": 1,
+   "c": 2,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#63a1bf",
+   "r2": 0.48
+  },
+  {
+   "r": 1,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#1f2a6b",
+   "r2": 0.7
+  },
+  {
+   "r": 1,
+   "c": 4,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#609ebf",
+   "r2": 0.48
+  },
+  {
+   "r": 1,
+   "c": 5,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#3b59a2",
+   "r2": 0.59
+  },
+  {
+   "r": 1,
+   "c": 6,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#5995be",
+   "r2": 0.5
+  },
+  {
+   "r": 1,
+   "c": 7,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#7abac0",
+   "r2": 0.43
+  },
+  {
+   "r": 1,
+   "c": 8,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#68a9c1",
+   "r2": 0.46
+  },
+  {
+   "r": 1,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#66a6c0",
+   "r2": 0.47
+  },
+  {
+   "r": 2,
+   "c": 0,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#354a9a",
+   "r2": 0.61
+  },
+  {
+   "r": 2,
+   "c": 1,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#78b9c0",
+   "r2": 0.43
+  },
+  {
+   "r": 2,
+   "c": 2,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#528aba",
+   "r2": 0.52
+  },
+  {
+   "r": 2,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#1c2763",
+   "r2": 0.7
+  },
+  {
+   "r": 2,
+   "c": 4,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#5c9abe",
+   "r2": 0.49
+  },
+  {
+   "r": 2,
+   "c": 5,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#5085b8",
+   "r2": 0.53
+  },
+  {
+   "r": 2,
+   "c": 6,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#5d9bbe",
+   "r2": 0.49
+  },
+  {
+   "r": 2,
+   "c": 7,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#71b4c2",
+   "r2": 0.44
+  },
+  {
+   "r": 2,
+   "c": 8,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#69a9c1",
+   "r2": 0.46
+  },
+  {
+   "r": 2,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#3c5ca3",
+   "r2": 0.58
+  },
+  {
+   "r": 3,
+   "c": 0,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#5187b9",
+   "r2": 0.52
+  },
+  {
+   "r": 3,
+   "c": 1,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#66a6c0",
+   "r2": 0.47
+  },
+  {
+   "r": 3,
+   "c": 2,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#3e60a5",
+   "r2": 0.58
+  },
+  {
+   "r": 3,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#303d93",
+   "r2": 0.64
+  },
+  {
+   "r": 3,
+   "c": 4,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#65a4c0",
+   "r2": 0.47
+  },
+  {
+   "r": 3,
+   "c": 5,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#74b6c2",
+   "r2": 0.44
+  },
+  {
+   "r": 3,
+   "c": 6,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#92c8bc",
+   "r2": 0.38
+  },
+  {
+   "r": 3,
+   "c": 7,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#4c7db4",
+   "r2": 0.54
+  },
+  {
+   "r": 3,
+   "c": 8,
+   "algo": "RF",
+   "rep": "mordred",
+   "color": "#4a79b2",
+   "r2": 0.54
+  },
+  {
+   "r": 3,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#5085b8",
+   "r2": 0.53
+  },
+  {
+   "r": 4,
+   "c": 0,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#3f63a6",
+   "r2": 0.57
+  },
+  {
+   "r": 4,
+   "c": 1,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#74b6c2",
+   "r2": 0.44
+  },
+  {
+   "r": 4,
+   "c": 2,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#a7d4b9",
+   "r2": 0.35
+  },
+  {
+   "r": 4,
+   "c": 3,
+   "algo": "MPNN_GO_M",
+   "rep": "chemical graph",
+   "color": "#89c3bd",
+   "r2": 0.4
+  },
+  {
+   "r": 4,
+   "c": 4,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#67a7c1",
+   "r2": 0.47
+  },
+  {
+   "r": 4,
+   "c": 5,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#6aaac1",
+   "r2": 0.46
+  },
+  {
+   "r": 4,
+   "c": 6,
+   "algo": "MPNN_GO_M",
+   "rep": "chemical graph",
+   "color": "#c5e3b6",
+   "r2": 0.32
+  },
+  {
+   "r": 4,
+   "c": 7,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#558fbd",
+   "r2": 0.51
+  },
+  {
+   "r": 4,
+   "c": 8,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#6aaac1",
+   "r2": 0.46
+  },
+  {
+   "r": 4,
+   "c": 9,
+   "algo": "GP",
+   "rep": "mordred",
+   "color": "#99ccba",
+   "r2": 0.37
+  },
+  {
+   "r": 5,
+   "c": 0,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#3b59a2",
+   "r2": 0.59
+  },
+  {
+   "r": 5,
+   "c": 1,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#63a1bf",
+   "r2": 0.48
+  },
+  {
+   "r": 5,
+   "c": 2,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#4b7cb3",
+   "r2": 0.54
+  },
+  {
+   "r": 5,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#283280",
+   "r2": 0.67
+  },
+  {
+   "r": 5,
+   "c": 4,
+   "algo": "GP",
+   "rep": "mordred",
+   "color": "#609ebf",
+   "r2": 0.48
+  },
+  {
+   "r": 5,
+   "c": 5,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#2a3386",
+   "r2": 0.66
+  },
+  {
+   "r": 5,
+   "c": 6,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#63a3bf",
+   "r2": 0.47
+  },
+  {
+   "r": 5,
+   "c": 7,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#b2d9b8",
+   "r2": 0.34
+  },
+  {
+   "r": 5,
+   "c": 8,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#7abac0",
+   "r2": 0.43
+  },
+  {
+   "r": 5,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#70b1c2",
+   "r2": 0.45
+  },
+  {
+   "r": 6,
+   "c": 0,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#354c9b",
+   "r2": 0.61
+  },
+  {
+   "r": 6,
+   "c": 1,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#27317e",
+   "r2": 0.67
+  },
+  {
+   "r": 6,
+   "c": 2,
+   "algo": "MPNN_GO_M",
+   "rep": "chemical graph",
+   "color": "#252f7b",
+   "r2": 0.68
+  },
+  {
+   "r": 6,
+   "c": 3,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#212b6f",
+   "r2": 0.69
+  },
+  {
+   "r": 6,
+   "c": 4,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#3d5ea4",
+   "r2": 0.58
+  },
+  {
+   "r": 6,
+   "c": 5,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#2e3790",
+   "r2": 0.65
+  },
+  {
+   "r": 6,
+   "c": 6,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#334698",
+   "r2": 0.62
+  },
+  {
+   "r": 6,
+   "c": 7,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#2e3790",
+   "r2": 0.65
+  },
+  {
+   "r": 6,
+   "c": 8,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#548dbc",
+   "r2": 0.51
+  },
+  {
+   "r": 6,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#4875b0",
+   "r2": 0.55
+  },
+  {
+   "r": 7,
+   "c": 0,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#2d368e",
+   "r2": 0.65
+  },
+  {
+   "r": 7,
+   "c": 1,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#75b7c1",
+   "r2": 0.44
+  },
+  {
+   "r": 7,
+   "c": 2,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#9dceb9",
+   "r2": 0.37
+  },
+  {
+   "r": 7,
+   "c": 3,
+   "algo": "MPNN_GO_M",
+   "rep": "chemical graph",
+   "color": "#89c3bd",
+   "r2": 0.4
+  },
+  {
+   "r": 7,
+   "c": 4,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#7abac0",
+   "r2": 0.43
+  },
+  {
+   "r": 7,
+   "c": 5,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#5a97be",
+   "r2": 0.5
+  },
+  {
+   "r": 7,
+   "c": 6,
+   "algo": "MPNN_GO_M",
+   "rep": "chemical graph",
+   "color": "#c8e4b6",
+   "r2": 0.31
+  },
+  {
+   "r": 7,
+   "c": 7,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#6eb0c1",
+   "r2": 0.45
+  },
+  {
+   "r": 7,
+   "c": 8,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#609ebf",
+   "r2": 0.48
+  },
+  {
+   "r": 7,
+   "c": 9,
+   "algo": "GP",
+   "rep": "mordred",
+   "color": "#a0d0ba",
+   "r2": 0.36
+  },
+  {
+   "r": 8,
+   "c": 0,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#446eac",
+   "r2": 0.56
+  },
+  {
+   "r": 8,
+   "c": 1,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#74b6c2",
+   "r2": 0.44
+  },
+  {
+   "r": 8,
+   "c": 2,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#6fb1c2",
+   "r2": 0.45
+  },
+  {
+   "r": 8,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#252f79",
+   "r2": 0.68
+  },
+  {
+   "r": 8,
+   "c": 4,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#62a1bf",
+   "r2": 0.48
+  },
+  {
+   "r": 8,
+   "c": 5,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#65a4c0",
+   "r2": 0.47
+  },
+  {
+   "r": 8,
+   "c": 6,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#67a7c1",
+   "r2": 0.47
+  },
+  {
+   "r": 8,
+   "c": 7,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#87c2be",
+   "r2": 0.4
+  },
+  {
+   "r": 8,
+   "c": 8,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#7dbcbf",
+   "r2": 0.42
+  },
+  {
+   "r": 8,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#71b4c2",
+   "r2": 0.44
+  },
+  {
+   "r": 9,
+   "c": 0,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#354999",
+   "r2": 0.62
+  },
+  {
+   "r": 9,
+   "c": 1,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#5d9bbe",
+   "r2": 0.49
+  },
+  {
+   "r": 9,
+   "c": 2,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#334597",
+   "r2": 0.63
+  },
+  {
+   "r": 9,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#293284",
+   "r2": 0.66
+  },
+  {
+   "r": 9,
+   "c": 4,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#5c99be",
+   "r2": 0.49
+  },
+  {
+   "r": 9,
+   "c": 5,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#2d368e",
+   "r2": 0.65
+  },
+  {
+   "r": 9,
+   "c": 6,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#69a9c1",
+   "r2": 0.46
+  },
+  {
+   "r": 9,
+   "c": 7,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#69a9c1",
+   "r2": 0.46
+  },
+  {
+   "r": 9,
+   "c": 8,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#63a1bf",
+   "r2": 0.48
+  },
+  {
+   "r": 9,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#86c2be",
+   "r2": 0.4
+  },
+  {
+   "r": 10,
+   "c": 0,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#61a0bf",
+   "r2": 0.48
+  },
+  {
+   "r": 10,
+   "c": 1,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#6cadc1",
+   "r2": 0.46
+  },
+  {
+   "r": 10,
+   "c": 2,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#3a56a0",
+   "r2": 0.6
+  },
+  {
+   "r": 10,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#303c93",
+   "r2": 0.64
+  },
+  {
+   "r": 10,
+   "c": 4,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#71b4c2",
+   "r2": 0.44
+  },
+  {
+   "r": 10,
+   "c": 5,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#6aaac1",
+   "r2": 0.46
+  },
+  {
+   "r": 10,
+   "c": 6,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#68a9c1",
+   "r2": 0.46
+  },
+  {
+   "r": 10,
+   "c": 7,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#5590bd",
+   "r2": 0.51
+  },
+  {
+   "r": 10,
+   "c": 8,
+   "algo": "RF",
+   "rep": "mordred",
+   "color": "#1e2969",
+   "r2": 0.7
+  },
+  {
+   "r": 10,
+   "c": 9,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#7ebdbf",
+   "r2": 0.42
+  },
+  {
+   "r": 11,
+   "c": 0,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#a9d4b9",
+   "r2": 0.35
+  },
+  {
+   "r": 11,
+   "c": 1,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#81bfbf",
+   "r2": 0.41
+  },
+  {
+   "r": 11,
+   "c": 2,
+   "algo": "DeepMPT_M",
+   "rep": "mordred",
+   "color": "#76b8c1",
+   "r2": 0.43
+  },
+  {
+   "r": 11,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#5a96be",
+   "r2": 0.5
+  },
+  {
+   "r": 11,
+   "c": 4,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#2c358b",
+   "r2": 0.66
+  },
+  {
+   "r": 11,
+   "c": 5,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#71b3c2",
+   "r2": 0.44
+  },
+  {
+   "r": 11,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#68a9c1",
+   "r2": 0.46
+  },
+  {
+   "r": 11,
+   "c": 7,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#74b6c2",
+   "r2": 0.44
+  },
+  {
+   "r": 11,
+   "c": 8,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#f1f9b7",
+   "r2": 0.23
+  },
+  {
+   "r": 11,
+   "c": 9,
+   "algo": "MPNN_GE_M",
+   "rep": "mordred",
+   "color": "#2f3a91",
+   "r2": 0.65
+  },
+  {
+   "r": 12,
+   "c": 0,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#8ac4bd",
+   "r2": 0.4
+  },
+  {
+   "r": 12,
+   "c": 1,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#4f84b7",
+   "r2": 0.53
+  },
+  {
+   "r": 12,
+   "c": 2,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#a6d3b9",
+   "r2": 0.36
+  },
+  {
+   "r": 12,
+   "c": 3,
+   "algo": "MPNN_GE_M",
+   "rep": "mordred",
+   "color": "#77b8c1",
+   "r2": 0.43
+  },
+  {
+   "r": 12,
+   "c": 4,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#5085b8",
+   "r2": 0.53
+  },
+  {
+   "r": 12,
+   "c": 5,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#cae5b6",
+   "r2": 0.31
+  },
+  {
+   "r": 12,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#81bfbf",
+   "r2": 0.41
+  },
+  {
+   "r": 12,
+   "c": 7,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#324396",
+   "r2": 0.63
+  },
+  {
+   "r": 12,
+   "c": 8,
+   "algo": "MPNN_GO_M",
+   "rep": "chemical graph",
+   "color": "#426aa9",
+   "r2": 0.56
+  },
+  {
+   "r": 12,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#4f84b7",
+   "r2": 0.53
+  },
+  {
+   "r": 13,
+   "c": 0,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#81bfbf",
+   "r2": 0.41
+  },
+  {
+   "r": 13,
+   "c": 1,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#538cbb",
+   "r2": 0.52
+  },
+  {
+   "r": 13,
+   "c": 2,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#3a57a0",
+   "r2": 0.59
+  },
+  {
+   "r": 13,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#61a0bf",
+   "r2": 0.48
+  },
+  {
+   "r": 13,
+   "c": 4,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#3b59a2",
+   "r2": 0.59
+  },
+  {
+   "r": 13,
+   "c": 5,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#e2f2b4",
+   "r2": 0.26
+  },
+  {
+   "r": 13,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#6fb1c2",
+   "r2": 0.45
+  },
+  {
+   "r": 13,
+   "c": 7,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#354c9b",
+   "r2": 0.61
+  },
+  {
+   "r": 13,
+   "c": 8,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#7cbbc0",
+   "r2": 0.42
+  },
+  {
+   "r": 13,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#4b7cb3",
+   "r2": 0.54
+  },
+  {
+   "r": 14,
+   "c": 0,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#364d9b",
+   "r2": 0.61
+  },
+  {
+   "r": 14,
+   "c": 1,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#4168a9",
+   "r2": 0.57
+  },
+  {
+   "r": 14,
+   "c": 2,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#3d5ea4",
+   "r2": 0.58
+  },
+  {
+   "r": 14,
+   "c": 3,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#456fac",
+   "r2": 0.56
+  },
+  {
+   "r": 14,
+   "c": 4,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#3d5da4",
+   "r2": 0.58
+  },
+  {
+   "r": 14,
+   "c": 5,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#4977b1",
+   "r2": 0.54
+  },
+  {
+   "r": 14,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#66a6c0",
+   "r2": 0.47
+  },
+  {
+   "r": 14,
+   "c": 7,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#5c9abe",
+   "r2": 0.49
+  },
+  {
+   "r": 14,
+   "c": 8,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#a2d1ba",
+   "r2": 0.36
+  },
+  {
+   "r": 14,
+   "c": 9,
+   "algo": "MPNN_GE_M",
+   "rep": "mordred",
+   "color": "#364e9c",
+   "r2": 0.61
+  },
+  {
+   "r": 15,
+   "c": 0,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#91c7bc",
+   "r2": 0.39
+  },
+  {
+   "r": 15,
+   "c": 1,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#63a3bf",
+   "r2": 0.47
+  },
+  {
+   "r": 15,
+   "c": 2,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#76b8c1",
+   "r2": 0.43
+  },
+  {
+   "r": 15,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#63a1bf",
+   "r2": 0.48
+  },
+  {
+   "r": 15,
+   "c": 4,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#3f62a6",
+   "r2": 0.58
+  },
+  {
+   "r": 15,
+   "c": 5,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#92c8bc",
+   "r2": 0.38
+  },
+  {
+   "r": 15,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#7ebdbf",
+   "r2": 0.42
+  },
+  {
+   "r": 15,
+   "c": 7,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#6fb1c2",
+   "r2": 0.45
+  },
+  {
+   "r": 15,
+   "c": 8,
+   "algo": "RF",
+   "rep": "grover",
+   "color": "#ffffda",
+   "r2": 0.16
+  },
+  {
+   "r": 15,
+   "c": 9,
+   "algo": "MPNN_GE_M",
+   "rep": "mordred",
+   "color": "#172257",
+   "r2": 0.72
+  },
+  {
+   "r": 16,
+   "c": 0,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#68a9c1",
+   "r2": 0.46
+  },
+  {
+   "r": 16,
+   "c": 1,
+   "algo": "GP",
+   "rep": "mordred",
+   "color": "#5894bd",
+   "r2": 0.5
+  },
+  {
+   "r": 16,
+   "c": 2,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#5f9dbe",
+   "r2": 0.49
+  },
+  {
+   "r": 16,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#4a7ab3",
+   "r2": 0.54
+  },
+  {
+   "r": 16,
+   "c": 4,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#3d5ea4",
+   "r2": 0.58
+  },
+  {
+   "r": 16,
+   "c": 5,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#dbedb4",
+   "r2": 0.28
+  },
+  {
+   "r": 16,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#6bacc1",
+   "r2": 0.46
+  },
+  {
+   "r": 16,
+   "c": 7,
+   "algo": "MPNN_GE_M",
+   "rep": "mordred",
+   "color": "#548dbc",
+   "r2": 0.51
+  },
+  {
+   "r": 16,
+   "c": 8,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#70b1c2",
+   "r2": 0.45
+  },
+  {
+   "r": 16,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#4b7cb3",
+   "r2": 0.54
+  },
+  {
+   "r": 17,
+   "c": 0,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#436baa",
+   "r2": 0.56
+  },
+  {
+   "r": 17,
+   "c": 1,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#2e3891",
+   "r2": 0.65
+  },
+  {
+   "r": 17,
+   "c": 2,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#3a56a0",
+   "r2": 0.6
+  },
+  {
+   "r": 17,
+   "c": 3,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#38539f",
+   "r2": 0.6
+  },
+  {
+   "r": 17,
+   "c": 4,
+   "algo": "MPNN_GE_M",
+   "rep": "mordred",
+   "color": "#3b59a1",
+   "r2": 0.59
+  },
+  {
+   "r": 17,
+   "c": 5,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#4671ad",
+   "r2": 0.55
+  },
+  {
+   "r": 17,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#548dbc",
+   "r2": 0.51
+  },
+  {
+   "r": 17,
+   "c": 7,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#2d368e",
+   "r2": 0.65
+  },
+  {
+   "r": 17,
+   "c": 8,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#446eac",
+   "r2": 0.56
+  },
+  {
+   "r": 17,
+   "c": 9,
+   "algo": "MPNN_GE_M",
+   "rep": "mordred",
+   "color": "#4166a8",
+   "r2": 0.57
+  },
+  {
+   "r": 18,
+   "c": 0,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#c6e3b6",
+   "r2": 0.31
+  },
+  {
+   "r": 18,
+   "c": 1,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#82bfbf",
+   "r2": 0.41
+  },
+  {
+   "r": 18,
+   "c": 2,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#6cadc1",
+   "r2": 0.46
+  },
+  {
+   "r": 18,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#5c99be",
+   "r2": 0.49
+  },
+  {
+   "r": 18,
+   "c": 4,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#2c368c",
+   "r2": 0.65
+  },
+  {
+   "r": 18,
+   "c": 5,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#7cbbc0",
+   "r2": 0.42
+  },
+  {
+   "r": 18,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#71b3c2",
+   "r2": 0.44
+  },
+  {
+   "r": 18,
+   "c": 7,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#71b3c2",
+   "r2": 0.44
+  },
+  {
+   "r": 18,
+   "c": 8,
+   "algo": "RF",
+   "rep": "grover",
+   "color": "#f6fbc2",
+   "r2": 0.21
+  },
+  {
+   "r": 18,
+   "c": 9,
+   "algo": "MPNN_GE_M",
+   "rep": "mordred",
+   "color": "#2e3790",
+   "r2": 0.65
+  },
+  {
+   "r": 19,
+   "c": 0,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#63a1bf",
+   "r2": 0.48
+  },
+  {
+   "r": 19,
+   "c": 1,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#4166a8",
+   "r2": 0.57
+  },
+  {
+   "r": 19,
+   "c": 2,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#4b7cb3",
+   "r2": 0.54
+  },
+  {
+   "r": 19,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#4b7cb3",
+   "r2": 0.54
+  },
+  {
+   "r": 19,
+   "c": 4,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#3b59a2",
+   "r2": 0.59
+  },
+  {
+   "r": 19,
+   "c": 5,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#ddefb5",
+   "r2": 0.27
+  },
+  {
+   "r": 19,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#6aaac1",
+   "r2": 0.46
+  },
+  {
+   "r": 19,
+   "c": 7,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#3f63a6",
+   "r2": 0.57
+  },
+  {
+   "r": 19,
+   "c": 8,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#6bacc1",
+   "r2": 0.46
+  },
+  {
+   "r": 19,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#4977b1",
+   "r2": 0.54
+  },
+  {
+   "r": 20,
+   "c": 0,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#5f9dbe",
+   "r2": 0.49
+  },
+  {
+   "r": 20,
+   "c": 1,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#4b7cb3",
+   "r2": 0.54
+  },
+  {
+   "r": 20,
+   "c": 2,
+   "algo": "MPNN_GE_S",
+   "rep": "mordred",
+   "color": "#7cbbc0",
+   "r2": 0.42
+  },
+  {
+   "r": 20,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#66a6c0",
+   "r2": 0.47
+  },
+  {
+   "r": 20,
+   "c": 4,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#3b59a2",
+   "r2": 0.59
+  },
+  {
+   "r": 20,
+   "c": 5,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#e7f4b4",
+   "r2": 0.25
+  },
+  {
+   "r": 20,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#7abac0",
+   "r2": 0.43
+  },
+  {
+   "r": 20,
+   "c": 7,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#4671ad",
+   "r2": 0.55
+  },
+  {
+   "r": 20,
+   "c": 8,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#62a1bf",
+   "r2": 0.48
+  },
+  {
+   "r": 20,
+   "c": 9,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#4875b0",
+   "r2": 0.55
+  },
+  {
+   "r": 21,
+   "c": 0,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#3b5aa2",
+   "r2": 0.59
+  },
+  {
+   "r": 21,
+   "c": 1,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#4977b1",
+   "r2": 0.54
+  },
+  {
+   "r": 21,
+   "c": 2,
+   "algo": "MPNN_GO_S",
+   "rep": "chemical graph",
+   "color": "#62a1bf",
+   "r2": 0.48
+  },
+  {
+   "r": 21,
+   "c": 3,
+   "algo": "XGB",
+   "rep": "grover",
+   "color": "#4168a9",
+   "r2": 0.57
+  },
+  {
+   "r": 21,
+   "c": 4,
+   "algo": "DeepMPT_S",
+   "rep": "mordred",
+   "color": "#3b5aa2",
+   "r2": 0.59
+  },
+  {
+   "r": 21,
+   "c": 5,
+   "algo": "DeepMPT_M",
+   "rep": "grover",
+   "color": "#4c7db4",
+   "r2": 0.54
+  },
+  {
+   "r": 21,
+   "c": 6,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#68a9c1",
+   "r2": 0.46
+  },
+  {
+   "r": 21,
+   "c": 7,
+   "algo": "XGB",
+   "rep": "mordred",
+   "color": "#65a3c0",
+   "r2": 0.47
+  },
+  {
+   "r": 21,
+   "c": 8,
+   "algo": "GP",
+   "rep": "grover",
+   "color": "#b5dbb7",
+   "r2": 0.34
+  },
+  {
+   "r": 21,
+   "c": 9,
+   "algo": "MPNN_GE_M",
+   "rep": "mordred",
+   "color": "#38539f",
+   "r2": 0.6
+  }
+ ],
+ "colorbar": [
+  [
+   0.0,
+   "#162156"
+  ],
+  [
+   0.1,
+   "#293284"
+  ],
+  [
+   0.2,
+   "#364e9c"
+  ],
+  [
+   0.3,
+   "#4671ad"
+  ],
+  [
+   0.4,
+   "#5a97be"
+  ],
+  [
+   0.5,
+   "#72b4c2"
+  ],
+  [
+   0.6,
+   "#91c7bc"
+  ],
+  [
+   0.7,
+   "#baddb7"
+  ],
+  [
+   0.8,
+   "#ddefb5"
+  ],
+  [
+   0.9,
+   "#f3fabc"
+  ],
+  [
+   1.0,
+   "#ffffdc"
+  ]
+ ],
+ "vmin": 0.161,
+ "vmax": 0.72
+}
