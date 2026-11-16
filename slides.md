@@ -33,7 +33,7 @@ layout: cover
 
 <div class="rule"></div>
 <div class="event">NIES, Tsukuba, Japan</div>
-<div class="date">November 13th, 2026</div>
+<div class="date">November 16th, 2026</div>
 
 ---
 clicks: 3
