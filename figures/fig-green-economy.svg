@@ -399,20 +399,16 @@
 <text x="951.0" y="226.6" text-anchor="middle" style="font-size:14px" font-weight="600" fill="#353535" font-family="Raleway, Arial, sans-serif">agriculture</text>
 </g>
 <g id="proj-green-manufacturing-pink" class="proj pink">
-<rect x="159.0" y="515.9" width="124" height="20.6" rx="6" fill="#ffffff" stroke="#f46524" stroke-width="2.2"/>
-<text x="221.0" y="530.6" text-anchor="middle" style="font-size:12px" font-weight="700" fill="#f46524" font-family="Raleway, Arial, sans-serif">PINK</text>
+<rect x="159.0" y="527.2" width="124" height="20.6" rx="6" fill="#ffffff" stroke="#f46524" stroke-width="2.2"/>
+<text x="221.0" y="541.8" text-anchor="middle" style="font-size:12px" font-weight="700" fill="#f46524" font-family="Raleway, Arial, sans-serif">PINK</text>
 </g>
 <g id="proj-green-manufacturing-calimero" class="proj calimero">
-<rect x="159.0" y="538.4" width="124" height="20.6" rx="6" fill="#ffffff" stroke="#f46524" stroke-width="2.2"/>
-<text x="221.0" y="553.1" text-anchor="middle" style="font-size:12px" font-weight="700" fill="#f46524" font-family="Raleway, Arial, sans-serif">CALIMERO</text>
+<rect x="159.0" y="549.7" width="124" height="20.6" rx="6" fill="#ffffff" stroke="#f46524" stroke-width="2.2"/>
+<text x="221.0" y="564.3" text-anchor="middle" style="font-size:12px" font-weight="700" fill="#f46524" font-family="Raleway, Arial, sans-serif">CALIMERO</text>
 </g>
 <g id="proj-green-manufacturing-greenspire" class="proj">
-<rect x="159.0" y="560.9" width="124" height="20.6" rx="6" fill="#ffffff" stroke="#9a9a9a" stroke-width="1"/>
-<text x="221.0" y="575.6" text-anchor="middle" style="font-size:12px" font-weight="700" fill="#353535" font-family="Raleway, Arial, sans-serif">GREENSPIRE</text>
-</g>
-<g id="proj-green-manufacturing-meco-epd" class="proj meco">
-<rect x="159.0" y="583.4" width="124" height="20.6" rx="6" fill="#ffffff" stroke="#f46524" stroke-width="2.2"/>
-<text x="221.0" y="598.1" text-anchor="middle" style="font-size:12px" font-weight="700" fill="#f46524" font-family="Raleway, Arial, sans-serif">MECO-EPD</text>
+<rect x="159.0" y="572.2" width="124" height="20.6" rx="6" fill="#ffffff" stroke="#9a9a9a" stroke-width="1"/>
+<text x="221.0" y="586.8" text-anchor="middle" style="font-size:12px" font-weight="700" fill="#353535" font-family="Raleway, Arial, sans-serif">GREENSPIRE</text>
 </g>
 <g id="proj-sustainable-mobility-citcom-ai" class="proj">
 <rect x="305.0" y="538.4" width="124" height="20.6" rx="6" fill="#ffffff" stroke="#9a9a9a" stroke-width="1"/>

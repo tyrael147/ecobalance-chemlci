@@ -89,20 +89,19 @@ clicks: 2
 ## two sides of the same debate (van Wynsberghe, 2021)
 
 <style>
-.duo2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; margin-top: 1.4rem; }
-.card2 { background: #fff; box-shadow: var(--shadow); padding: 1rem 1.2rem 1.1rem; border-top: 5px solid var(--ie-orange); transition: opacity 0.45s ease; }
-.card2.off { opacity: 0.35; }
-.card2 .k { font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ie-orange); }
-.card2 .name { font-weight: 800; font-size: 1.45rem; line-height: 1.2; margin: 0.15rem 0 0.5rem; }
-.card2 ul { font-size: 0.86rem; }
-.card2.dark { background: var(--ie-bg-dark); color: var(--ie-cream); }
-.card2.dark ul > li::before { background: var(--ie-cream); }
+.duo2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 1.6rem; }
+.duo2 > * { transition: opacity 0.45s ease; }
+.duo2 .off { opacity: 0.3; }
+.duo2 .name { font-weight: 800; font-size: 1.45rem; line-height: 1.2; margin-bottom: 0.15rem; }
+.duo2 .k { font-style: italic; font-weight: 500; color: var(--ie-orange); font-size: 0.92rem; margin-bottom: 0.6rem; }
+.duo2 ul { font-size: 0.9rem; }
+.talk-scope { margin-top: 2.6rem; font-size: 1.1rem; max-width: 40rem; }
 </style>
 
 <div class="duo2">
-<div class="card2" :class="{ off: $clicks >= 2 }">
-<div class="k">the sustainability of AI</div>
+<div :class="{ off: $clicks >= 2 }">
 <div class="name">Sustainable AI</div>
+<div class="k">the sustainability of AI</div>
 
 - Reduce the footprint of AI itself: energy, water, carbon and materials
 - Training, inference, data centres and hardware
@@ -110,20 +109,18 @@ clicks: 2
 
 </div>
 <Step :from="1">
-<div class="card2 dark">
-<div class="k">AI as an instrument</div>
 <div class="name">AI for sustainability</div>
+<div class="k">AI as an instrument</div>
 
 - Use AI to accelerate sustainability goals and assessments
 - Automation, data-gap filling, forecasting, decision support
 - AI <b>for</b> LCA workflows
 
-</div>
 </Step>
 </div>
 
-<Step :from="2" class="callout mt-6" style="max-width:40rem">
-This talk is about <b>AI for sustainability</b>: our experiences using AI to enhance LCA workflows. It is <b>not</b> about the footprint of AI.
+<Step :from="2" class="talk-scope">
+This talk is about <b class="hl">AI for sustainability</b>: our experiences using AI to enhance LCA workflows. It is <b>not</b> about the footprint of AI.
 </Step>
 
 <div class="source">van Wynsberghe, A. (2021). Sustainable AI: AI for sustainability and the sustainability of AI. AI and Ethics, 1, 213-218</div>
@@ -174,6 +171,7 @@ Many chemicals in an inventory have <b>no ecotoxicity or human toxicity characte
 
 - Three molecular representations: **Mordred** descriptors, **Chemprop** molecular graphs, **GROVER** embeddings
 - Filter missing, near-constant and correlated features, remove outliers: **4965** chemicals for training
+- **22 targets** out of the 46 in EF 3.1: freshwater ecotoxicity and total human toxicity over **11 compartments**
 
 </Step>
 </div>
@@ -205,10 +203,10 @@ clicks: 3
   :show="{ 'predict-input': 1, 'predict-curated': 1, 'within-ad': 1, 'assign-cluster': 1, 'best-model': 1 }" />
 <div class="stack text-[0.82rem] mt-3">
 <Step :from="0" :to="1" class="callout small">
-<b>Training</b>: machine learning and deep learning models, a chemical clustering and an applicability domain (AD) are fitted on the curated data. Performance is recorded <b>per model and per cluster</b>.
+<b>Training</b>: machine learning and deep learning models, a chemical clustering (<b>k-means, 10 clusters</b>) and an applicability domain (AD, <b>Mahalanobis distance</b>) are fitted on the curated data. Performance is recorded <b>per model and per cluster</b>.
 </Step>
 <Step :from="1" class="callout small">
-<b>Predicting</b>: a new SMILES is curated, checked against the AD, assigned to a cluster, and the <b>best model of that cluster</b> predicts its CF.
+<b>Predicting</b>: a new SMILES is curated, checked against the AD (outside it: <b>no CF predicted</b>), assigned to a cluster, and the <b>best model of that cluster</b> predicts its CF.
 </Step>
 </div>
 </div>
@@ -217,7 +215,7 @@ clicks: 3
 <SvgFigure src="fig-calimero-performance" width="100%"
   :focus="{ 2: ['title', 'axes', 'colorbar', 'cell-r15-c9'], 3: ['title', 'axes', 'colorbar', 'cell-r15-c9', 'cell-r15-c8'] }" />
 <div class="flex flex-col gap-2 mt-2">
-<Step :from="2" class="callout hm-call">hh: non-agri soil, cluster 9: <b>MPNN_GE_M</b> on Mordred descriptors, <b class="r2">R2 = 0.72</b></Step>
+<Step :from="2" class="callout hm-call">hh: non-agri soil, cluster 9: <b>MPNN_GE_M</b>, a multi-target message-passing network on the graph plus Mordred descriptors, <b class="r2">R2 = 0.72</b></Step>
 <Step :from="3" class="callout hm-call">same target, cluster 8: <b>RF</b> on GROVER embeddings, only <b class="r2">R2 = 0.16</b></Step>
 </div>
 </div>
@@ -232,7 +230,7 @@ clicks: 2
 
 # Case study: do the predicted CFs <span class="hl">change the results</span>?
 
-## textile case study: pumice stone vs synthetic stone
+## textile case study: washing one pair of jeans, pumice stone vs synthetic stone
 
 <div class="grid grid-cols-[1.25fr_1fr] gap-7 items-center mt-1">
 
@@ -243,17 +241,18 @@ clicks: 2
 <div class="text-[0.9rem]">
 <Step :from="0">
 
-- Without predicted CFs, chemicals with no CF contribute nothing to toxicity
+- Denim abrasion at a Turkish manufacturer: pumice stone lasts **2 cycles** and becomes sludge, the synthetic stone lasts **3000 h** and is recyclable
+- **5 chemicals** released in the process have no CF in EF 3.1: without predicted CFs they contribute nothing to toxicity
 
 </Step>
 <Step :from="1" class="mt-2">
 
-- With predicted CFs, freshwater ecotoxicity rises by **39 %** (pumice) and **59 %** (synthetic stone)
-- Human toxicity barely changes
+- With predicted CFs, freshwater ecotoxicity rises by **39 %** (pumice) and **59 %** (synthetic stone), mostly sodium hydroxide, hydrogen peroxide and ethoxylated alcohols
+- Human toxicity barely changes: **7 %** for the synthetic stone, nothing measurable for the pumice stone
 
 </Step>
 <Step :from="2" class="callout mt-4">
-Filling the gaps does not flip the ranking here, but it changes the <b>size of the impacts</b> and the <b>ratio between options</b> (ecotoxicity: 2.0 > 1.8 times): missing CFs bias comparisons.
+Filling the gaps does not flip the ranking here, but it changes the <b>size of the impacts</b> and the <b>ratio between options</b> .
 </Step>
 </div>
 
@@ -617,7 +616,7 @@ clicks: 2
 </Step>
 <Step :from="2" class="mot">
 <div class="num">3</div>
-<div>We developed an <b>AI system that extracts structured data</b> by navigating a predefined EPD data model in an agentic manner, for EPD data consumers of the <b>Luxembourgish construction sector</b>.</div>
+<div>Sustainability tasks, such as the generation of generic EPDs and early architectural design, require to conduct expensive data retrieval tasks </div>
 </Step>
 </div>
 
@@ -635,10 +634,8 @@ clicks: 2
 
 </div>
 
-<Step :from="2" class="source">Practitioners use different symbols for the same product: what it <i>is</i> (material) or what it <i>does</i> (function).</Step>
-
 ---
-clicks: 5
+clicks: 1
 ---
 
 # Problem statement: <span class="hl">symbols</span>, objects and interpretants
@@ -649,17 +646,13 @@ clicks: 5
 
 <div class="stack mb-1">
 <Step :from="0" :to="1"><h2 style="margin:0">triadic semiotics (Peirce): a sign stands for an object to someone, through an interpretant</h2></Step>
-<Step :from="1" :to="2"><h2 style="margin:0">data consumers and data producers both use symbols, but not the same ones</h2></Step>
-<Step :from="2" :to="3"><h2 style="margin:0">retrieval: iterate from consumer symbols to producer symbols until the right data object is found</h2></Step>
-<Step :from="3" :to="4"><h2 style="margin:0">each iteration costs the consumer, even more when the consumer is an LLM agent</h2></Step>
-<Step :from="4" :to="5"><h2 style="margin:0">better semantic representations (taxonomies, data models) can be indexed: fewer iterations</h2></Step>
-<Step :from="5"><h2 style="margin:0">cheaper for the consumers, but the cost moves to the producers, who must represent and annotate their data</h2></Step>
+<Step :from="1"><h2 style="margin:0">matching consumer symbols to producer symbols: iterations, indexing and who pays for them</h2></Step>
 </div>
 
 <div class="relative">
 <div class="flex justify-center">
 <SvgFigure src="fig-meco-problem" width="880px"
-  :show="{ provider: 1, 'terms-provider': 1, 'nlp-direct': 2, 'consumer-ai': 3, 'semantic-left': 4, 'semantic-right': 4, indexing: 4, 'cost-left': 5, 'cost-right': 5 }"
+  :show="{ provider: 1, 'terms-provider': 1, 'nlp-direct': 1, 'consumer-ai': 1, 'semantic-left': 1, 'semantic-right': 1, indexing: 1, 'cost-left': 1, 'cost-right': 1 }"
   :hide="{ problem1: 0, problem2: 0 }" />
 </div>
 
@@ -684,7 +677,7 @@ clicks: 2
 
 <div class="text-[0.88rem]">
 <div class="callout">
-Ideally, one <b>semantic representation</b> minimises the iterations from the symbols of the users to the symbols of the producers.
+Ideally, a very rich <b>semantic representation</b> minimises the iterations from the symbols of the users to the symbols of the producers.
 </div>
 <Step :from="1" class="numrow mt-5">
 <div class="num">1</div>
@@ -816,35 +809,45 @@ clicks: 5
 </div>
 
 ---
-clicks: 2
+clicks: 3
 ---
 
 # Research <span class="hl">directions</span>
 
 <style>
-.numrow .head { font-size: 1.2rem; }
-.numrow .body { font-size: 0.95rem; margin-top: 0.3rem; }
+.rd .numrow { margin-bottom: 1.05rem; }
+.rd .numrow .head { font-size: 1.02rem; }
+.rd .numrow .body { font-size: 0.8rem; margin-top: 0.15rem; }
+.rd .tags { margin-top: 0.15rem; }
 </style>
 
-<!-- PLACEHOLDER: research directions, to be filled in -->
-
-<div class="flex flex-col gap-y-9 mt-12" style="max-width:44rem">
+<div class="rd mt-5" style="max-width:52rem">
 <Step :from="0" class="numrow">
 <div class="num">1</div>
-<div><div class="head">[Research direction 1]</div>
-<div class="body it">[placeholder]</div></div>
+<div><div class="head">Context-aware predictive models for chemicals</div>
+<div class="body it">Models that use process context (stoichiometry, reaction thermodynamics, conditions) when it is available, and fall back to physico-chemical descriptors alone when average data is acceptable. One family of models across design stages, with an uncertainty that reflects the information actually used.</div>
+<div class="tags"><span class="tag">CALIMERO</span><span class="tag">smiles2impact</span></div></div>
 </Step>
 <Step :from="1" class="numrow">
 <div class="num">2</div>
-<div><div class="head">[Research direction 2]</div>
-<div class="body it">[placeholder]</div></div>
+<div><div class="head">A semantic framework beyond chemistry</div>
+<div class="body it">Extend the ontologies and data models of lca_models to agriculture and construction (e.g. cptax and EPD data), so that agentic workflows in these domains also return typed data objects with traceable computations and provenance.</div>
+<div class="tags"><span class="tag">lca_models</span><span class="tag">MECO-EPD</span></div></div>
 </Step>
 <Step :from="2" class="numrow">
 <div class="num">3</div>
-<div><div class="head">[Research direction 3]</div>
-<div class="body it">[placeholder]</div></div>
+<div><div class="head">First-principles energy models and upscaling in ChemLCI</div>
+<div class="body it">Replace the LLM heuristics for energy, solvents and emissions with first-principles process energy models and upscaling tools from lab to industrial scale, called by the agents as tools and recorded in the provenance graph.</div>
+<div class="tags"><span class="tag">ChemLCI</span><span class="tag">PINK</span></div></div>
+</Step>
+<Step :from="3" class="numrow">
+<div class="num">4</div>
+<div><div class="head">Safe and sustainable by design AI systems</div>
+<div class="body it">Extend the logic of SSbD to AI systems: bring life cycle thinking to software development, assessing models, data and compute from the design stage onwards, so that AI tools for sustainability also fail early and cheap on their own footprint.</div>
+<div class="tags"><span class="tag">SSbD</span><span class="tag">life cycle thinking</span></div></div>
 </Step>
 </div>
+
 ---
 layout: end
 ---
